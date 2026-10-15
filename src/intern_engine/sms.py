@@ -45,7 +45,8 @@ from . import grouping, paths, sponsorship
 
 _GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 _TWILIO = "https://api.twilio.com/2010-04-01/Accounts/{sid}/Messages.json"
-_MODELS = ("gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash")
+_MODELS = ("gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-latest",
+           "gemini-3.5-flash-lite")
 _SMS_MAX = 1550          # Twilio's hard cap is 1600 per message; leave headroom
 _JD_MAX = 14000          # characters of posting text handed to the model
 _GEMINI_PAUSE = 7        # seconds between analyses — free tier is ~10 req/min
@@ -226,24 +227,30 @@ def _gemini(prompt: str) -> str:
         # Search grounding is what lets it find real people at the company
         # (and read the posting when the board renders client-side).
         body["tools"] = [{"google_search": {}}]
-    last = ""
+    last, busy = "", ""
     for model in models:
         try:
             resp = httpx.post(_GEMINI.format(model=model), json=body, timeout=120,
                               headers={"x-goog-api-key": key})
         except httpx.HTTPError as exc:
-            raise _Retryable(str(exc)) from exc
+            busy = f"{model}: {exc}"
+            continue
         if resp.status_code == 404:          # model id retired — try the next
             last = resp.text[:300]
             continue
         if resp.status_code in (429, 500, 502, 503, 504):
-            raise _Retryable(f"gemini {resp.status_code}: {resp.text[:300]}")
+            # Overloaded or out of quota: each model has its own, so try the next.
+            busy = f"gemini {resp.status_code} ({model}): {resp.text[:300]}"
+            print(f"  sms: {model} unavailable ({resp.status_code}), trying next model")
+            continue
         if resp.status_code >= 400:
             raise RuntimeError(f"gemini {resp.status_code}: {resp.text[:300]}")
         data = resp.json()
         parts = (((data.get("candidates") or [{}])[0].get("content") or {})
                  .get("parts") or [])
         return "".join(p.get("text", "") for p in parts)
+    if busy:
+        raise _Retryable(busy)
     raise RuntimeError(f"no Gemini model available: {last}")
 
 
