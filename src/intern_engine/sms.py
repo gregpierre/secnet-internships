@@ -1,8 +1,8 @@
-"""AI resume-match texts for newly spotted roles (optional, best-effort).
+"""AI resume-match messages for newly spotted roles (optional, best-effort).
 
 For every new role this reads the job description, compares it against your
-resume with Gemini, and — only when the match clears a threshold — texts you a
-breakdown over Twilio:
+resume with Gemini, and — only when the match clears a threshold — sends you a
+breakdown on Telegram (the same bot as telegram.py):
 
   * a 1-100 match score with sub-scores (skills / projects / domain / level)
   * strengths and gaps, each backed by an exact quote from the posting
@@ -12,14 +12,12 @@ breakdown over Twilio:
     intern -> full-time, current full-time on the team, or a hiring manager)
 
 Secrets (all required; any missing = silent no-op like every other channel):
-  TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN
-  TWILIO_FROM_NUMBER   your Twilio number, e.g. +15551234567
-  TWILIO_TO_NUMBERS    comma-separated destinations, e.g. +15557654321
+  TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID   shared with telegram.py
   GEMINI_API_KEY       Google AI Studio key
   RESUME_TEXT          your resume as plain text (kept out of the public repo)
 
 Optional tuning:
-  SMS_MIN_SCORE        only text matches at or above this (default 50)
+  SMS_MIN_SCORE        only send matches at or above this (default 50)
   SMS_MAX_PER_RUN      analyses per run; the rest wait for the next (default 6)
   GEMINI_MODEL         model id (default gemini-3.8-flash, with fallbacks)
   GEMINI_SEARCH        1 = Google Search grounding to find LinkedIn contacts
@@ -44,10 +42,10 @@ import httpx
 from . import grouping, paths, sponsorship
 
 _GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-_TWILIO = "https://api.twilio.com/2010-04-01/Accounts/{sid}/Messages.json"
+_TELEGRAM = "https://api.telegram.org/bot{token}/sendMessage"
 _MODELS = ("gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-latest",
            "gemini-3.5-flash-lite")
-_SMS_MAX = 1550          # Twilio's hard cap is 1600 per message; leave headroom
+_MSG_MAX = 4000          # Telegram's hard cap is 4096 per message; leave headroom
 _JD_MAX = 14000          # characters of posting text handed to the model
 _GEMINI_PAUSE = 7        # seconds between analyses — free tier is ~10 req/min
 JD_CACHE_PATH = os.path.join(os.path.dirname(paths.OUTBOX_PATH), "jd_cache.json")
@@ -73,14 +71,9 @@ def _resume() -> str:
     return text
 
 
-def _recipients() -> list[str]:
-    return [n.strip() for n in _env("TWILIO_TO_NUMBERS").split(",") if n.strip()]
-
-
 def configured() -> bool:
-    return all(_env(k) for k in ("TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN",
-                                 "TWILIO_FROM_NUMBER", "GEMINI_API_KEY")) \
-        and bool(_recipients()) and bool(_resume())
+    return all(_env(k) for k in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID",
+                                 "GEMINI_API_KEY")) and bool(_resume())
 
 
 def _int_env(name: str, default: int) -> int:
@@ -301,8 +294,8 @@ _ASCII = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
 
 
 def _plain(text) -> str:
-    """GSM-7 safe text. One curly quote flips a whole SMS to UCS-2, which
-    cuts each segment from 153 to 67 characters and doubles the cost."""
+    """Plain single-line ASCII: model output can carry stray control
+    characters and odd quotes that read badly in a chat bubble."""
     s = str(text or "").translate(_ASCII)
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     return re.sub(r"\s+", " ", s).strip()
@@ -380,8 +373,8 @@ def format_message(record: dict, a: dict) -> str:
     return "\n".join(lines)
 
 
-def split_message(text: str, limit: int = _SMS_MAX) -> list[str]:
-    """Split on line boundaries into Twilio-sized parts, labelled (1/3)..."""
+def split_message(text: str, limit: int = _MSG_MAX) -> list[str]:
+    """Split on line boundaries into Telegram-sized parts, labelled (1/3)..."""
     budget = limit - 8  # room for the "(n/m)\n" label
     parts: list[str] = []
     cur = ""
@@ -406,36 +399,34 @@ def split_message(text: str, limit: int = _SMS_MAX) -> list[str]:
 # delivery
 # --------------------------------------------------------------------------- #
 
-def _send_sms(body: str) -> int:
-    """Send to every recipient; returns how many received the full text."""
-    sid, token = _env("TWILIO_ACCOUNT_SID"), _env("TWILIO_AUTH_TOKEN")
-    url = _TWILIO.format(sid=sid)
-    delivered = 0
-    for to in _recipients():
-        ok = True
-        for part in split_message(body):
-            try:
-                resp = httpx.post(url, auth=(sid, token), timeout=20, data={
-                    "From": _env("TWILIO_FROM_NUMBER"), "To": to, "Body": part,
-                })
-                if resp.status_code >= 400:
-                    # Twilio's JSON names the cause (code 21608, 30034, ...).
-                    raise RuntimeError(f"twilio {resp.status_code}: {resp.text[:300]}")
-            except Exception as exc:  # noqa: BLE001
-                print(f"  sms: send to {to[-4:]} failed: {str(exc)[:300]}")
-                ok = False
-                break
-            time.sleep(1)  # keep multi-part texts arriving in order
-        delivered += ok
-    return delivered
+def _send(body: str) -> bool:
+    """Post the breakdown to the Telegram chat; True if every part arrived."""
+    url = _TELEGRAM.format(token=_env("TELEGRAM_BOT_TOKEN"))
+    for part in split_message(body):
+        try:
+            # Plain text, no parse_mode: model output never needs escaping.
+            resp = httpx.post(url, timeout=20, json={
+                "chat_id": _env("TELEGRAM_CHAT_ID"), "text": part,
+                "disable_web_page_preview": True,
+            })
+            if resp.status_code >= 400:
+                # Telegram's JSON names the cause ("chat not found", ...).
+                raise RuntimeError(f"telegram {resp.status_code}: {resp.text[:300]}")
+        except Exception as exc:  # noqa: BLE001
+            # str(exc) can embed the request URL, which carries the bot token.
+            print(f"  sms: telegram send failed: "
+                  f"{str(exc).replace(_env('TELEGRAM_BOT_TOKEN'), '***')[:300]}")
+            return False
+        time.sleep(1)  # keep multi-part messages arriving in order
+    return True
 
 
 def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
-    """Analyze and text new roles. Returns the ids that no longer need handling.
+    """Analyze and message new roles. Returns the ids that no longer need handling.
 
     Settled: unknown/closed roles, roles analyzed below the score threshold,
-    roles whose analysis is permanently unparseable, and roles texted to at
-    least one recipient. Held for next run: anything past the per-run cap and
+    roles whose analysis is permanently unparseable, and roles delivered to
+    Telegram. Held for next run: anything past the per-run cap and
     anything hit by a rate limit or outage.
     """
     if not configured():
@@ -450,7 +441,7 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
     if not records:
         return settled
 
-    # Three requisitions for one job = one analysis, one text.
+    # Three requisitions for one job = one analysis, one message.
     grouped = [(row.get("id") or "", row)
                for row in grouping.group([{**r, "id": jid} for jid, r in records])]
 
@@ -472,12 +463,12 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
             continue
         label = f"{record.get('company')} - {record.get('title')}"
         if analysis["score"] < threshold:
-            print(f"  sms: {analysis['score']}/100 below {threshold}, not texted: {label}")
+            print(f"  sms: {analysis['score']}/100 below {threshold}, not sent: {label}")
             settled += ids
             continue
-        if _send_sms(format_message(record, analysis)):
-            print(f"  sms: texted {analysis['score']}/100: {label}")
+        if _send(format_message(record, analysis)):
+            print(f"  sms: sent {analysis['score']}/100: {label}")
             settled += ids
         else:
-            break  # Twilio down/misconfigured: keep it and the rest queued
+            break  # Telegram down/misconfigured: keep it and the rest queued
     return settled

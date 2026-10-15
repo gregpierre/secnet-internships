@@ -137,7 +137,7 @@ def cmd_notify() -> None:
     for channel, send, label in (
         ("discord", notify.send_new_roles, "Discord alert"),
         ("telegram", telegram.send_new_roles, "Telegram push"),
-        ("sms", sms.send_new_roles, "AI match text"),
+        ("sms", sms.send_new_roles, "AI match message"),
     ):
         pending = outbox.load(channel)
         if not pending:

@@ -1,7 +1,7 @@
 name: Test AI match text
 
 # Manual only: Actions tab -> "Test AI match text" -> Run workflow.
-# Analyzes one role against your resume and texts you the result.
+# Analyzes one role against your resume and sends the result to Telegram.
 on:
   workflow_dispatch:
     inputs:
@@ -25,10 +25,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Analyze and text
         env:
-          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
-          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
-          TWILIO_TO_NUMBERS: ${{ secrets.TWILIO_TO_NUMBERS }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_SEARCH: ${{ vars.GEMINI_SEARCH }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}

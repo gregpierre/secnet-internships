@@ -22,8 +22,8 @@ ANALYSIS = {
     ],
 }
 
-ENV = {"TWILIO_ACCOUNT_SID": "AC1", "TWILIO_AUTH_TOKEN": "t", "TWILIO_FROM_NUMBER": "+1",
-       "TWILIO_TO_NUMBERS": "+2, +3", "GEMINI_API_KEY": "k", "RESUME_TEXT": "resume"}
+ENV = {"TELEGRAM_BOT_TOKEN": "t", "TELEGRAM_CHAT_ID": "1",
+       "GEMINI_API_KEY": "k", "RESUME_TEXT": "resume"}
 
 
 @pytest.fixture
@@ -49,10 +49,10 @@ def test_message_is_ascii_and_drops_unverified_contacts():
     assert "linkedin.com/in/janedoe" in text and "Fake Person" not in text
 
 
-def test_split_respects_twilio_cap():
-    body = "\n".join(f"line {i} " + "x" * 90 for i in range(60))
+def test_split_respects_telegram_cap():
+    body = "\n".join(f"line {i} " + "x" * 90 for i in range(120))
     parts = sms.split_message(body)
-    assert len(parts) > 1 and all(len(p) <= 1600 for p in parts)
+    assert len(parts) > 1 and all(len(p) <= 4096 for p in parts)
     assert parts[0].startswith("(1/")
 
 
@@ -66,7 +66,7 @@ def test_threshold_and_delivery(env, monkeypatch):
     monkeypatch.setattr(sms, "analyze",
                         lambda r, jd, res: {**ANALYSIS, "score": scores[r["title"]]})
     sent = []
-    monkeypatch.setattr(sms, "_send_sms", lambda body: sent.append(body) or 2)
+    monkeypatch.setattr(sms, "_send", lambda body: sent.append(body) or True)
     data = {"g": {**ROLE, "title": "good"}, "w": {**ROLE, "title": "weak"},
             "c": {**ROLE, "is_open": False}}
     done = sms.send_new_roles(data, ["g", "w", "c", "gone"])
@@ -83,13 +83,13 @@ def test_rate_limit_keeps_role_queued(env, monkeypatch):
 
 def test_failed_text_keeps_role_queued(env, monkeypatch):
     monkeypatch.setattr(sms, "analyze", lambda *a: ANALYSIS)
-    monkeypatch.setattr(sms, "_send_sms", lambda body: 0)
+    monkeypatch.setattr(sms, "_send", lambda body: False)
     assert sms.send_new_roles({"a": ROLE}, ["a"]) == []
 
 
 def test_per_run_cap(env, monkeypatch):
     monkeypatch.setenv("SMS_MAX_PER_RUN", "1")
     monkeypatch.setattr(sms, "analyze", lambda *a: ANALYSIS)
-    monkeypatch.setattr(sms, "_send_sms", lambda body: 1)
+    monkeypatch.setattr(sms, "_send", lambda body: True)
     data = {"a": {**ROLE, "title": "A"}, "b": {**ROLE, "title": "B"}}
     assert len(sms.send_new_roles(data, ["a", "b"])) == 1

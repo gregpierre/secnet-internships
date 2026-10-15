@@ -1,10 +1,10 @@
-"""Send one AI match text right now, to prove the whole chain works.
+"""Send one AI match message to Telegram right now, to prove the whole chain works.
 
     python tools/sms_test.py            # newest open role
     python tools/sms_test.py <job-id>   # a specific role
 
 Ignores the score threshold and touches no queue or committed state, so it is
-safe to run as often as you like (each run uses one Gemini call and one text).
+safe to run as often as you like (each run uses one Gemini call and one message).
 """
 
 import os
@@ -16,8 +16,8 @@ from intern_engine import paths, sms, store  # noqa: E402
 
 
 def main() -> None:
-    missing = [k for k in ("TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN", "TWILIO_FROM_NUMBER",
-                           "TWILIO_TO_NUMBERS", "GEMINI_API_KEY", "RESUME_TEXT")
+    missing = [k for k in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID",
+                           "GEMINI_API_KEY", "RESUME_TEXT")
                if not os.environ.get(k)]
     if missing:
         sys.exit(f"Missing secrets: {', '.join(missing)}")
@@ -38,10 +38,9 @@ def main() -> None:
     print(f"Score: {analysis['score']}/100")
     body = sms.format_message(record, analysis)
     print(f"Text: {len(body)} chars")
-    sent = sms._send_sms(body)
-    if not sent:
-        sys.exit("Twilio did not accept the message (see error above).")
-    print(f"Texted {sent} recipient(s).")
+    if not sms._send(body):
+        sys.exit("Telegram did not accept the message (see error above).")
+    print("Sent to Telegram.")
 
 
 if __name__ == "__main__":
