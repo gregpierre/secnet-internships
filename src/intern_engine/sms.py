@@ -22,6 +22,8 @@ Optional tuning:
   SMS_MIN_SCORE        only text matches at or above this (default 50)
   SMS_MAX_PER_RUN      analyses per run; the rest wait for the next (default 6)
   GEMINI_MODEL         model id (default gemini-3.8-flash, with fallbacks)
+  GEMINI_SEARCH        1 = Google Search grounding to find LinkedIn contacts
+                       (off by default: the free tier rejects it with a 429)
 
 Same delivery contract as telegram.py: the return value is exactly the ids
 that no longer need handling, so a rate limit or outage leaves roles queued
@@ -180,14 +182,7 @@ PROJECTS: 2-3 projects to build that would make this candidate stand out FOR THI
 - "why": why a hiring manager for THIS team would care.
 - "jd_quote": the exact posting line the project proves.
 
-CONTACTS: Use Google Search to find 2-3 REAL people who work at {company} right now
-and would be good to send a connection request about this role, in priority order:
-(1) someone who interned there and converted to full-time in a similar team,
-(2) a full-time employee on the relevant security team,
-(3) a hiring manager / recruiter for security roles.
-Only include people you actually found in search results with a linkedin.com/in/
-URL and a current role at {company}. NEVER invent names or URLs. If you cannot
-verify anyone, return an empty list.
+{contacts_rule}
 
 === OUTPUT ===
 Return ONLY a JSON object, no markdown fences, no commentary:
@@ -202,6 +197,22 @@ Return ONLY a JSON object, no markdown fences, no commentary:
 }}
 Keep every string under 220 characters."""
 
+_CONTACTS_SEARCH = """CONTACTS: Use Google Search to find 2-3 REAL people who work at {company} right now
+and would be good to send a connection request about this role, in priority order:
+(1) someone who interned there and converted to full-time in a similar team,
+(2) a full-time employee on the relevant security team,
+(3) a hiring manager / recruiter for security roles.
+Only include people you actually found in search results with a linkedin.com/in/
+URL and a current role at {company}. NEVER invent names or URLs. If you cannot
+verify anyone, return an empty list."""
+
+_CONTACTS_NONE = """CONTACTS: You have no web search, so you cannot verify anyone.
+Return an empty list. NEVER invent names or URLs."""
+
+
+def _search() -> bool:
+    return _env("GEMINI_SEARCH").lower() in ("1", "true", "yes")
+
 
 def _gemini(prompt: str) -> str:
     key = _env("GEMINI_API_KEY")
@@ -209,11 +220,12 @@ def _gemini(prompt: str) -> str:
     models += [m for m in _MODELS if m not in models]
     body = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        # Search grounding is what lets it find real people at the company
-        # (and read the posting when the board renders client-side).
-        "tools": [{"google_search": {}}],
         "generationConfig": {"temperature": 0.4, "maxOutputTokens": 4096},
     }
+    if _search():
+        # Search grounding is what lets it find real people at the company
+        # (and read the posting when the board renders client-side).
+        body["tools"] = [{"google_search": {}}]
     last = ""
     for model in models:
         try:
@@ -254,8 +266,12 @@ def analyze(record: dict, jd: str, resume: str) -> dict:
         season=record.get("season") or "",
         url=record.get("url") or "",
         jd=jd or ("(Description could not be fetched. Use Google Search to read the "
-                  "posting at the URL above before scoring.)"),
+                  "posting at the URL above before scoring.)" if _search() else
+                  "(Description could not be fetched. Score from the title and company "
+                  "only, and say so in the verdict.)"),
         resume=resume,
+        contacts_rule=(_CONTACTS_SEARCH if _search() else _CONTACTS_NONE).format(
+            company=record.get("company") or ""),
     )
     error: Exception | None = None
     for _ in range(2):  # one retry for a malformed answer

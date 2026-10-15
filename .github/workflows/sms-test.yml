@@ -30,6 +30,7 @@ jobs:
           TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
           TWILIO_TO_NUMBERS: ${{ secrets.TWILIO_TO_NUMBERS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_SEARCH: ${{ vars.GEMINI_SEARCH }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           JOB_ID: ${{ inputs.job_id }}
         run: python tools/sms_test.py $JOB_ID

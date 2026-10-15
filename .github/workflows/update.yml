@@ -176,6 +176,7 @@ jobs:
           TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
           TWILIO_TO_NUMBERS: ${{ secrets.TWILIO_TO_NUMBERS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_SEARCH: ${{ vars.GEMINI_SEARCH }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           # Optional: Brevo transactional key + verified sender — arms the
           # daily email digest to the subscriber list (see mailer.py).
