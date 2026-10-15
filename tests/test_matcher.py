@@ -9,18 +9,11 @@ ROLE = {"company": "Acme Security", "title": "SOC Analyst Intern", "location": "
         "season": "Summer 2027", "url": "https://jobs.example.com/1", "is_open": True}
 
 ANALYSIS = {
+    "requirements": [{"req": "Python", "met": True}, {"req": "Splunk", "met": False},
+                     {"req": "Junior or senior standing", "met": True}],
     "score": 78,
-    "subscores": {"skills": 80, "projects": 75, "domain": 82, "level": 70},
+    "subscores": {"skills": 80, "experience": 75, "domain": 82, "eligibility": 70},
     "verdict": "Apply — your triage work maps directly.",
-    "strengths": [{"point": "Alert triage at Disney", "jd_quote": "triage alerts"}],
-    "gaps": [{"point": "No Splunk SPL", "jd_quote": "experience with Splunk"}],
-    "projects": [{"name": "Detection pack", "stack": "Sigma, Splunk", "what": "x",
-                  "why": "y", "jd_quote": "write detections"}],
-    "contacts": [
-        {"name": "Jane Doe", "title": "SOC Analyst", "type": "intern->FT",
-         "url": "https://www.linkedin.com/in/janedoe"},
-        {"name": "Fake Person", "title": "x", "url": "https://example.com/nope"},
-    ],
 }
 
 ENV = {"TELEGRAM_BOT_TOKEN": "t", "TELEGRAM_CHAT_ID": "1",
@@ -46,10 +39,12 @@ def test_unconfigured_is_noop(monkeypatch):
     assert matcher.send_new_roles({"a": ROLE}, ["a"]) == ["a"]
 
 
-def test_message_drops_unverified_contacts():
-    text = matcher.format_message(ROLE, ANALYSIS)
-    assert "<b>78/100</b>" in text and "“experience with Splunk”" in text
-    assert "linkedin.com/in/janedoe" in text and "Fake Person" not in text
+def test_message_shows_score_requirements_and_nothing_else():
+    text = matcher.format_message({**ROLE, "company": "NVIDIA"}, ANALYSIS)
+    assert "<b>78/100</b>" in text and "You meet <b>2 of 3</b> key requirements" in text
+    assert "Fortune 100</b> · #16" in text and "Eligibility <b>70</b>" in text
+    for gone in ("Strengths", "Gaps", "Projects to build", "connect", "linkedin"):
+        assert gone.lower() not in text.lower()
 
 
 def test_message_escapes_model_html():
@@ -239,3 +234,17 @@ def test_digest_waits_for_the_hour_then_sends_once(env, monkeypatch):
     assert matcher.send_digest(data, evening) == 1
     assert "Good" in sent[0] and "Done" not in sent[0] and "Low" not in sent[0]
     assert matcher.send_digest(data, evening) == 0 and len(sent) == 1  # once a day
+
+
+# --- Fortune tier ---------------------------------------------------------------
+
+def test_fortune_tiers_and_safe_name_matching():
+    from intern_engine import fortune
+    assert fortune.lookup("NVIDIA")[0] <= 100
+    assert fortune.label("Motorola").startswith("🏢 <b>Fortune 500</b> · #")   # Motorola Solutions
+    assert fortune.lookup("Cisco")[1] == "Cisco Systems"                     # generic suffix
+    assert fortune.lookup("GDIT")[1] == "General Dynamics"                   # alias
+    assert "Fortune 1000" in fortune.label("Brunswick")                      # #501-1000
+    for not_them in ("Apple Bank", "Nationwide Children's Hospital", "Acme Security", ""):
+        assert fortune.lookup(not_them) is None
+    assert fortune.label("Acme Security") == "▫️ Not in the Fortune 500"

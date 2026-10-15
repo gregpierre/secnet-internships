@@ -4,12 +4,11 @@ For every new role this reads the job description, compares it against your
 resume with Gemini, and — only when the match clears a threshold — sends you a
 breakdown on Telegram (the same bot as telegram.py):
 
-  * a 1-100 match score with sub-scores (skills / projects / domain / level)
-  * strengths and gaps, each backed by an exact quote from the posting
-  * 2-3 projects worth building for THIS role: why each one matters, and the
-    line of the posting it answers
-  * 2-3 people at the company worth a LinkedIn connection request (former
-    intern -> full-time, current full-time on the team, or a hiring manager)
+  * a 1-100 match score against the posting, with sub-scores
+    (skills / experience / domain / eligibility)
+  * how many of the posting's key requirements the resume meets
+  * whether the company is Fortune 100 / 500 / 1000 (fortune.py)
+  * when the role was posted, and a one-line verdict
 
 Secrets (all required; any missing = silent no-op like every other channel):
   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID   shared with telegram.py
@@ -24,7 +23,7 @@ Optional tuning:
                        (default: the security + cloud ones; "*" = all)
   MATCH_DIGEST_HOUR    local hour the daily digest goes out (default 19)
   MATCH_TZ             timezone for the digest and dates (default America/New_York)
-  GEMINI_SEARCH        1 = Google Search grounding to find LinkedIn contacts
+  GEMINI_SEARCH        1 = let Gemini search the web for postings it can't read
                        (off by default: the free tier rejects it with a 429)
 
 Each message carries Applied / Not for me buttons. Telegram has no webhook
@@ -52,12 +51,11 @@ import time
 import unicodedata
 from datetime import UTC, datetime, timedelta
 from html import escape
-from urllib.parse import quote_plus
 from zoneinfo import ZoneInfo
 
 import httpx
 
-from . import grouping, paths, sponsorship
+from . import fortune, grouping, paths, sponsorship
 
 _GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 _TELEGRAM = "https://api.telegram.org/bot{token}/{method}"
@@ -187,8 +185,9 @@ def _description(jid: str, record: dict) -> str:
 # analysis
 # --------------------------------------------------------------------------- #
 
-_PROMPT = """You are a ruthless, specific cybersecurity recruiter and mentor. Compare the
-candidate's resume to this internship and produce a brutally honest match analysis.
+_PROMPT = """You are a strict, calibrated technical recruiter. Score how well this
+candidate matches THIS internship's job description. Accuracy matters more than
+encouragement: the candidate uses the score to decide where to apply.
 
 === INTERNSHIP ===
 Company: {company}
@@ -202,57 +201,30 @@ Job description:
 === CANDIDATE RESUME ===
 {resume}
 
-=== RULES ===
-SCORING (integers 1-100, be calibrated, not generous):
-- skills: overlap of required/preferred tools, languages and techniques.
-- projects: how directly the candidate's projects/experience prove they can do THIS job's daily work.
-- domain: fit with the team's area (SOC, GRC, cloud, AppSec, red team, network, IAM, etc.).
-- level: eligibility/seniority fit (class year, degree timing, internship level).
-- score: overall weighted match. 90+ = near-perfect, 70s = strong, 50s = plausible, <50 = weak.
-
-STRENGTHS / GAPS: 3 each. Every item MUST include "jd_quote": a short EXACT quote
-copied word-for-word from the job description that it relates to. Strengths name
-the specific resume line that proves it. Gaps must be concrete (a named tool,
-skill, or responsibility), never vague.
-
-PROJECTS: 2-3 projects to build that would make this candidate stand out FOR THIS ROLE.
-- NOT a generic homelab, NOT "set up a SIEM at home", NOT a certification, NOT a CTF.
-- Must be unique, specific, and look like real work this team does: name the exact
-  tools, data sources, and the concrete artifact produced (tool, detection pack,
-  dashboard, report, pipeline).
-- Must close a listed GAP or deepen a key requirement. Must not duplicate the
-  candidate's existing projects (Cloud Security Posture Lab, Cloud Alert Triage &
-  Runbook Validator) — building on them is fine.
-- Buildable by one student in 1-3 weekends.
-- "why": why a hiring manager for THIS team would care.
-- "jd_quote": the exact posting line the project proves.
-
-{contacts_rule}
+=== METHOD ===
+1. List the posting's key requirements (up to 8): the must-have and strongly
+   preferred skills, tools, coursework, clearances and eligibility rules. Use
+   only what the posting actually asks for.
+2. For each, decide from the resume alone whether it is met. No credit for
+   things the resume doesn't show.
+3. Score (integers 1-100):
+   - skills: overlap with the required/preferred tools, languages, techniques.
+   - experience: how directly projects/work prove they can do this job's daily work.
+   - domain: fit with the team's area (SOC, GRC, cloud, AppSec, network, IAM, ...).
+   - eligibility: class year, graduation timing, degree, location/work authorization.
+   - score: overall match, driven mostly by the requirements met.
+     90+ near-perfect, 75-89 strong, 60-74 good, 45-59 stretch, under 45 long shot.
+4. verdict: one plain sentence — apply or not, and the single biggest reason.
 
 === OUTPUT ===
 Return ONLY a JSON object, no markdown fences, no commentary:
 {{
+  "requirements": [{{"req": "short requirement", "met": true}}],
   "score": 0,
-  "subscores": {{"skills": 0, "projects": 0, "domain": 0, "level": 0}},
-  "verdict": "one sentence: should they apply and what's the angle",
-  "strengths": [{{"point": "...", "jd_quote": "..."}}],
-  "gaps": [{{"point": "...", "jd_quote": "..."}}],
-  "projects": [{{"name": "...", "stack": "...", "what": "...", "why": "...", "jd_quote": "..."}}],
-  "contacts": [{{"name": "...", "title": "...", "type": "intern->FT | full-time | hiring manager", "url": "https://www.linkedin.com/in/..."}}]
+  "subscores": {{"skills": 0, "experience": 0, "domain": 0, "eligibility": 0}},
+  "verdict": "..."
 }}
-Keep every string under 220 characters."""
-
-_CONTACTS_SEARCH = """CONTACTS: Use Google Search to find 2-3 REAL people who work at {company} right now
-and would be good to send a connection request about this role, in priority order:
-(1) someone who interned there and converted to full-time in a similar team,
-(2) a full-time employee on the relevant security team,
-(3) a hiring manager / recruiter for security roles.
-Only include people you actually found in search results with a linkedin.com/in/
-URL and a current role at {company}. NEVER invent names or URLs. If you cannot
-verify anyone, return an empty list."""
-
-_CONTACTS_NONE = """CONTACTS: You have no web search, so you cannot verify anyone.
-Return an empty list. NEVER invent names or URLs."""
+Keep every string under 160 characters."""
 
 
 def _search() -> bool:
@@ -270,8 +242,8 @@ def _gemini(prompt: str) -> tuple[str, str]:
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": config}
     if _search():
-        # Search grounding is what lets it find real people at the company
-        # (and read the posting when the board renders client-side).
+        # Search grounding lets it read the posting when the board renders
+        # client-side and the fetched page was an empty shell.
         body["tools"] = [{"google_search": {}}]
     else:
         config["responseMimeType"] = "application/json"  # not allowed with tools
@@ -332,8 +304,6 @@ def analyze(record: dict, jd: str, resume: str) -> dict:
                   "(Description could not be fetched. Score from the title and company "
                   "only, and say so in the verdict.)"),
         resume=resume,
-        contacts_rule=(_CONTACTS_SEARCH if _search() else _CONTACTS_NONE).format(
-            company=record.get("company") or ""),
     )
     error: Exception | None = None
     for _ in range(2):  # one retry for a malformed answer
@@ -375,11 +345,6 @@ def _link(url, label: str) -> str:
     if not url.startswith(("http://", "https://")):
         return label
     return f'<a href="{escape(url)}">{label}</a>'
-
-
-def _linkedin_search(company: str) -> str:
-    q = quote_plus(f"{company} security")
-    return f"https://www.linkedin.com/search/results/people/?keywords={q}"
 
 
 def _bar(score: int) -> str:
@@ -440,6 +405,11 @@ def posted_line(record: dict, now: datetime | None = None) -> str:
     return f"🕒 {label} {day.strftime('%b')} {day.day} · {_ago(ts, now, date_only)}"
 
 
+def requirements_met(a: dict) -> tuple[int, int]:
+    reqs = [r for r in (a.get("requirements") or []) if isinstance(r, dict) and r.get("req")]
+    return sum(1 for r in reqs if r.get("met") is True), len(reqs)
+
+
 def format_message(record: dict, a: dict) -> str:
     score = a["score"]
     sub = a.get("subscores") or {}
@@ -448,6 +418,7 @@ def format_message(record: dict, a: dict) -> str:
     lines = [
         f"🎯 <b>{_q(record.get('company'), 60)}</b>",
         f"<b>{_q(record.get('title'), 120)}</b>",
+        fortune.label(record.get("company") or ""),
     ]
     if where:
         lines.append(where)
@@ -457,55 +428,19 @@ def format_message(record: dict, a: dict) -> str:
         "",
         f"{_badge(score)} · <b>{score}/100</b>",
         f"<code>{_bar(score)}</code>",
-        f"🛠 Skills <b>{_sub(sub.get('skills'))}</b> · 📂 Projects <b>{_sub(sub.get('projects'))}</b>",
-        f"🧭 Domain <b>{_sub(sub.get('domain'))}</b> · 🎓 Level <b>{_sub(sub.get('level'))}</b>",
+    ]
+    met, total = requirements_met(a)
+    if total:
+        lines.append(f"📋 You meet <b>{met} of {total}</b> key requirements")
+    lines += [
+        f"🛠 Skills <b>{_sub(sub.get('skills'))}</b> · 💼 Experience <b>{_sub(sub.get('experience'))}</b>",
+        f"🧭 Domain <b>{_sub(sub.get('domain'))}</b> · 🎓 Eligibility <b>{_sub(sub.get('eligibility'))}</b>",
     ]
     if a.get("verdict"):
-        lines += ["", f"💬 <i>{_q(a['verdict'], 240)}</i>"]
+        lines += ["", f"💬 <i>{_q(a['verdict'], 200)}</i>"]
     if a.get("_has_jd") is False:
-        lines += ["⚠️ <i>Couldn't read the full posting — scored from the title "
-                  "and company only. Treat this score loosely.</i>"]
-
-    def section(title: str, items) -> None:
-        items = [i for i in (items or []) if isinstance(i, dict) and i.get("point")]
-        if not items:
-            return
-        lines.extend(["", f"<b>{title}</b>"])
-        for i in items[:3]:
-            lines.append(f"• {_q(i['point'], 170)}")
-            if i.get("jd_quote"):
-                lines.append(f"   ↳ <i>“{_q(i['jd_quote'], 110)}”</i>")
-
-    section("✅ Strengths", a.get("strengths"))
-    section("⚠️ Gaps to close", a.get("gaps"))
-
-    projects = [p for p in (a.get("projects") or []) if isinstance(p, dict) and p.get("name")]
-    if projects:
-        lines.extend(["", "<b>🚀 Projects to build</b>"])
-        for n, p in enumerate(projects[:3], 1):
-            lines.append(f"<b>{n}. {_q(p['name'], 80)}</b>")
-            if p.get("stack"):
-                lines.append(f"   🧰 <code>{_q(p['stack'], 90)}</code>")
-            if p.get("what"):
-                lines.append(f"   {_q(p['what'], 200)}")
-            if p.get("why"):
-                lines.append(f"   💡 {_q(p['why'], 180)}")
-
-    lines.extend(["", "<b>🤝 People to connect with</b>"])
-    contacts = [c for c in (a.get("contacts") or [])
-                if isinstance(c, dict) and c.get("name")
-                and "linkedin.com/in/" in str(c.get("url") or "")]
-    for c in contacts[:3]:
-        who = f"• {_link(c['url'], _q(c['name'], 50))}"
-        if c.get("title"):
-            who += f" · {_q(c['title'], 70)}"
-        if c.get("type"):
-            who += f" <i>({_q(c['type'], 25)})</i>"
-        lines.append(who)
-    company = record.get("company") or ""
-    search = _link(_linkedin_search(company), f"Search {_q(company, 40)} security people")
-    lines.append(f"🔎 {search}" if not contacts else f"🔎 Verify before messaging · {search}")
-
+        lines.append("⚠️ <i>Couldn't read the full posting — scored from the title "
+                     "and company only. Treat this score loosely.</i>")
     lines.extend(["", f"👉 {_link(record.get('url'), '<b>Open the posting</b>')}"])
     if a.get("_model"):
         lines.append(f"<i>🤖 {_q(a['_model'], 40)}</i>")
@@ -710,6 +645,11 @@ def send_digest(store_data: dict, now: datetime | None = None, force: bool = Fal
             mark = medals[n] if n < len(medals) else f"{n + 1}."
             lines.append(f"{mark} <b>{score}</b> · {_link(record.get('url'), _q(record.get('company'), 40))}"
                          f" — {_q(record.get('title'), 80)}")
+            found = fortune.lookup(record.get("company") or "")
+            if found:
+                tier = 100 if found[0] <= 100 else 500 if found[0] <= 500 else 1000
+                lines.append(f"     {'🏆' if tier == 100 else '🏢' if tier == 500 else '🏬'}"
+                             f" Fortune {tier} · #{found[0]}")
             if posted_line(record, now):
                 lines.append(f"     {posted_line(record, now)}")
         lines += ["", "<i>Tap ✅ / ❌ on a role's message to drop it from here.</i>"]
