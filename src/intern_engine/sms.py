@@ -21,7 +21,7 @@ Secrets (all required; any missing = silent no-op like every other channel):
 Optional tuning:
   SMS_MIN_SCORE        only text matches at or above this (default 50)
   SMS_MAX_PER_RUN      analyses per run; the rest wait for the next (default 6)
-  GEMINI_MODEL         model id (default gemini-2.5-flash, with fallbacks)
+  GEMINI_MODEL         model id (default gemini-3.8-flash, with fallbacks)
 
 Same delivery contract as telegram.py: the return value is exactly the ids
 that no longer need handling, so a rate limit or outage leaves roles queued
@@ -43,7 +43,7 @@ from . import grouping, paths, sponsorship
 
 _GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 _TWILIO = "https://api.twilio.com/2010-04-01/Accounts/{sid}/Messages.json"
-_MODELS = ("gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash")
+_MODELS = ("gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash")
 _SMS_MAX = 1550          # Twilio's hard cap is 1600 per message; leave headroom
 _JD_MAX = 14000          # characters of posting text handed to the model
 _GEMINI_PAUSE = 7        # seconds between analyses — free tier is ~10 req/min
