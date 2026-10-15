@@ -1,14 +1,19 @@
 name: Test AI match
 
 # Manual only: Actions tab -> "Test AI match" -> Run workflow.
-# Analyzes one role against your resume and sends the result to Telegram.
+# Analyzes one role against your resume and sends the result to Telegram
+# (or, with "digest" ticked, sends today's top-matches list).
 on:
   workflow_dispatch:
     inputs:
       job_id:
-        description: "Job id to analyze (blank = newest open role)"
+        description: "Job id to analyze (blank = newest in-scope role)"
         required: false
         default: ""
+      digest:
+        description: "Send today's top-matches digest instead"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -23,12 +28,21 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - name: Analyze and text
+      - name: Analyze and send
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_SEARCH: ${{ vars.GEMINI_SEARCH }}
+          MATCH_MIN_SCORE: ${{ vars.MATCH_MIN_SCORE }}
+          MATCH_CATEGORIES: ${{ vars.MATCH_CATEGORIES }}
+          MATCH_TZ: ${{ vars.MATCH_TZ }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           JOB_ID: ${{ inputs.job_id }}
-        run: python tools/match_test.py $JOB_ID
+          DIGEST: ${{ inputs.digest }}
+        run: |
+          if [ "$DIGEST" = "true" ]; then
+            python tools/match_test.py --digest
+          else
+            python tools/match_test.py "$JOB_ID"
+          fi

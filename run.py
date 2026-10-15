@@ -132,6 +132,11 @@ def cmd_notify() -> None:
     """
     store_data = store.load(paths.JOBS_PATH)
 
+    # Applied / Not-for-me taps since the last run, before anything new is sent.
+    taps = matcher.sync_feedback()
+    if taps:
+        print(f"  AI match buttons     {taps} choice(s) recorded")
+
     # Each channel drains its OWN queue: a Telegram timeout must not strand a
     # role Discord already announced, and vice versa.
     for channel, send, label in (
@@ -148,6 +153,9 @@ def cmd_notify() -> None:
         done = send(store_data, pending)
         still = outbox.drain(done, channel)
         print(f"  {label:20} {len(done)} handled, {len(still)} still queued")
+
+    listed = matcher.send_digest(store_data)
+    print(f"  AI match digest      {f'{listed} role(s) listed' if listed else 'not due'}")
 
     sent = mailer.send_digest(store_data)
     print(f"  email digest         {f'sent to {sent} subscribers' if sent else 'not due'}")

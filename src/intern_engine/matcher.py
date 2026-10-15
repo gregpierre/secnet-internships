@@ -20,8 +20,21 @@ Optional tuning:
   MATCH_MIN_SCORE      only send matches at or above this (default 50)
   MATCH_MAX_PER_RUN    analyses per run; the rest wait for the next (default 6)
   GEMINI_MODEL         model id (default gemini-3.8-flash, with fallbacks)
+  MATCH_CATEGORIES     comma-separated store categories worth analyzing
+                       (default: the security + cloud ones; "*" = all)
+  MATCH_DIGEST_HOUR    local hour the daily digest goes out (default 19)
+  MATCH_TZ             timezone for the digest and dates (default America/New_York)
   GEMINI_SEARCH        1 = Google Search grounding to find LinkedIn contacts
                        (off by default: the free tier rejects it with a 429)
+
+Each message carries Applied / Not for me buttons. Telegram has no webhook
+here, so taps are collected on the next run (sync_feedback) and the buttons
+are then replaced with the choice. Once a day, after MATCH_DIGEST_HOUR local
+time, send_digest posts a ranked list of the day's best untouched matches.
+
+State lives in data/match_state.json, which is committed in a PUBLIC repo, so
+roles are keyed by an HMAC of the job id (keyed with the bot token): the file
+holds scores and choices but never says which company or role they belong to.
 
 Same delivery contract as telegram.py: the return value is exactly the ids
 that no longer need handling, so a rate limit or outage leaves roles queued
@@ -30,26 +43,45 @@ for the next run instead of dropping them.
 
 from __future__ import annotations
 
+import hashlib
+import hmac
 import json
 import os
 import re
 import time
 import unicodedata
+from datetime import UTC, datetime, timedelta
 from html import escape
 from urllib.parse import quote_plus
+from zoneinfo import ZoneInfo
 
 import httpx
 
 from . import grouping, paths, sponsorship
 
 _GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-_TELEGRAM = "https://api.telegram.org/bot{token}/sendMessage"
+_TELEGRAM = "https://api.telegram.org/bot{token}/{method}"
 _MODELS = ("gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-latest",
            "gemini-3.5-flash-lite")
 _MSG_MAX = 4000          # Telegram's hard cap is 4096 per message; leave headroom
 _JD_MAX = 14000          # characters of posting text handed to the model
 _GEMINI_PAUSE = 7        # seconds between analyses — free tier is ~10 req/min
+_PRIMARY_RETRY = 15      # seconds to wait before retrying an overloaded main model
+_MIN_JD = 300            # shorter than this is a shell page, not a posting
+_DIGEST_MAX = 8
+_STATE_KEEP_DAYS = 90
 JD_CACHE_PATH = os.path.join(os.path.dirname(paths.OUTBOX_PATH), "jd_cache.json")
+STATE_PATH = os.path.join(paths.DATA_DIR, "match_state.json")
+
+# Store categories (pipeline classifier) worth a Gemini call by default. Plain
+# "Systems & Cloud Infra" / IT support roles are mostly non-security and would
+# burn the free tier's ~20 analyses a day; a security word in the title still
+# lets one through.
+_DEFAULT_CATEGORIES = ("Security (general)", "SOC / Detection", "GRC / Risk",
+                       "AppSec / Product Sec", "Cloud & Infra Sec", "Cloud Platform")
+_SECURITY_TITLE_RE = re.compile(
+    r"secur|cyber|\bsoc\b|\bgrc\b|threat|vulnerab|detection|incident|"
+    r"pen(etration)?[ -]?test|red team|blue team|forensic|\biam\b|identity", re.I)
 
 
 class _Retryable(Exception):
@@ -84,6 +116,23 @@ def _int_env(name: str, default: int) -> int:
         return default
 
 
+def _tz():
+    try:
+        return ZoneInfo(_env("MATCH_TZ") or "America/New_York")
+    except Exception:  # noqa: BLE001 — bad name or no tzdata
+        return UTC
+
+
+def relevant(record: dict) -> bool:
+    """Worth a Gemini call: an in-scope category, or a security word in the title."""
+    wanted = _env("MATCH_CATEGORIES")
+    if wanted == "*":
+        return True
+    cats = {c.strip() for c in wanted.split(",") if c.strip()} or set(_DEFAULT_CATEGORIES)
+    return (record.get("category") in cats
+            or bool(_SECURITY_TITLE_RE.search(record.get("title") or "")))
+
+
 # --------------------------------------------------------------------------- #
 # job description
 # --------------------------------------------------------------------------- #
@@ -115,7 +164,7 @@ def _description(jid: str, record: dict) -> str:
     try:
         with open(JD_CACHE_PATH, encoding="utf-8") as f:
             cached = (json.load(f) or {}).get(jid)
-        if cached and len(cached) > 300:
+        if cached and len(cached) >= _MIN_JD:
             return cached
     except Exception:  # noqa: BLE001
         pass
@@ -128,7 +177,8 @@ def _description(jid: str, record: dict) -> str:
         resp.raise_for_status()
         html = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", resp.text)
         text = re.sub(r"\s+", " ", sponsorship.strip_html(html)).strip()
-        return text[:_JD_MAX]
+        # Client-rendered boards return a near-empty shell; treat as unread.
+        return text[:_JD_MAX] if len(text) >= _MIN_JD else ""
     except Exception:  # noqa: BLE001
         return ""
 
@@ -209,26 +259,37 @@ def _search() -> bool:
     return _env("GEMINI_SEARCH").lower() in ("1", "true", "yes")
 
 
-def _gemini(prompt: str) -> str:
+def _gemini(prompt: str) -> tuple[str, str]:
+    """Returns (text, model that answered)."""
     key = _env("GEMINI_API_KEY")
     models = [_env("GEMINI_MODEL")] if _env("GEMINI_MODEL") else []
     models += [m for m in _MODELS if m not in models]
-    body = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.4, "maxOutputTokens": 4096},
-    }
+    # Temperature 0 + a fixed seed: the same posting should get the same score
+    # run to run (at 0.4 one role drifted 65 -> 62 -> 55 across three runs).
+    config = {"temperature": 0, "seed": 7, "maxOutputTokens": 4096}
+    body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": config}
     if _search():
         # Search grounding is what lets it find real people at the company
         # (and read the posting when the board renders client-side).
         body["tools"] = [{"google_search": {}}]
-    last, busy = "", ""
-    for model in models:
+    else:
+        config["responseMimeType"] = "application/json"  # not allowed with tools
+    attempts = [models[0], *models] if models else []  # main model gets a 2nd try
+    last, busy, status = "", "", 0
+    for n, model in enumerate(attempts):
+        if n == 1 and attempts[0] == attempts[1]:
+            if not busy or status == 429:
+                continue  # gone or out of quota: waiting won't help
+            print(f"  match: {model} busy, retrying in {_PRIMARY_RETRY}s")
+            time.sleep(_PRIMARY_RETRY)
         try:
             resp = httpx.post(_GEMINI.format(model=model), json=body, timeout=120,
                               headers={"x-goog-api-key": key})
         except httpx.HTTPError as exc:
-            busy = f"{model}: {exc}"
+            busy, status = f"{model}: {exc}", 0
             continue
+        status = resp.status_code
         if resp.status_code == 404:          # model id retired — try the next
             last = resp.text[:300]
             continue
@@ -242,7 +303,7 @@ def _gemini(prompt: str) -> str:
         data = resp.json()
         parts = (((data.get("candidates") or [{}])[0].get("content") or {})
                  .get("parts") or [])
-        return "".join(p.get("text", "") for p in parts)
+        return "".join(p.get("text", "") for p in parts), model
     if busy:
         raise _Retryable(busy)
     raise RuntimeError(f"no Gemini model available: {last}")
@@ -277,7 +338,10 @@ def analyze(record: dict, jd: str, resume: str) -> dict:
     error: Exception | None = None
     for _ in range(2):  # one retry for a malformed answer
         try:
-            return _parse(_gemini(prompt))
+            text, model = _gemini(prompt)
+            data = _parse(text)
+            data["_model"], data["_has_jd"] = model, bool(jd)
+            return data
         except _Retryable:
             raise
         except (ValueError, json.JSONDecodeError) as exc:
@@ -340,6 +404,42 @@ def _sub(value) -> str:
         return "–"
 
 
+def _parse_ts(value) -> datetime | None:
+    try:
+        ts = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    return ts if ts.tzinfo else ts.replace(tzinfo=UTC)
+
+
+def _ago(ts: datetime, now: datetime, date_only: bool) -> str:
+    if date_only:
+        days = (now.astimezone(_tz()).date() - ts.date()).days
+        return "today" if days <= 0 else "yesterday" if days == 1 else f"{days} days ago"
+    hours = int((now - ts).total_seconds() // 3600)
+    if hours < 1:
+        return "just now"
+    if hours < 24:
+        return f"{hours}h ago"
+    days = hours // 24
+    return "yesterday" if days == 1 else f"{days} days ago"
+
+
+def posted_line(record: dict, now: datetime | None = None) -> str:
+    """'🕒 Posted Oct 13 · 2 days ago', falling back to when we first saw it."""
+    now = now or datetime.now(UTC)
+    ts = _parse_ts(record.get("posted_at"))
+    label = "Posted"
+    date_only = record.get("posted_at_source") == "date_only"
+    if ts is None:
+        ts, label, date_only = _parse_ts(record.get("first_seen_at")), "Spotted", False
+    if ts is None:
+        return ""
+    # A date-only posting is a calendar day, not a UTC midnight: don't shift it.
+    day = ts if date_only else ts.astimezone(_tz())
+    return f"🕒 {label} {day.strftime('%b')} {day.day} · {_ago(ts, now, date_only)}"
+
+
 def format_message(record: dict, a: dict) -> str:
     score = a["score"]
     sub = a.get("subscores") or {}
@@ -351,6 +451,8 @@ def format_message(record: dict, a: dict) -> str:
     ]
     if where:
         lines.append(where)
+    if posted_line(record):
+        lines.append(posted_line(record))
     lines += [
         "",
         f"{_badge(score)} · <b>{score}/100</b>",
@@ -360,6 +462,9 @@ def format_message(record: dict, a: dict) -> str:
     ]
     if a.get("verdict"):
         lines += ["", f"💬 <i>{_q(a['verdict'], 240)}</i>"]
+    if a.get("_has_jd") is False:
+        lines += ["⚠️ <i>Couldn't read the full posting — scored from the title "
+                  "and company only. Treat this score loosely.</i>"]
 
     def section(title: str, items) -> None:
         items = [i for i in (items or []) if isinstance(i, dict) and i.get("point")]
@@ -402,6 +507,8 @@ def format_message(record: dict, a: dict) -> str:
     lines.append(f"🔎 {search}" if not contacts else f"🔎 Verify before messaging · {search}")
 
     lines.extend(["", f"👉 {_link(record.get('url'), '<b>Open the posting</b>')}"])
+    if a.get("_model"):
+        lines.append(f"<i>🤖 {_q(a['_model'], 40)}</i>")
     return "\n".join(lines)
 
 
@@ -431,25 +538,187 @@ def split_message(text: str, limit: int = _MSG_MAX) -> list[str]:
 # delivery
 # --------------------------------------------------------------------------- #
 
-def _send(body: str) -> bool:
-    """Post the breakdown to the Telegram chat; True if every part arrived."""
-    url = _TELEGRAM.format(token=_env("TELEGRAM_BOT_TOKEN"))
-    for part in split_message(body):
+def _tg(method: str, payload: dict) -> dict:
+    """One Bot API call. Raises with Telegram's reason, never with the token."""
+    token = _env("TELEGRAM_BOT_TOKEN")
+    try:
+        resp = httpx.post(_TELEGRAM.format(token=token, method=method),
+                          json=payload, timeout=20)
+        data = resp.json()
+    except Exception as exc:  # noqa: BLE001
+        # str(exc) can embed the request URL, which carries the bot token.
+        raise RuntimeError(str(exc).replace(token, "***")[:300]) from None
+    if not data.get("ok"):
+        raise RuntimeError(f"telegram {resp.status_code}: {str(data)[:300]}")
+    return data.get("result")
+
+
+def _buttons(key: str) -> dict:
+    return {"inline_keyboard": [[
+        {"text": "✅ Applied", "callback_data": f"m:a:{key}"},
+        {"text": "❌ Not for me", "callback_data": f"m:x:{key}"},
+    ]]}
+
+
+def _send(body: str, markup: dict | None = None) -> bool:
+    """Post to the Telegram chat; True if every part arrived. The buttons ride
+    on the last part, so they sit under the whole breakdown."""
+    parts = split_message(body)
+    for n, part in enumerate(parts, 1):
+        payload = {"chat_id": _env("TELEGRAM_CHAT_ID"), "text": part,
+                   "parse_mode": "HTML", "disable_web_page_preview": True}
+        if markup and n == len(parts):
+            payload["reply_markup"] = markup
         try:
-            resp = httpx.post(url, timeout=20, json={
-                "chat_id": _env("TELEGRAM_CHAT_ID"), "text": part,
-                "parse_mode": "HTML", "disable_web_page_preview": True,
-            })
-            if resp.status_code >= 400:
-                # Telegram's JSON names the cause ("chat not found", ...).
-                raise RuntimeError(f"telegram {resp.status_code}: {resp.text[:300]}")
+            _tg("sendMessage", payload)
         except Exception as exc:  # noqa: BLE001
-            # str(exc) can embed the request URL, which carries the bot token.
-            print(f"  match: telegram send failed: "
-                  f"{str(exc).replace(_env('TELEGRAM_BOT_TOKEN'), '***')[:300]}")
+            print(f"  match: telegram send failed: {exc}")
             return False
         time.sleep(1)  # keep multi-part messages arriving in order
     return True
+
+
+# --------------------------------------------------------------------------- #
+# state (committed to a public repo — keyed by HMAC, see module docstring)
+# --------------------------------------------------------------------------- #
+
+def role_key(jid: str) -> str:
+    secret = _env("TELEGRAM_BOT_TOKEN").encode()
+    return hmac.new(secret, jid.encode(), hashlib.sha256).hexdigest()[:16]
+
+
+def _load_state() -> dict:
+    try:
+        with open(STATE_PATH, encoding="utf-8") as f:
+            state = json.load(f)
+        if isinstance(state, dict) and isinstance(state.get("roles"), dict):
+            return state
+    except Exception:  # noqa: BLE001 — missing or damaged: start clean
+        pass
+    return {"roles": {}}
+
+
+def _save_state(state: dict, now: datetime | None = None) -> None:
+    cutoff = (now or datetime.now(UTC)) - timedelta(days=_STATE_KEEP_DAYS)
+    state["roles"] = {k: v for k, v in state["roles"].items()
+                      if (_parse_ts(v.get("t")) or cutoff) >= cutoff}
+    tmp = STATE_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=1, sort_keys=True)
+        f.write("\n")
+    os.replace(tmp, STATE_PATH)
+
+
+def _record(state: dict, ids: list[str], score: int, now: datetime) -> None:
+    for jid in ids:
+        entry = state["roles"].setdefault(role_key(jid), {})
+        entry.update({"s": score, "t": now.strftime("%Y-%m-%dT%H:%M:%SZ")})
+
+
+_CHOICES = {"a": ("applied", "✅ Marked as applied"), "x": ("skip", "❌ Marked not for me")}
+
+
+def sync_feedback(now: datetime | None = None) -> int:
+    """Collect button taps since the last run. Returns how many were recorded.
+
+    Telegram holds updates for 24h and the update workflow runs every 30 min,
+    so nothing is lost between runs. Taps get their answer on the next run:
+    the buttons are swapped for the choice so it's visible in the chat.
+    """
+    if not configured():
+        return 0
+    now = now or datetime.now(UTC)
+    state = _load_state()
+    try:
+        updates = _tg("getUpdates", {"offset": int(state.get("tg_offset", 0)),
+                                     "timeout": 0, "allowed_updates": ["callback_query"]})
+    except Exception as exc:  # noqa: BLE001
+        print(f"  match: could not read button taps: {exc}")
+        return 0
+    recorded = 0
+    for update in updates or []:
+        state["tg_offset"] = max(int(state.get("tg_offset", 0)), update["update_id"] + 1)
+        query = update.get("callback_query") or {}
+        msg = query.get("message") or {}
+        if str((msg.get("chat") or {}).get("id")) != _env("TELEGRAM_CHAT_ID"):
+            continue  # only the owner's chat can mark roles
+        parts = str(query.get("data") or "").split(":")
+        if len(parts) != 3 or parts[0] != "m" or parts[1] not in _CHOICES:
+            continue
+        status, label = _CHOICES[parts[1]]
+        entry = state["roles"].setdefault(parts[2], {"t": now.strftime("%Y-%m-%dT%H:%M:%SZ")})
+        entry["st"] = status
+        recorded += 1
+        for method, payload in (
+            ("answerCallbackQuery", {"callback_query_id": query.get("id"), "text": label}),
+            ("editMessageReplyMarkup", {
+                "chat_id": msg["chat"]["id"], "message_id": msg.get("message_id"),
+                "reply_markup": {"inline_keyboard": [[{"text": label, "callback_data": "m:done:-"}]]},
+            }),
+        ):
+            try:
+                _tg(method, payload)
+            except Exception:  # noqa: BLE001 — cosmetic; the choice is already saved
+                pass
+    _save_state(state, now)
+    return recorded
+
+
+def send_digest(store_data: dict, now: datetime | None = None, force: bool = False) -> int:
+    """Once a day after MATCH_DIGEST_HOUR: the day's best untouched matches.
+
+    Returns how many roles were listed (0 = not due, or nothing worth sending).
+    """
+    if not configured():
+        return 0
+    now = now or datetime.now(UTC)
+    local = now.astimezone(_tz())
+    today = local.date().isoformat()
+    state = _load_state()
+    if not force and (local.hour < _int_env("MATCH_DIGEST_HOUR", 19)
+                      or state.get("digest_date") == today):
+        return 0
+
+    threshold = _int_env("MATCH_MIN_SCORE", 50)
+    since = now - timedelta(hours=24)
+    rows, handled = [], set()
+    for jid, record in store_data.items():
+        entry = state["roles"].get(role_key(jid))
+        if not entry or not record.get("is_open"):
+            continue
+        ident = (record.get("company"), record.get("title"))
+        if entry.get("st"):
+            # The buttons carry one requisition's key; the choice covers the job.
+            handled.add(ident)
+            continue
+        ts = _parse_ts(entry.get("t"))
+        if ts and ts >= since and int(entry.get("s") or 0) >= threshold:
+            rows.append((int(entry["s"]), jid, record))
+    # Grouped requisitions share a score: list each job once.
+    seen, top = set(handled), []
+    for score, jid, record in sorted(rows, key=lambda r: -r[0]):
+        ident = (record.get("company"), record.get("title"))
+        if ident not in seen:
+            seen.add(ident)
+            top.append((score, record))
+    top = top[:_DIGEST_MAX]
+
+    if top:
+        medals = ["🥇", "🥈", "🥉"]
+        lines = [f"🌙 <b>Today's top matches</b> · {local.strftime('%a %b')} {local.day}", ""]
+        for n, (score, record) in enumerate(top):
+            mark = medals[n] if n < len(medals) else f"{n + 1}."
+            lines.append(f"{mark} <b>{score}</b> · {_link(record.get('url'), _q(record.get('company'), 40))}"
+                         f" — {_q(record.get('title'), 80)}")
+            if posted_line(record, now):
+                lines.append(f"     {posted_line(record, now)}")
+        lines += ["", "<i>Tap ✅ / ❌ on a role's message to drop it from here.</i>"]
+        if not _send("\n".join(lines)):
+            return 0
+    if not force:
+        state["digest_date"] = today
+        _save_state(state, now)
+    return len(top)
 
 
 def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
@@ -472,11 +741,26 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
     if not records:
         return settled
 
+    # Skip roles outside the security/cloud scope before spending a Gemini call.
+    keep = []
+    for jid, r in records:
+        if relevant(r):
+            keep.append((jid, r))
+        else:
+            settled.append(jid)
+    if len(keep) < len(records):
+        print(f"  match: skipped {len(records) - len(keep)} out-of-scope role(s)")
+    records = keep
+    if not records:
+        return settled
+
     # Three requisitions for one job = one analysis, one message.
     grouped = [(row.get("id") or "", row)
                for row in grouping.group([{**r, "id": jid} for jid, r in records])]
 
     resume = _resume()
+    state = _load_state()
+    now = datetime.now(UTC)
     threshold = _int_env("MATCH_MIN_SCORE", 50)
     cap = _int_env("MATCH_MAX_PER_RUN", 6)
     for n, (jid, record) in enumerate(grouped[:cap]):
@@ -493,13 +777,15 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
             settled += ids
             continue
         label = f"{record.get('company')} - {record.get('title')}"
+        _record(state, ids, analysis["score"], now)
         if analysis["score"] < threshold:
             print(f"  match: {analysis['score']}/100 below {threshold}, not sent: {label}")
             settled += ids
             continue
-        if _send(format_message(record, analysis)):
+        if _send(format_message(record, analysis), _buttons(role_key(jid))):
             print(f"  match: sent {analysis['score']}/100: {label}")
             settled += ids
         else:
             break  # Telegram down/misconfigured: keep it and the rest queued
+    _save_state(state, now)
     return settled
