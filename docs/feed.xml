@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://ihrtkaii.github.io/secnet-internships/feed.xml</id>
+  <id>https://gregpierre.github.io/secnet-internships/feed.xml</id>
   <title>Summer 2027 &amp; Fall 2026 Tech Internships — new roles</title>
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
-  <link href="https://ihrtkaii.github.io/secnet-internships/feed.xml" rel="self"/>
-  <link href="https://github.com/ihrtkaii/secnet-internships"/>
-  <updated>2026-10-15T11:39:30Z</updated>
-  <author><name>Internship Engine</name><uri>https://github.com/ihrtkaii/secnet-internships</uri></author>
+  <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
+  <link href="https://github.com/gregpierre/secnet-internships"/>
+  <updated>2026-10-15T17:03:29Z</updated>
+  <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590</id>
+    <title>EMC Insurance: Cybersecurity Intern</title>
+    <link href="https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Cybersecurity-Intern_R6590"/>
+    <updated>2026-10-15T17:03:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Iowa</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:motorolasolutions:/job/Georgia-US-Offsite/Presales-Systems-Engineer---2027-Internship_R69503</id>
+    <title>Motorola: Presales Systems Engineer - 2027 Internship 🛂</title>
+    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Georgia-US-Offsite/Presales-Systems-Engineer---2027-Internship_R69503"/>
+    <updated>2026-10-15T17:03:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Georgia, US Offsite, More... · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:ebxs.fa.us2.oraclecloud.com:310031</id>
     <title>Michael Baker International: IT Support Desk Intern</title>
@@ -790,21 +806,5 @@
     <updated>2026-10-02T22:30:03Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Cloud Platform · Durham NC · AWS, PostgreSQL, Terraform · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ejia.fa.us6.oraclecloud.com:107322</id>
-    <title>S&amp;C Electric Company: Jr Systems Administrator Co-Op</title>
-    <link href="https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107322"/>
-    <updated>2026-10-02T18:08:07Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Systems &amp; Cloud Infra · Chicago, IL, United States · $22–$30/hr · Azure · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611</id>
-    <title>American Bankers Association: Intern, Cybersecurity Policy Analyst</title>
-    <link href="https://aba.wd1.myworkdayjobs.com/aba/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611"/>
-    <updated>2026-10-02T18:08:07Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · GRC / Risk · US DC Main Office · $30/hr</summary>
   </entry>
 </feed>
