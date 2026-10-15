@@ -28,3 +28,6 @@ output/
 outputs/
 tmp/
 work/
+
+# Posting text cached between `update` and `notify` for the AI match texter.
+data/jd_cache.json

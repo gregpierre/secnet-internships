@@ -169,6 +169,14 @@ jobs:
           # Make a bot with @BotFather, then set both secrets (see telegram.py).
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: AI resume-match texts (Gemini analysis + Twilio SMS).
+          # All six must be set or the channel stays silent (see sms.py).
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          TWILIO_TO_NUMBERS: ${{ secrets.TWILIO_TO_NUMBERS }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           # Optional: Brevo transactional key + verified sender — arms the
           # daily email digest to the subscriber list (see mailer.py).
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}

@@ -89,7 +89,7 @@ def test_writes_are_atomic():
     outbox.queue(["a"])
     with open(paths.OUTBOX_PATH, encoding="utf-8") as f:
         # Per-channel shape: each channel owns its own pending list.
-        assert json.load(f) == {"pending": {"discord": ["a"], "telegram": ["a"]}}
+        assert json.load(f) == {"pending": {"discord": ["a"], "telegram": ["a"], "sms": ["a"]}}
 
 
 class TestPerChannelQueues:
@@ -116,6 +116,8 @@ class TestPerChannelQueues:
         outbox.drain(["a"], "discord")
         assert set(outbox.load()) == {"a", "b"}   # 'a' still owed to telegram
         outbox.drain(["a"], "telegram")
+        assert set(outbox.load()) == {"a", "b"}   # 'a' still owed to sms
+        outbox.drain(["a"], "sms")
         assert outbox.load() == ["b"]
 
     def test_legacy_single_list_migrates_to_every_channel(self):
