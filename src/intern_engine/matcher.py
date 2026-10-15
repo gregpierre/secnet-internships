@@ -17,8 +17,8 @@ Secrets (all required; any missing = silent no-op like every other channel):
   RESUME_TEXT          your resume as plain text (kept out of the public repo)
 
 Optional tuning:
-  SMS_MIN_SCORE        only send matches at or above this (default 50)
-  SMS_MAX_PER_RUN      analyses per run; the rest wait for the next (default 6)
+  MATCH_MIN_SCORE      only send matches at or above this (default 50)
+  MATCH_MAX_PER_RUN    analyses per run; the rest wait for the next (default 6)
   GEMINI_MODEL         model id (default gemini-3.8-flash, with fallbacks)
   GEMINI_SEARCH        1 = Google Search grounding to find LinkedIn contacts
                        (off by default: the free tier rejects it with a 429)
@@ -35,6 +35,7 @@ import os
 import re
 import time
 import unicodedata
+from html import escape
 from urllib.parse import quote_plus
 
 import httpx
@@ -234,7 +235,7 @@ def _gemini(prompt: str) -> str:
         if resp.status_code in (429, 500, 502, 503, 504):
             # Overloaded or out of quota: each model has its own, so try the next.
             busy = f"gemini {resp.status_code} ({model}): {resp.text[:300]}"
-            print(f"  sms: {model} unavailable ({resp.status_code}), trying next model")
+            print(f"  match: {model} unavailable ({resp.status_code}), trying next model")
             continue
         if resp.status_code >= 400:
             raise RuntimeError(f"gemini {resp.status_code}: {resp.text[:300]}")
@@ -287,23 +288,29 @@ def analyze(record: dict, jd: str, resume: str) -> dict:
 # --------------------------------------------------------------------------- #
 # formatting
 # --------------------------------------------------------------------------- #
+# Telegram HTML. Every tag opens and closes on one line, so split_message can
+# cut between any two lines without breaking the markup.
 
-_ASCII = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
-                        "–": "-", "—": "-", "•": "*", "…": "...",
-                        " ": " ", "→": "->"})
-
-
-def _plain(text) -> str:
-    """Plain single-line ASCII: model output can carry stray control
-    characters and odd quotes that read badly in a chat bubble."""
-    s = str(text or "").translate(_ASCII)
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+def _clean(text) -> str:
+    """Model output on one line: no stray control characters or runs of space."""
+    s = unicodedata.normalize("NFKC", str(text or ""))
+    s = "".join(ch for ch in s if unicodedata.category(ch)[0] != "C" or ch == " ")
     return re.sub(r"\s+", " ", s).strip()
 
 
 def _q(text, limit: int = 140) -> str:
-    s = _plain(text)
-    return s if len(s) <= limit else s[:limit - 3].rstrip() + "..."
+    """Clean, trimmed and HTML-escaped: safe to drop into the message."""
+    s = _clean(text)
+    if len(s) > limit:
+        s = s[:limit - 1].rstrip() + "…"
+    return escape(s, quote=False)
+
+
+def _link(url, label: str) -> str:
+    url = _clean(url)
+    if not url.startswith(("http://", "https://")):
+        return label
+    return f'<a href="{escape(url)}">{label}</a>'
 
 
 def _linkedin_search(company: str) -> str:
@@ -311,65 +318,90 @@ def _linkedin_search(company: str) -> str:
     return f"https://www.linkedin.com/search/results/people/?keywords={q}"
 
 
+def _bar(score: int) -> str:
+    filled = max(0, min(10, round(score / 10)))
+    return "▰" * filled + "▱" * (10 - filled)
+
+
+def _badge(score: int) -> str:
+    if score >= 75:
+        return "🟢 Strong match"
+    if score >= 60:
+        return "🟡 Good match"
+    if score >= 45:
+        return "🟠 Stretch"
+    return "🔴 Long shot"
+
+
+def _sub(value) -> str:
+    try:
+        return str(max(0, min(100, int(value))))
+    except (TypeError, ValueError):
+        return "–"
+
+
 def format_message(record: dict, a: dict) -> str:
+    score = a["score"]
     sub = a.get("subscores") or {}
+    where = " · ".join(f"{icon} {_q(x, 50)}" for icon, x in
+                       (("📍", record.get("location")), ("🗓", record.get("season"))) if x)
     lines = [
-        f"MATCH {a['score']}/100 - {_q(record.get('company'), 60)}",
-        _q(record.get("title"), 120),
-        " | ".join(_q(x, 60) for x in (record.get("location"), record.get("season")) if x),
-        _plain(record.get("url")),
+        f"🎯 <b>{_q(record.get('company'), 60)}</b>",
+        f"<b>{_q(record.get('title'), 120)}</b>",
+    ]
+    if where:
+        lines.append(where)
+    lines += [
         "",
-        "Skills {} | Projects {} | Domain {} | Level {}".format(
-            sub.get("skills", "?"), sub.get("projects", "?"),
-            sub.get("domain", "?"), sub.get("level", "?")),
+        f"{_badge(score)} · <b>{score}/100</b>",
+        f"<code>{_bar(score)}</code>",
+        f"🛠 Skills <b>{_sub(sub.get('skills'))}</b> · 📂 Projects <b>{_sub(sub.get('projects'))}</b>",
+        f"🧭 Domain <b>{_sub(sub.get('domain'))}</b> · 🎓 Level <b>{_sub(sub.get('level'))}</b>",
     ]
     if a.get("verdict"):
-        lines += [_q(a["verdict"], 220)]
+        lines += ["", f"💬 <i>{_q(a['verdict'], 240)}</i>"]
 
-    def section(title: str, items, mark: str) -> None:
+    def section(title: str, items) -> None:
         items = [i for i in (items or []) if isinstance(i, dict) and i.get("point")]
         if not items:
             return
-        lines.extend(["", title])
+        lines.extend(["", f"<b>{title}</b>"])
         for i in items[:3]:
-            lines.append(f"{mark} {_q(i['point'], 160)}")
+            lines.append(f"• {_q(i['point'], 170)}")
             if i.get("jd_quote"):
-                lines.append(f'  JD: "{_q(i["jd_quote"], 120)}"')
+                lines.append(f"   ↳ <i>“{_q(i['jd_quote'], 110)}”</i>")
 
-    section("STRENGTHS", a.get("strengths"), "+")
-    section("GAPS", a.get("gaps"), "-")
+    section("✅ Strengths", a.get("strengths"))
+    section("⚠️ Gaps to close", a.get("gaps"))
 
     projects = [p for p in (a.get("projects") or []) if isinstance(p, dict) and p.get("name")]
     if projects:
-        lines.extend(["", "BUILD THIS"])
+        lines.extend(["", "<b>🚀 Projects to build</b>"])
         for n, p in enumerate(projects[:3], 1):
-            head = f"{n}) {_q(p['name'], 80)}"
+            lines.append(f"<b>{n}. {_q(p['name'], 80)}</b>")
             if p.get("stack"):
-                head += f" [{_q(p['stack'], 80)}]"
-            lines.append(head)
+                lines.append(f"   🧰 <code>{_q(p['stack'], 90)}</code>")
             if p.get("what"):
-                lines.append(f"  What: {_q(p['what'], 200)}")
+                lines.append(f"   {_q(p['what'], 200)}")
             if p.get("why"):
-                lines.append(f"  Why: {_q(p['why'], 180)}")
-            if p.get("jd_quote"):
-                lines.append(f'  JD: "{_q(p["jd_quote"], 120)}"')
+                lines.append(f"   💡 {_q(p['why'], 180)}")
 
-    lines.extend(["", "CONNECT ON LINKEDIN"])
+    lines.extend(["", "<b>🤝 People to connect with</b>"])
     contacts = [c for c in (a.get("contacts") or [])
                 if isinstance(c, dict) and c.get("name")
                 and "linkedin.com/in/" in str(c.get("url") or "")]
-    for n, c in enumerate(contacts[:3], 1):
-        who = f"{n}) {_q(c['name'], 50)}"
+    for c in contacts[:3]:
+        who = f"• {_link(c['url'], _q(c['name'], 50))}"
         if c.get("title"):
-            who += f" - {_q(c['title'], 70)}"
+            who += f" · {_q(c['title'], 70)}"
         if c.get("type"):
-            who += f" ({_q(c['type'], 25)})"
-        lines += [who, f"  {_plain(c['url'])}"]
-    if not contacts:
-        lines.append("No verified profiles found. Search:")
-    else:
-        lines.append("(verify profiles before messaging) More:")
-    lines.append(_linkedin_search(record.get("company") or ""))
+            who += f" <i>({_q(c['type'], 25)})</i>"
+        lines.append(who)
+    company = record.get("company") or ""
+    search = _link(_linkedin_search(company), f"Search {_q(company, 40)} security people")
+    lines.append(f"🔎 {search}" if not contacts else f"🔎 Verify before messaging · {search}")
+
+    lines.extend(["", f"👉 {_link(record.get('url'), '<b>Open the posting</b>')}"])
     return "\n".join(lines)
 
 
@@ -404,17 +436,16 @@ def _send(body: str) -> bool:
     url = _TELEGRAM.format(token=_env("TELEGRAM_BOT_TOKEN"))
     for part in split_message(body):
         try:
-            # Plain text, no parse_mode: model output never needs escaping.
             resp = httpx.post(url, timeout=20, json={
                 "chat_id": _env("TELEGRAM_CHAT_ID"), "text": part,
-                "disable_web_page_preview": True,
+                "parse_mode": "HTML", "disable_web_page_preview": True,
             })
             if resp.status_code >= 400:
                 # Telegram's JSON names the cause ("chat not found", ...).
                 raise RuntimeError(f"telegram {resp.status_code}: {resp.text[:300]}")
         except Exception as exc:  # noqa: BLE001
             # str(exc) can embed the request URL, which carries the bot token.
-            print(f"  sms: telegram send failed: "
+            print(f"  match: telegram send failed: "
                   f"{str(exc).replace(_env('TELEGRAM_BOT_TOKEN'), '***')[:300]}")
             return False
         time.sleep(1)  # keep multi-part messages arriving in order
@@ -446,8 +477,8 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
                for row in grouping.group([{**r, "id": jid} for jid, r in records])]
 
     resume = _resume()
-    threshold = _int_env("SMS_MIN_SCORE", 50)
-    cap = _int_env("SMS_MAX_PER_RUN", 6)
+    threshold = _int_env("MATCH_MIN_SCORE", 50)
+    cap = _int_env("MATCH_MAX_PER_RUN", 6)
     for n, (jid, record) in enumerate(grouped[:cap]):
         ids = [i for i in (record.get("opening_ids") or [jid]) if i]
         if n:
@@ -455,19 +486,19 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
         try:
             analysis = analyze(record, _description(jid, record), resume)
         except _Retryable as exc:
-            print(f"  sms: Gemini unavailable, holding the rest: {str(exc)[:200]}")
+            print(f"  match: Gemini unavailable, holding the rest: {str(exc)[:200]}")
             break
         except Exception as exc:  # noqa: BLE001 — permanent: don't loop forever
-            print(f"  sms: skipped {record.get('company')}: {str(exc)[:200]}")
+            print(f"  match: skipped {record.get('company')}: {str(exc)[:200]}")
             settled += ids
             continue
         label = f"{record.get('company')} - {record.get('title')}"
         if analysis["score"] < threshold:
-            print(f"  sms: {analysis['score']}/100 below {threshold}, not sent: {label}")
+            print(f"  match: {analysis['score']}/100 below {threshold}, not sent: {label}")
             settled += ids
             continue
         if _send(format_message(record, analysis)):
-            print(f"  sms: sent {analysis['score']}/100: {label}")
+            print(f"  match: sent {analysis['score']}/100: {label}")
             settled += ids
         else:
             break  # Telegram down/misconfigured: keep it and the rest queued

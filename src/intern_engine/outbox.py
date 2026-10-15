@@ -36,6 +36,8 @@ _MAX_PENDING = 200
 # Every channel that announces individual roles. The email digest is NOT here:
 # it is driven by the store's own news window and its own per-role sent list,
 # not by this queue.
+# "sms" is the AI match channel (matcher.py, delivered on Telegram); the key
+# predates the switch and stays so queued state in data/outbox.json carries over.
 CHANNELS = ("discord", "telegram", "sms")
 
 

@@ -25,13 +25,13 @@ from intern_engine import (  # noqa: E402
     discover,
     harvester,
     mailer,
+    matcher,
     notify,
     outbox,
     paths,
     pipeline,
     publish,
     readme,
-    sms,
     store,
     telegram,
     trends,
@@ -137,7 +137,7 @@ def cmd_notify() -> None:
     for channel, send, label in (
         ("discord", notify.send_new_roles, "Discord alert"),
         ("telegram", telegram.send_new_roles, "Telegram push"),
-        ("sms", sms.send_new_roles, "AI match message"),
+        ("sms", matcher.send_new_roles, "AI match message"),
     ):
         pending = outbox.load(channel)
         if not pending:

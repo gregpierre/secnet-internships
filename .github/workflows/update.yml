@@ -170,7 +170,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # Optional: AI resume-match messages (Gemini analysis -> the Telegram
-          # bot above). Needs both Telegram secrets plus these (see sms.py).
+          # bot above). Needs both Telegram secrets plus these (see matcher.py).
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_SEARCH: ${{ vars.GEMINI_SEARCH }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}

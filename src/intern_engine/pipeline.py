@@ -28,13 +28,13 @@ from . import (
     filters,
     filters_secnet,
     health,
+    matcher,
     models,
     names,
     observe,
     paths,
     quality,
     registry,
-    sms,
     sponsorship,
     store,
     trends,
@@ -816,7 +816,7 @@ def run_update() -> tuple[dict, dict, list[str]]:
     # The AI match texter needs the posting text the store deliberately drops;
     # hand it over through a local, uncommitted cache for `notify`.
     fresh = set(new_ids)
-    sms.cache_descriptions([job for job in kept if job.id in fresh])
+    matcher.cache_descriptions([job for job in kept if job.id in fresh])
 
     # Record the real posted dates we saw straight from the ATS. This is the
     # engine's own ground truth for the Drop Radar — it accrues every run and

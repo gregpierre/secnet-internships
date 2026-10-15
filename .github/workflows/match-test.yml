@@ -1,6 +1,6 @@
-name: Test AI match text
+name: Test AI match
 
-# Manual only: Actions tab -> "Test AI match text" -> Run workflow.
+# Manual only: Actions tab -> "Test AI match" -> Run workflow.
 # Analyzes one role against your resume and sends the result to Telegram.
 on:
   workflow_dispatch:
@@ -31,4 +31,4 @@ jobs:
           GEMINI_SEARCH: ${{ vars.GEMINI_SEARCH }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           JOB_ID: ${{ inputs.job_id }}
-        run: python tools/sms_test.py $JOB_ID
+        run: python tools/match_test.py $JOB_ID
