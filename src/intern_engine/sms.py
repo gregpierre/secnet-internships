@@ -415,11 +415,14 @@ def _send_sms(body: str) -> int:
         ok = True
         for part in split_message(body):
             try:
-                httpx.post(url, auth=(sid, token), timeout=20, data={
+                resp = httpx.post(url, auth=(sid, token), timeout=20, data={
                     "From": _env("TWILIO_FROM_NUMBER"), "To": to, "Body": part,
-                }).raise_for_status()
+                })
+                if resp.status_code >= 400:
+                    # Twilio's JSON names the cause (code 21608, 30034, ...).
+                    raise RuntimeError(f"twilio {resp.status_code}: {resp.text[:300]}")
             except Exception as exc:  # noqa: BLE001
-                print(f"  sms: send to {to[-4:]} failed: {str(exc)[:200]}")
+                print(f"  sms: send to {to[-4:]} failed: {str(exc)[:300]}")
                 ok = False
                 break
             time.sleep(1)  # keep multi-part texts arriving in order
