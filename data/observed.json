@@ -967,6 +967,18 @@
     }
    }
   },
+  "general matter": {
+   "name": "General Matter",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-15",
+     "role_ids": [
+      "greenhouse:generalmatter:5448019008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "general motors": {
    "name": "General Motors",
    "cycles": {
@@ -1285,9 +1297,11 @@
       "smartrecruiters:LLNL:3743990014731656",
       "smartrecruiters:LLNL:3743990015113126",
       "smartrecruiters:LLNL:3743990015113316",
-      "smartrecruiters:LLNL:3743990015408206"
+      "smartrecruiters:LLNL:3743990015408206",
+      "smartrecruiters:LLNL:3743990016164196",
+      "smartrecruiters:LLNL:3743990016164366"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -2362,5 +2376,5 @@
    }
   }
  },
- "updated_at": "2026-10-15T17:03:29Z"
+ "updated_at": "2026-10-15T21:29:05Z"
 }
