@@ -5,23 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-16T00:04:14Z</updated>
+  <updated>2026-10-16T04:19:17Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165636</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165636"/>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164416</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164416"/>
     <updated>2026-10-16T00:04:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165586</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165586"/>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165496</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165496"/>
     <updated>2026-10-16T00:04:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165506</id>
@@ -32,12 +32,20 @@
     <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164416</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164416"/>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165586</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165586"/>
     <updated>2026-10-16T00:04:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165636</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165636"/>
+    <updated>2026-10-16T00:04:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:generalmatter:5448019008</id>
@@ -51,9 +59,9 @@
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164196</id>
     <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
     <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164196"/>
-    <updated>2026-10-15T21:29:05Z</updated>
+    <updated>2026-10-16T04:19:17Z</updated>
     <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164366</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-05T22:27:28Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Network / Telecom · High Point, NC, US</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:expedia:/job/Washington---Seattle-Campus/Security-Engineering-Intern---2027---Seattle_R-110310</id>
-    <title>Expedia Group: Security Engineering Intern - 2027 - Seattle</title>
-    <link href="https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Security-Engineering-Intern---2027---Seattle_R-110310-1"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Washington - Seattle Campus · $45/hr · Python, Java, C++, C#, Linux</summary>
   </entry>
 </feed>
