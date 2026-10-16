@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-16T16:44:10Z</updated>
+  <updated>2026-10-16T21:06:33Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:emit.fa.ca3.oraclecloud.com:97070</id>
+    <title>WSP: Mechanical Engineering Intern (Mission Critical/Data Center) - Summer 2027</title>
+    <link href="https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/97070"/>
+    <updated>2026-10-16T21:06:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Herndon, VA, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Systems-Engineering-Intern---Colorado-Springs-CO_R10256088</id>
+    <title>Northrop Grumman: 2027 Systems Engineering Intern - Colorado Springs CO 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Systems-Engineering-Intern---Colorado-Springs-CO_R10256088"/>
+    <updated>2026-10-16T21:06:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Colorado-Colorado Springs · $24.25–$30.5/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Systems-Engineering-Intern---Aurora-CO_R10256237</id>
+    <title>Northrop Grumman: 2027 Systems Engineering Intern - Aurora CO 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2027-Systems-Engineering-Intern---Aurora-CO_R10256237"/>
+    <updated>2026-10-16T21:06:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Colorado-Aurora · $26.75–$33.5/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031097</id>
+    <title>Sierra Nevada Corporation: Systems Engineering Intern - Summer 2027 (For SNC Summer 2026 Interns Only) 🇺🇸</title>
+    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Systems-Engineering-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031097"/>
+    <updated>2026-10-16T21:06:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Lone Tree, CO · MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554</id>
     <title>ICF: 2027 Summer Intern, Cloud Engineer (AWS/Azure) (Reston, VA) 🛂</title>
@@ -774,37 +806,5 @@
     <updated>2026-10-06T06:32:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · SOC / Detection · O'Fallon, Missouri · $25–$30/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:mastercard:/job/OFallon-Missouri/Security-Engineering---Enablement-Intern--Summer-2027---St-Louis--MO--US_R-284927</id>
-    <title>Mastercard: Security Engineering &amp; Enablement Intern, Summer 2027 – St. Louis, MO, US</title>
-    <link href="https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Security-Engineering---Enablement-Intern--Summer-2027---St-Louis--MO--US_R-284927"/>
-    <updated>2026-10-06T06:32:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · O'Fallon, Missouri · $27–$34/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:tensorwave:8ec8b715-f9ad-48a7-869e-ed9d455119a5</id>
-    <title>TensorWave: Security Engineer Intern</title>
-    <link href="https://jobs.ashbyhq.com/tensorwave/8ec8b715-f9ad-48a7-869e-ed9d455119a5"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Las Vegas, Nevada · Python, Bash</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:tensorwave:b98359ff-2f74-4e48-a57a-81bb5f5ef7f5</id>
-    <title>TensorWave: IT Service Desk Intern</title>
-    <link href="https://jobs.ashbyhq.com/tensorwave/b98359ff-2f74-4e48-a57a-81bb5f5ef7f5"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Las Vegas, Nevada</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:ispace-inc:558fdfe2-4083-42ea-8eeb-0551c80cbc8a</id>
-    <title>ispace: 2027 Summer Internship - Systems Engineer 🇺🇸</title>
-    <link href="https://jobs.lever.co/ispace-inc/558fdfe2-4083-42ea-8eeb-0551c80cbc8a"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Englewood, Colorado · $28/hr · sponsorship: citizens-only · H-1B track record: ~69 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

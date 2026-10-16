@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-16T16:44:10Z",
- "data_as_of": "2026-10-16T16:44:10Z",
- "rendered_at": "2026-10-16T16:44:10Z",
+ "generated_at": "2026-10-16T21:06:33Z",
+ "data_as_of": "2026-10-16T21:06:33Z",
+ "rendered_at": "2026-10-16T21:06:33Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -605,7 +605,7 @@
    "expected": "2026-08-26",
    "days_until": -51,
    "status": "open",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00190982",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668",
    "note": "",
    "provenance": {
     "type": "engine-observed",
