@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-16T04:19:17Z</updated>
+  <updated>2026-10-16T11:24:47Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164416</id>
@@ -171,9 +171,9 @@
     <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Security-Researcher--Returning-_JR-022677</id>
     <title>Paloaltonetworks: Intern - Security Researcher (Returning)</title>
     <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Security-Researcher--Returning-_JR-022677"/>
-    <updated>2026-10-14T17:21:18Z</updated>
+    <updated>2026-10-16T11:24:47Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Office - USA - CA - Headquarters · Python, PyTorch, TensorFlow, scikit-learn, LLMs</summary>
+    <summary>Not stated · Security (general) · Office - USA - CA - Headquarters · Python, PyTorch, TensorFlow, scikit-learn, LLMs · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:qtsdatacenters:/job/US-GA-Atlanta-Suwanee-1-DC1/Summer-2027-Internship--Information-Security-Operations-Analyst_R2026-2273</id>
