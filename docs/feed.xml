@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-15T21:29:05Z</updated>
+  <updated>2026-10-16T00:04:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165636</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165636"/>
+    <updated>2026-10-16T00:04:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165586</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165586"/>
+    <updated>2026-10-16T00:04:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165506</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165506"/>
+    <updated>2026-10-16T00:04:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164416</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164416"/>
+    <updated>2026-10-16T00:04:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:generalmatter:5448019008</id>
     <title>General Matter: Summer 2027 Internship - Information Security Engineer</title>
@@ -16,17 +48,17 @@
     <summary>Summer 2027 · Security (general) · Los Angeles, CA · $32–$46/hr · Python, C++, Rust, TypeScript, AWS</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164366</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164366"/>
-    <updated>2026-10-15T21:29:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164196</id>
     <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
     <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164196"/>
+    <updated>2026-10-15T21:29:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164366</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164366"/>
     <updated>2026-10-15T21:29:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
@@ -774,37 +806,5 @@
     <updated>2026-10-05T22:27:28Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · Washington - Seattle Campus · $45/hr · Python, Java, C++, C#, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Cybersecurity-Intern_R0023516</id>
-    <title>Graco: Cybersecurity Intern 🛂</title>
-    <link href="https://graco.wd501.myworkdayjobs.com/Graco_Careers/job/Dayton-Minnesota-USA-French-Lake/Cybersecurity-Intern_R0023516"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Dayton, Minnesota, USA (French Lake) · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nrel:/job/Golden-CO/Undergraduate---Graduate--Spring---Summer--Intern---Cyber-Security-Research---5G_R14555</id>
-    <title>National Laboratory of the Rockies: Undergraduate / Graduate (Spring / Summer) Intern - Cyber Security Research – 5G</title>
-    <link href="https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate---Graduate--Spring---Summer--Intern---Cyber-Security-Research---5G_R14555"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Golden, CO · Python, Java, C++, PyTorch, TensorFlow</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tamus:/job/Laredo-TX/Intern--Information-Technology--OIT--Help-Desk-_R-097705</id>
-    <title>Texas A&amp;M International University: Intern- Information Technology (OIT- Help Desk)</title>
-    <link href="https://tamus.wd1.myworkdayjobs.com/TAMIU_Student_Employment/job/Laredo-TX/Intern--Information-Technology--OIT--Help-Desk-_R-097705"/>
-    <updated>2026-10-05T22:27:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Laredo, TX</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nc:/job/Wake-County-NC/IT-Service-Desk-Intern_JR-125278</id>
-    <title>State of North Carolina: IT Service Desk Intern</title>
-    <link href="https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/IT-Service-Desk-Intern_JR-125278"/>
-    <updated>2026-10-05T06:28:29Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · IT Support / Ops · Wake County, NC · status: closed</summary>
   </entry>
 </feed>
