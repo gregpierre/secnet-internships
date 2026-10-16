@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-16T11:24:47Z",
- "data_as_of": "2026-10-16T11:24:47Z",
- "rendered_at": "2026-10-16T11:24:48Z",
+ "generated_at": "2026-10-16T16:44:10Z",
+ "data_as_of": "2026-10-16T16:44:10Z",
+ "rendered_at": "2026-10-16T16:44:10Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -2666,6 +2666,25 @@
    }
   },
   {
+   "company": "ICF",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-16"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -3045,5 +3064,5 @@
    }
   }
  ],
- "count": 160
+ "count": 161
 }

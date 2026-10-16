@@ -1168,6 +1168,18 @@
     }
    }
   },
+  "icf": {
+   "name": "ICF",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-16",
+     "role_ids": [
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554"
+     ],
+     "count": 1
+    }
+   }
+  },
   "immuta": {
    "name": "Immuta",
    "cycles": {
@@ -1316,6 +1328,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-26",
      "role_ids": [
+      "workday:leidos:/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668",
       "workday:leidos:/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00190982",
       "workday:leidos:/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671",
       "workday:leidos:/job/Arlington-VA/Systems-Engineer-Intern_R-00193940",
@@ -1331,7 +1344,7 @@
       "workday:leidos:/job/Tampa-FL/Network-Operations-Intern_R-00190651",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 14
+     "count": 15
     }
    }
   },
@@ -1409,10 +1422,11 @@
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880",
       "workday:mastercard:/job/OFallon-Missouri/Security-Engineering---Enablement-Intern--Summer-2027---St-Louis--MO--US_R-284927",
       "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -2381,5 +2395,5 @@
    }
   }
  },
- "updated_at": "2026-10-16T11:24:47Z"
+ "updated_at": "2026-10-16T16:44:10Z"
 }
