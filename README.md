@@ -6,9 +6,9 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/gregpierre/secnet-internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/gregpierre/secnet-internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fgregpierre.github.io%2Fsecnet-internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://gregpierre.github.io/secnet-internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%203%20hours-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://gregpierre.github.io/secnet-internships/feed.xml)
 
-### 581 open roles (480 listed below) · 53 new this week
+### 581 open roles (480 listed below) · 52 new this week
 
-4,770 employers tracked · data as of Oct 17, 2026 at 15:37 UTC
+4,770 employers tracked · data as of Oct 17, 2026 at 18:12 UTC
 
 _436 have a cycle the employer stated · 145 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -198,7 +198,7 @@ These postings never name a cycle, not in the title and not in the posting text,
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| EMC Insurance | Cybersecurity Intern 🆕 | Security (general) | Iowa | No skills listed | Oct 15, 2026 | [Apply](https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Cybersecurity-Intern_R6590) |
+| EMC Insurance | Cybersecurity Intern | Security (general) | Iowa | No skills listed | Oct 15, 2026 | [Apply](https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Cybersecurity-Intern_R6590) |
 | Astera Labs ✓ | CyberSecurity Engineer Intern | Security (general) | San Jose, CA | No skills listed | Oct 12, 2026 | [Apply](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4743021005) |
 | Eight Sleep 🆁 | Security & IT Intern 🛂 | Security (general) | Remote - US | Python, Git | Oct 09, 2026 | [Apply](https://jobs.ashbyhq.com/eightsleep/0ae8cdbe-8100-4f59-b702-16d836ab5550) |
 | Bosch ✓ | Information Security and Privacy Intern _(2 openings)_ | Security (general) | Farmington Hills, MI, United States | LLMs | Oct 09, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000154757409) [#2](https://jobs.smartrecruiters.com/BoschGroup/744000155120934) |
@@ -261,7 +261,7 @@ These postings never name a cycle, not in the title and not in the posting text,
 | Lawrence Livermore National Laboratory (LLNL) | Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸 🆕 | Security (general) | Livermore, CA, United States | Python, Java, C++, MATLAB | Oct 15, 2026 | [Apply](https://jobs.smartrecruiters.com/LLNL/3743990016165586) |
 | Lawrence Livermore National Laboratory (LLNL) | Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸 🆕 | Security (general) | Livermore, CA, United States | Python, Java, C++, MATLAB | Oct 15, 2026 | [Apply](https://jobs.smartrecruiters.com/LLNL/3743990016165636) |
 | Lawrence Livermore National Laboratory (LLNL) | Critical Infrastructure Analysis Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸 🆕 | Security (general) | Livermore, CA, United States | No skills listed | Oct 15, 2026 | [Apply](https://jobs.smartrecruiters.com/LLNL/3743990016164366) |
-| Motorola | Presales Systems Engineer - 2027 Internship 🛂 🆕 | Systems & Cloud Infra | Georgia, US Offsite, More... | No skills listed | Oct 15, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Georgia-US-Offsite/Presales-Systems-Engineer---2027-Internship_R69503) |
+| Motorola | Presales Systems Engineer - 2027 Internship 🛂 | Systems & Cloud Infra | Georgia, US Offsite, More... | No skills listed | Oct 15, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Georgia-US-Offsite/Presales-Systems-Engineer---2027-Internship_R69503) |
 | General Motors ✓ | 2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure | Systems & Cloud Infra | Sunnyvale +2 more | Python, Java, C++, Kubernetes | Oct 14, 2026 | [Apply](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410) |
 | Philips | Intern – Systems Engineering (Sustaining & Design Controls) - San Diego, CA - Summer 2027 | Systems & Cloud Infra | San Diego, California, United States | No skills listed | Oct 14, 2026 | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/San-Diego-California-United-States/Intern---Systems-Engineering--Sustaining---Design-Controls----San-Diego--CA---Summer-2027_593052) |
 | Centene 🆁 | Cloud Security Incident Response Analyst Intern (Undergraduate - Summer 2027) | SOC / Detection | Remote-MO | AWS, Azure | Oct 14, 2026 | [Apply](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Cloud-Security-Incident-Response-Analyst-Intern--Undergraduate---Summer-2027-_1667738-1) |
@@ -654,7 +654,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,548 of 5,055 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 90% of the full registry) · completed in 1066.5s · 591 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,568 of 5,055 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 90% of the full registry) · completed in 1078.6s · 609 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
