@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T13:03:52Z",
- "data_as_of": "2026-10-19T13:03:52Z",
- "rendered_at": "2026-10-19T13:03:52Z",
+ "generated_at": "2026-10-19T20:52:13Z",
+ "data_as_of": "2026-10-19T20:52:13Z",
+ "rendered_at": "2026-10-19T20:52:14Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -796,25 +796,6 @@
    "days_until": -49,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/awetomaton/jobs/5394046008",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-31"
-   }
-  },
-  {
-   "company": "Duke Energy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-31",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-31",
-   "days_until": -49,
-   "status": "open",
-   "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Huntersville-NC/Local-IT-Support-Internship--Huntersville--NC----Summer-2027_R41895",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2685,6 +2666,25 @@
    }
   },
   {
+   "company": "Generac",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-19",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://generac.wd5.myworkdayjobs.com/external/job/USA---CO-Fort-Collins/Micro-Grid-Systems-Engineering-Summer-Intern_JR17432",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-19"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -2799,6 +2799,25 @@
   },
   {
    "company": "BlueCross BlueShield of Nebraska",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-31",
+   "days_until": -49,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-31"
+   }
+  },
+  {
+   "company": "Duke Energy",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
    "precision": "day",
@@ -3064,5 +3083,5 @@
    }
   }
  ],
- "count": 161
+ "count": 162
 }

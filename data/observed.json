@@ -954,6 +954,18 @@
     }
    }
   },
+  "generac": {
+   "name": "Generac",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-19",
+     "role_ids": [
+      "workday:generac:/job/USA---CO-Fort-Collins/Micro-Grid-Systems-Engineering-Summer-Intern_JR17432"
+     ],
+     "count": 1
+    }
+   }
+  },
   "general dynamics information technology": {
    "name": "General Dynamics Information Technology",
    "cycles": {
@@ -1000,9 +1012,10 @@
      "role_ids": [
       "workday:globalfoundries:/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459",
       "workday:globalfoundries:/job/USA---Texas---Austin/End-Markets-Intern--Communications-Infrastructure-and-Datacenter--Summer-2027-_JR-2604224",
+      "workday:globalfoundries:/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051",
       "workday:globalfoundries:/job/USA---Texas---Richardson/Systems-Engineering-Intern--Summer-2027-_JR-2604044"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2347,6 +2360,13 @@
       "oracle:emit.fa.ca3.oraclecloud.com:97071"
      ],
      "count": 2
+    },
+    "Fall 2026": {
+     "first_posted": "2026-10-19",
+     "role_ids": [
+      "oracle:emit.fa.ca3.oraclecloud.com:97816"
+     ],
+     "count": 1
     }
    }
   },
@@ -2400,5 +2420,5 @@
    }
   }
  },
- "updated_at": "2026-10-19T13:03:52Z"
+ "updated_at": "2026-10-19T20:52:13Z"
 }
