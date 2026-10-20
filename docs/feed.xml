@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-19T20:52:13Z</updated>
+  <updated>2026-10-20T00:30:38Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:reflect-orbital:8f4f8e74-b386-41b4-8154-7e5e50a34205</id>
+    <title>Reflect Orbital: IT Support Specialist Intern</title>
+    <link href="https://jobs.ashbyhq.com/reflect-orbital/8f4f8e74-b386-41b4-8154-7e5e50a34205"/>
+    <updated>2026-10-20T00:30:38Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · Hawthorne, CA · $27 – $31 per hour · Python, Bash, AWS, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ptc:/job/Boston-MA-USA/Global-Security-Co-Op_JR112886</id>
+    <title>PTC: Global Security Co-Op</title>
+    <link href="https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Global-Security-Co-Op_JR112886"/>
+    <updated>2026-10-20T00:30:38Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Boston, MA, USA · H-1B track record: ~80 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rocketlab:8007202003</id>
+    <title>Rocket Lab: Ground Systems Engineering Intern Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/rocketlab/jobs/8007202003"/>
+    <updated>2026-10-20T00:30:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Stennis Space Center, MS · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:internrecruiting:8288817</id>
+    <title>Internrecruiting: Technical Support Engineer Co-op</title>
+    <link href="https://job-boards.greenhouse.io/internrecruiting/jobs/8288817"/>
+    <updated>2026-10-19T20:52:13Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · Wakefield, MA · SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:emit.fa.ca3.oraclecloud.com:97816</id>
     <title>WSP: Electrical Engineering Intern (Mission Critical/Data Center) - Fall 2026 - Spring 2027</title>
@@ -32,14 +64,6 @@
     <summary>Summer 2027 · Systems &amp; Cloud Infra · USA - CO Fort Collins</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051</id>
-    <title>GlobalFoundries: AI/ML Systems Engineering Intern (Summer 2027)</title>
-    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · USA - Texas - Richardson · Python, PyTorch, TensorFlow, Pandas</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:gfs:/job/Wyoming-Michigan/Store-Administrative-Support-Internship_R-57416</id>
     <title>Gordon Food Service: Retail IT Support Internship</title>
     <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Store-Administrative-Support-Internship_R-57416"/>
@@ -48,12 +72,12 @@
     <summary>Not stated · IT Support / Ops · Wyoming, Michigan · Linux · H-1B track record: ~21 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:internrecruiting:8288817</id>
-    <title>Internrecruiting: Technical Support Engineer Co-op</title>
-    <link href="https://job-boards.greenhouse.io/internrecruiting/jobs/8288817"/>
+    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051</id>
+    <title>GlobalFoundries: AI/ML Systems Engineering Intern (Summer 2027)</title>
+    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051"/>
     <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Wakefield, MA · SQL</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · USA - Texas - Richardson · Python, PyTorch, TensorFlow, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/RF-Engineer-Intern_R0031110</id>
@@ -782,29 +806,5 @@
     <updated>2026-10-15T04:51:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:granite:/job/Santa-Maria-California/IT-Intern_R0000008253-1</id>
-    <title>Granite Construction: IT Intern</title>
-    <link href="https://granite.wd1.myworkdayjobs.com/careers/job/Santa-Maria-California/IT-Intern_R0000008253-1"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Santa Maria, California</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Arlington-VA/Systems-Engineer-Intern_R-00193940</id>
-    <title>Leidos: Systems Engineer Intern 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Systems-Engineer-Intern_R-00193940"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Arlington, VA · Computer Vision, Git · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:midlandsb:/job/Effingham-IL/Intern---IT-Infrastructure_JR1471</id>
-    <title>Midland States Bank: Intern - IT Infrastructure</title>
-    <link href="https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---IT-Infrastructure_JR1471"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Effingham, IL · Python</summary>
   </entry>
 </feed>
