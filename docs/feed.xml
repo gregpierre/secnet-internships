@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-20T16:58:30Z</updated>
+  <updated>2026-10-20T21:43:29Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:illumio:09d4895b-6de4-4d22-bbc3-aa45f2b24260</id>
+    <title>Illumio: Security Research Intern</title>
+    <link href="https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260"/>
+    <updated>2026-10-20T21:43:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Sunnyvale, California - HQ · $37 per hour · Python, SQL, PyTorch, scikit-learn, Pandas · H-1B track record: ~25 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:illumio:8708e622-900e-458a-96b3-ae339329a56d</id>
+    <title>Illumio: Engineering Intern, Product Security</title>
+    <link href="https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d"/>
+    <updated>2026-10-20T21:43:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · AppSec / Product Sec · Sunnyvale, California - HQ · $37 per hour · Python, C++, Ruby · H-1B track record: ~25 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:skydio:1ac972b1-8094-4765-8869-63e1c4d50dea</id>
+    <title>Skydio: Wireless Hardware Engineer Intern - Summer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea"/>
+    <updated>2026-10-20T21:43:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Network / Telecom · San Mateo, California, United States · $47/hr · Python · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Risk-and-Compliance-Management-Undergraduate-Intern_J287733</id>
+    <title>Highmark Health: Summer 2027 Risk and Compliance Management Undergraduate Intern 🛂</title>
+    <link href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Risk-and-Compliance-Management-Undergraduate-Intern_J287733"/>
+    <updated>2026-10-20T21:43:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · GRC / Risk · Pittsburgh PA, 15222, FAP, 5th Avenue Place · sponsorship: no-sponsorship · H-1B track record: ~92 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:motorolasolutions:/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640</id>
+    <title>Motorola: Presale Systems Engineer - Summer 2027 Internship 🛂</title>
+    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640"/>
+    <updated>2026-10-20T21:43:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Massachusetts Remote Work, More... · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hcsc:/job/IL---Chicago/Early-Careers---Governance--Risk---Compliance--GRC--Intern_R0059509</id>
     <title>HCSC: Early Careers - Governance, Risk &amp; Compliance (GRC) Intern 🛂</title>
@@ -499,9 +539,9 @@
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1</id>
     <title>Cmu: AI Security Research Intern – Summer 2027 🛂</title>
     <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1"/>
-    <updated>2026-10-11T19:49:58Z</updated>
+    <updated>2026-10-20T21:43:29Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Pittsburgh, PA · Python, PyTorch, TensorFlow, LLMs · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Security (general) · Pittsburgh, PA · Python, PyTorch, TensorFlow, LLMs · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1</id>
@@ -699,9 +739,9 @@
     <id>urn:intern-engine:workday:hcsc:/job/IL---Downers-Grove/Early-Careers---Systems-Analyst-Intern--Downers-Grove-_R0059499</id>
     <title>HCSC: Early Careers - Systems Analyst Intern (Downers Grove) 🛂</title>
     <link href="https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Downers-Grove/Early-Careers---Systems-Analyst-Intern--Downers-Grove-_R0059499"/>
-    <updated>2026-10-08T01:16:28Z</updated>
+    <updated>2026-10-20T21:43:29Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · IL - Downers Grove · Python, Java · sponsorship: no-sponsorship</summary>
+    <summary>Not stated · Systems &amp; Cloud Infra · IL - Downers Grove · Python, Java · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Sunnyvale-California-United-States-of-America/Networking--Power--Intern_1214229</id>
@@ -731,9 +771,9 @@
     <id>urn:intern-engine:workday:mastercard:/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924</id>
     <title>Mastercard: Security Infrastructure Engineering &amp; Architecture Intern, Summer 2027 – Arlington, VA, US</title>
     <link href="https://mastercard.wd1.myworkdayjobs.com/Campus/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924"/>
-    <updated>2026-10-07T19:14:56Z</updated>
+    <updated>2026-10-20T21:43:29Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Arlington, Virginia · $35–$46/hr · Python, Java</summary>
+    <summary>Summer 2027 · Security (general) · Arlington, Virginia · $35–$46/hr · Python, Java · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5256686007</id>
@@ -766,45 +806,5 @@
     <updated>2026-10-06T20:29:41Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Las Vegas, Nevada</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:asteraearlycareer2027:4731591005</id>
-    <title>Astera Labs: Firmware Engineer Intern (DevSecOps)</title>
-    <link href="https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731591005"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Other · San Jose, CA · $35/hr · Python, C++, Linux, Git · H-1B track record: ~29 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:iex-interns:8171127</id>
-    <title>IEX: Platform Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/iex-interns/jobs/8171127"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · New York · $45/hr · Python, Rust, Bash, Linux, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:iex-interns:8173713</id>
-    <title>IEX: Cyber Security Analyst Intern</title>
-    <link href="https://job-boards.greenhouse.io/iex-interns/jobs/8173713"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · New York · $35/hr · Python, Ruby, Bash</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:memx:5445236008</id>
-    <title>MEMX: Information Security Intern, Summer 2027 (Hybrid, NYC)</title>
-    <link href="https://job-boards.greenhouse.io/memx/jobs/5445236008"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · United States · AWS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:borgwarner:/job/Auburn-Hills---Michigan---USA/System-Engineering-Intern--Year-Round-_R2026-3983</id>
-    <title>BorgWarner: System Engineering Intern (Year-Round)</title>
-    <link href="https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/System-Engineering-Intern--Year-Round-_R2026-3983"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Auburn Hills - Michigan - USA · sponsorship: offers</summary>
   </entry>
 </feed>

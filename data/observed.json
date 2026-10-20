@@ -1073,6 +1073,18 @@
     }
    }
   },
+  "highmark health": {
+   "name": "Highmark Health",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Risk-and-Compliance-Management-Undergraduate-Intern_J287733"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hilton worldwide": {
    "name": "Hilton Worldwide",
    "cycles": {
@@ -1191,6 +1203,19 @@
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554"
      ],
      "count": 1
+    }
+   }
+  },
+  "illumio": {
+   "name": "Illumio",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "ashby:illumio:09d4895b-6de4-4d22-bbc3-aa45f2b24260",
+      "ashby:illumio:8708e622-900e-458a-96b3-ae339329a56d"
+     ],
+     "count": 2
     }
    }
   },
@@ -1611,9 +1636,10 @@
       "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
       "workday:motorolasolutions:/job/Georgia-US-Offsite/Presales-Systems-Engineer---2027-Internship_R69503",
       "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R68801",
-      "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R69140"
+      "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R69140",
+      "workday:motorolasolutions:/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -2055,6 +2081,18 @@
     }
    }
   },
+  "skydio": {
+   "name": "Skydio",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "ashby:skydio:1ac972b1-8094-4765-8869-63e1c4d50dea"
+     ],
+     "count": 1
+    }
+   }
+  },
   "solar turbines": {
    "name": "Solar Turbines",
    "cycles": {
@@ -2425,5 +2463,5 @@
    }
   }
  },
- "updated_at": "2026-10-20T16:58:30Z"
+ "updated_at": "2026-10-20T21:43:29Z"
 }
