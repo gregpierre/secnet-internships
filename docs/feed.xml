@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-20T11:36:17Z</updated>
+  <updated>2026-10-20T16:58:30Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:hcsc:/job/IL---Chicago/Early-Careers---Governance--Risk---Compliance--GRC--Intern_R0059509</id>
+    <title>HCSC: Early Careers - Governance, Risk &amp; Compliance (GRC) Intern 🛂</title>
+    <link href="https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Chicago/Early-Careers---Governance--Risk---Compliance--GRC--Intern_R0059509"/>
+    <updated>2026-10-20T16:58:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · GRC / Risk · IL - Chicago · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/Cloud-Analytics---Application-PhD-Intern_JR0288170</id>
     <title>Intel: Cloud Analytics - Application PhD Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-06T20:29:41Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Auburn Hills - Michigan - USA · sponsorship: offers</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Ashburn-VA-US/Cyber-Analyst-Intern---Summer-2027_333161</id>
-    <title>CACI: Cyber Analyst Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Cyber-Analyst-Intern---Summer-2027_333161"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Ashburn, VA, US · Linux</summary>
   </entry>
 </feed>
