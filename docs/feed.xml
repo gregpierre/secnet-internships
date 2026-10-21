@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-21T00:23:08Z</updated>
+  <updated>2026-10-21T04:42:56Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineer-Co-Op---Algorithms--Spring-Summer-2027----Onsite_01881510</id>
+    <title>RTX: Systems Engineer Co-Op – Algorithms (Spring/Summer 2027) - Remote 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineer-Co-Op---Algorithms--Spring-Summer-2027----Onsite_01881510"/>
+    <updated>2026-10-21T04:42:56Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130 · MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:heidelbergmaterials:/job/Irving-TX/IT-Intern_JR10018993</id>
     <title>Heidelberg Materials: IT Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-07T10:28:10Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Cloud Platform · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, Bash, Kubernetes, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:memx:5446002008</id>
-    <title>MEMX: Network Engineering Intern, Summer 2027 (Hybrid, NYC)</title>
-    <link href="https://job-boards.greenhouse.io/memx/jobs/5446002008"/>
-    <updated>2026-10-07T00:57:38Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Network / Telecom · United States · Python, Linux</summary>
   </entry>
 </feed>
