@@ -790,9 +790,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-21",
      "role_ids": [
-      "oracle:ehpv.fa.em2.oraclecloud.com:27403"
+      "oracle:ehpv.fa.em2.oraclecloud.com:27403",
+      "oracle:ehpv.fa.em2.oraclecloud.com:27404"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1299,9 +1300,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-07",
      "role_ids": [
-      "workday:jabil:/job/St-PetersburgTampa-FL/Computer-Systems-Analyst-Intern_J2464586-1"
+      "workday:jabil:/job/St-PetersburgTampa-FL/Computer-Systems-Analyst-Intern_J2464586-1",
+      "workday:jabil:/job/St-PetersburgTampa-FL/IT-Audit-Intern_J2468699"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2501,5 +2503,5 @@
    }
   }
  },
- "updated_at": "2026-10-21T17:17:34Z"
+ "updated_at": "2026-10-21T21:47:50Z"
 }

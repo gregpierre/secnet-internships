@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-21T17:17:34Z</updated>
+  <updated>2026-10-21T21:47:50Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:ehpv.fa.em2.oraclecloud.com:27404</id>
+    <title>DP World: Information Security Intern 🛂</title>
+    <link href="https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27404"/>
+    <updated>2026-10-21T21:47:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Charlotte, NC, United States · Linux · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:AECOM2:744000156887619</id>
+    <title>AECOM: Digital Infrastructure / Telecommunications Engineering Intern</title>
+    <link href="https://jobs.smartrecruiters.com/AECOM2/744000156887619"/>
+    <updated>2026-10-21T21:47:50Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Network / Telecom · Philadelphia, PA, United States (Hybrid)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jabil:/job/St-PetersburgTampa-FL/IT-Audit-Intern_J2468699</id>
+    <title>Jabil: IT Audit Intern</title>
+    <link href="https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/IT-Audit-Intern_J2468699"/>
+    <updated>2026-10-21T21:47:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · GRC / Risk · St. Petersburg/Tampa, FL · H-1B track record: ~69 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:ehpv.fa.em2.oraclecloud.com:27403</id>
     <title>DP World: Network Engineering Intern 🛂</title>
@@ -782,29 +806,5 @@
     <updated>2026-10-08T01:16:28Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Network / Telecom · El Segundo, CA · Python, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Canton-Mississippi---United-States-of-America/Systems-Engineer-Intern---Summer-2027---Canton--MS_R00214882</id>
-    <title>Nissan: Systems Engineer Intern - Summer 2027 - Canton, MS 🛂</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Canton-Mississippi---United-States-of-America/Systems-Engineer-Intern---Summer-2027---Canton--MS_R00214882"/>
-    <updated>2026-10-08T01:16:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Canton, Mississippi - United States of America · Python, C#, SQL · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Franklin-Tennessee---United-States-of-America/IS-IT-Intern---Summer-2027---Franklin--TN_R00214212</id>
-    <title>Nissan: IS/IT Intern - Summer 2027 - Franklin, TN 🛂</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/IS-IT-Intern---Summer-2027---Franklin--TN_R00214212"/>
-    <updated>2026-10-08T01:16:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · IT Support / Ops · Franklin, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hcsc:/job/IL---Downers-Grove/Early-Careers---Systems-Analyst-Intern--Downers-Grove-_R0059499</id>
-    <title>HCSC: Early Careers - Systems Analyst Intern (Downers Grove) 🛂</title>
-    <link href="https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Downers-Grove/Early-Careers---Systems-Analyst-Intern--Downers-Grove-_R0059499"/>
-    <updated>2026-10-20T21:43:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · IL - Downers Grove · Python, Java · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
 </feed>
