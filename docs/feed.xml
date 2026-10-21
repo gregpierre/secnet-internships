@@ -5,11 +5,27 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-20T21:43:29Z</updated>
+  <updated>2026-10-21T00:23:08Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
+    <id>urn:intern-engine:workday:heidelbergmaterials:/job/Irving-TX/IT-Intern_JR10018993</id>
+    <title>Heidelberg Materials: IT Intern</title>
+    <link href="https://heidelbergmaterials.wd3.myworkdayjobs.com/global_hm_career_site/job/Irving-TX/IT-Intern_JR10018993"/>
+    <updated>2026-10-21T00:23:08Z</updated>
+    <category term="Not stated"/>
+    <summary>2 openings · Not stated · IT Support / Ops · Irving, TX</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155</id>
+    <title>TruStage: Information Technology - Development and Infrastructure Internship (hybrid)</title>
+    <link href="https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"/>
+    <updated>2026-10-21T00:23:08Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Wisconsin - Remote · C#, JavaScript, React, Angular, .NET</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:ashby:illumio:09d4895b-6de4-4d22-bbc3-aa45f2b24260</id>
-    <title>Illumio: Security Research Intern</title>
+    <title>Illumio: Security Research, Intern</title>
     <link href="https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260"/>
     <updated>2026-10-20T21:43:29Z</updated>
     <category term="Summer 2027"/>
@@ -790,21 +806,5 @@
     <updated>2026-10-07T00:57:38Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Network / Telecom · United States · Python, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:tensorwave:27d0af24-e945-4abe-ac7c-56db3c0e636d</id>
-    <title>TensorWave: Network Engineering Intern</title>
-    <link href="https://jobs.ashbyhq.com/tensorwave/27d0af24-e945-4abe-ac7c-56db3c0e636d"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Network / Telecom · Las Vegas, Nevada · Python, Linux, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:tensorwave:a75bda20-d28d-443c-987f-53c4478fe940</id>
-    <title>TensorWave: Data Center Build &amp; Deployment Intern</title>
-    <link href="https://jobs.ashbyhq.com/tensorwave/a75bda20-d28d-443c-987f-53c4478fe940"/>
-    <updated>2026-10-06T20:29:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Las Vegas, Nevada</summary>
   </entry>
 </feed>

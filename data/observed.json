@@ -2206,6 +2206,18 @@
     }
    }
   },
+  "trustage": {
+   "name": "TruStage",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"
+     ],
+     "count": 1
+    }
+   }
+  },
   "u s bank": {
    "name": "U.S. Bank",
    "cycles": {
@@ -2463,5 +2475,5 @@
    }
   }
  },
- "updated_at": "2026-10-20T21:43:29Z"
+ "updated_at": "2026-10-21T00:23:08Z"
 }

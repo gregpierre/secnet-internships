@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/gregpierre/secnet-internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/gregpierre/secnet-internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fgregpierre.github.io%2Fsecnet-internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://gregpierre.github.io/secnet-internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%203%20hours-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://gregpierre.github.io/secnet-internships/feed.xml)
 
-### 594 open roles (489 listed below) · 56 new this week
+### 596 open roles (490 listed below) · 59 new this week
 
-4,770 employers tracked · data as of Oct 20, 2026 at 21:43 UTC
+4,770 employers tracked · data as of Oct 21, 2026 at 00:23 UTC
 
-_444 have a cycle the employer stated · 150 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_445 have a cycle the employer stated · 151 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://gregpierre.github.io/secnet-internships/)** · **[📡 RSS](https://gregpierre.github.io/secnet-internships/feed.xml)** · **[⚙️ JSON API](https://gregpierre.github.io/secnet-internships/api/jobs.json)**
 
@@ -69,11 +69,11 @@ This tracks security and networking internships specifically, because the major 
 
 ## 🔐 Security
 
-### Summer 2027  (101 employer-stated)
+### Summer 2027  (100 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Illumio ✓ | Security Research Intern 🆕 | Security (general) | Sunnyvale, California - HQ | Python, SQL, PyTorch, scikit-learn | Oct 20, 2026 | [Apply](https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260) |
+| Illumio ✓ | Security Research, Intern 🆕 | Security (general) | Sunnyvale, California - HQ | Python, SQL, PyTorch, scikit-learn | Oct 20, 2026 | [Apply](https://jobs.ashbyhq.com/illumio/09d4895b-6de4-4d22-bbc3-aa45f2b24260) |
 | Illumio ✓ | Engineering Intern, Product Security 🆕 | AppSec / Product Sec | Sunnyvale, California - HQ | Python, C++, Ruby | Oct 20, 2026 | [Apply](https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d) |
 | Highmark Health ✓ | Summer 2027 Risk and Compliance Management Undergraduate Intern 🛂 🆕 | GRC / Risk | Pittsburgh PA +3 more | No skills listed | Oct 20, 2026 | [Apply](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Risk-and-Compliance-Management-Undergraduate-Intern_J287733) |
 | Centene 🆁 | IAM Analyst Intern (Undergraduate - Summer 2027) | Cloud & Infra Sec | Remote-MO | No skills listed | Oct 16, 2026 | [Apply](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/IAM-Analyst-Intern--Undergraduate---Summer-2027-_1667747) |
@@ -173,7 +173,6 @@ This tracks security and networking internships specifically, because the major 
 | Hilton Worldwide | 2027 Corporate Summer Internship - Technology (Software Engineering and Cyber) | Security (general) | Memphis +8 more | No skills listed | Aug 17, 2026 | [Apply](https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257) |
 | American Express ✓ | Campus Undergraduate Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- New York, NY | Security (general) | New York, NY, United States | Python, Bash | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011878) |
 | American Express ✓ | Campus Graduate Masters Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- New York, NY | Security (general) | New York, NY, United States | Python, Bash | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011893) |
-| American Express ✓ | Campus Undergraduate Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Atlanta, GA | Security (general) | Atlanta, GA, United States | Python, Bash | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011908) |
 
 ### Fall 2026  (6 employer-stated)
 
@@ -240,11 +239,12 @@ These postings never name a cycle, not in the title and not in the posting text,
 
 ## 🌐 Network & Infrastructure
 
-### Summer 2027  (201 employer-stated)
+### Summer 2027  (202 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
 | Skydio ✓ | Wireless Hardware Engineer Intern - Summer 2027 🆕 | Network / Telecom | San Mateo, California, United States | Python | Oct 20, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea) |
+| TruStage 🆁 | Information Technology - Development and Infrastructure Internship (hybrid) 🆕 | Systems & Cloud Infra | Wisconsin - Remote | C#, JavaScript, React, Angular | Oct 20, 2026 | [Apply](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155) |
 | Motorola 🆁 | Presale Systems Engineer - Summer 2027 Internship 🛂 🆕 | Systems & Cloud Infra | Massachusetts Remote Work, More... | No skills listed | Oct 20, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640) |
 | Verizon Communications | Basking Ridge, NJ: V Teamer for a Day: Verizon Consumer Group: Call Routing Optimization Engineering Summer 2027 Internship 🆕 | Network / Telecom | Basking Ridge, New Jersey | LLMs | Oct 20, 2026 | [Apply](https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--V-Teamer-for-a-Day--Verizon-Consumer-Group--Call-Routing-Optimization-Engineering-Summer-2027-Internship_R-1102394) |
 | Verizon Communications | Verizon Consumer Group: Call Routing Optimization Engineering Summer 2027 Internship 🆕 | Network / Telecom | Basking Ridge, New Jersey | LLMs | Oct 20, 2026 | [Apply](https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--Call-Routing-Optimization-Engineering-Summer-2027-Internship_R-1102398) |
@@ -469,6 +469,7 @@ These postings never name a cycle, not in the title and not in the posting text,
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Heidelberg Materials | IT Intern 🆕 _(2 openings)_ | IT Support / Ops | Irving, TX | No skills listed | Oct 20, 2026 | [Apply](https://heidelbergmaterials.wd3.myworkdayjobs.com/global_hm_career_site/job/Irving-TX/IT-Intern_JR10018993) [#2](https://heidelbergmaterials.wd3.myworkdayjobs.com/global_hm_career_site/job/Irving-TX/IT-Intern_JR10019234) |
 | Intel ✓ | Cloud Analytics - Application PhD Intern 🆕 | Cloud Platform | US, Oregon, Hillsboro | Python, SQL, PyTorch, Computer Vision | Oct 19, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Cloud-Analytics---Application-PhD-Intern_JR0288170) |
 | Reflect Orbital | IT Support Specialist Intern 🆕 | IT Support / Ops | Hawthorne, CA | Python, Bash, AWS, Linux | Oct 19, 2026 | [Apply](https://jobs.ashbyhq.com/reflect-orbital/8f4f8e74-b386-41b4-8154-7e5e50a34205) |
 | Internrecruiting | Technical Support Engineer Co-op 🆕 | IT Support / Ops | Wakefield, MA | SQL | Oct 19, 2026 | [Apply](https://job-boards.greenhouse.io/internrecruiting/jobs/8288817) |
@@ -539,7 +540,6 @@ These postings never name a cycle, not in the title and not in the posting text,
 | Hewlett Packard (HP) | Business Intelligence and Infrastructure Analysts  Intern | Systems & Cloud Infra | Vancouver +2 more | No skills listed | Sep 07, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Vancouver-Washington-United-States-of-America/Business-Intelligence-and-Infrastructure-Analysts--Intern_UNI4669-1) |
 | Worthington Enterprises | IT Intern | IT Support / Ops | Columbus, OH, United States | PyTorch | Sep 04, 2026 | [Apply](https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/43365) |
 | Nationwide Children's Hospital | IS Data Center Intern | Systems & Cloud Infra | Main Campus, Columbus, OH | No skills listed | Sep 03, 2026 | [Apply](https://nationwidechildrens.wd5.myworkdayjobs.com/NCHCareers/job/Main-Campus-Columbus-OH/IS-Data-Center-Intern_R-27841-1) |
-| Winsupply ✓ | Data Center Operations Intern | Systems & Cloud Infra | Moraine, OH, United States | No skills listed | Sep 02, 2026 | [Apply](https://jobs.smartrecruiters.com/Winsupply1/3743990015014247) |
 | IEX | Platform Engineer Intern | Systems & Cloud Infra | New York | Python, Rust, Bash, Linux | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/iex-interns/jobs/8171127) |
 | Genuine Parts Company ✓ | Cloud Developer Intern | Cloud Platform | Birmingham, AL, USA | Java, GCP, Linux, Git | Sep 01, 2026 | [Apply](https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133) |
 | Genuine Parts Company ✓ | Cloud SRE Intern | Cloud Platform | Birmingham, AL, USA | GCP | Sep 01, 2026 | [Apply](https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134) |
@@ -616,7 +616,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | 🎯 Grant Thornton | Aug 25 | dropped Aug 25 · closed | 🗓️ dropped |
 | 🎯 MKS Instruments | Aug 26 | dropped Aug 26 · closed | 🗓️ dropped |
 
-_165 companies on the [full radar](https://gregpierre.github.io/secnet-internships/#radar). **165** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_166 companies on the [full radar](https://gregpierre.github.io/secnet-internships/#radar). **166** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong>: 22 roles that left the list in the last 14 days</summary>
@@ -665,7 +665,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,695 of 5,055 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 92% of the full registry) · completed in 982.3s · 670 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,626 of 5,055 registered boards returned successfully across 12 ATS platforms (94% of boards attempted, 91% of the full registry) · completed in 1179.6s · 626 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
