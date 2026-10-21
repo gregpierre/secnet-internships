@@ -1,11 +1,34 @@
 {
- "generated_at": "2026-10-21T04:42:56Z",
- "data_as_of": "2026-10-21T04:42:56Z",
- "rendered_at": "2026-10-21T04:42:56Z",
+ "generated_at": "2026-10-21T11:50:38Z",
+ "data_as_of": "2026-10-21T11:50:38Z",
+ "rendered_at": "2026-10-21T11:50:38Z",
  "source": "https://github.com/gregpierre/secnet-internships",
  "h1b_window": "FY2022–2023",
- "count": 595,
+ "count": 596,
  "jobs": [
+  {
+   "id": "workday:smithnephew:/job/Andover-MA/Intern-Systems-Engineering_R92955-1",
+   "company": "Smith+Nephew",
+   "title": "Intern Systems Engineering",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Systems & Cloud Infra",
+   "location": "Andover, MA",
+   "url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Systems-Engineering_R92955-1",
+   "posted_at": "2026-10-21T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-10-21T11:50:38Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "MATLAB"
+   ],
+   "source": "workday",
+   "h1b_approvals": 77,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineer-Co-Op---Algorithms--Spring-Summer-2027----Onsite_01881510",
    "company": "RTX",
