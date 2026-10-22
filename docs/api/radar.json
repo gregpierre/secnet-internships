@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T17:18:08Z",
- "data_as_of": "2026-10-22T17:18:08Z",
- "rendered_at": "2026-10-22T17:18:08Z",
+ "generated_at": "2026-10-22T21:41:59Z",
+ "data_as_of": "2026-10-22T21:41:59Z",
+ "rendered_at": "2026-10-22T21:42:00Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -1184,25 +1184,6 @@
    }
   },
   {
-   "company": "Schonfeld",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-04",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-04",
-   "days_until": -48,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171696",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-04"
-   }
-  },
-  {
    "company": "TJX",
    "last_cycle_posted": "",
    "posted_on": "2026-09-04",
@@ -1252,6 +1233,25 @@
    "days_until": -44,
    "status": "open",
    "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -44,
+   "status": "open",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1745,7 +1745,7 @@
    "expected": "2026-09-18",
    "days_until": -34,
    "status": "open",
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Business-Systems-Analyst-Internship-Summer-2027_R68572",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Brooklyn-NY/Presale-Systems-Engineer---Summer-2027-Internship_R69755",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2931,26 +2931,26 @@
    }
   },
   {
-   "company": "Allen Control Systems",
+   "company": "Schonfeld",
    "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
+   "posted_on": "2026-09-04",
    "precision": "day",
    "rolling": false,
    "confidence": "verified",
    "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -44,
+   "expected": "2026-09-04",
+   "days_until": -48,
    "status": "dropped",
    "url": "",
    "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
+    "observed_on": "2026-09-04"
    }
   },
   {
-   "company": "C.H. Robinson",
+   "company": "Allen Control Systems",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
    "precision": "day",

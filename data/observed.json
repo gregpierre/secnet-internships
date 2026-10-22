@@ -204,9 +204,11 @@
      "first_posted": "2026-08-27",
      "role_ids": [
       "amazon:amazon:10517649",
-      "amazon:amazon:10557133"
+      "amazon:amazon:10557133",
+      "amazon:amazon:10585774",
+      "amazon:amazon:10585775"
      ],
-     "count": 2
+     "count": 4
     }
    }
   },
@@ -1370,9 +1372,10 @@
       "smartrecruiters:LLNL:3743990016165496",
       "smartrecruiters:LLNL:3743990016165506",
       "smartrecruiters:LLNL:3743990016165586",
-      "smartrecruiters:LLNL:3743990016165636"
+      "smartrecruiters:LLNL:3743990016165636",
+      "smartrecruiters:LLNL:3743990016356816"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -1730,6 +1733,7 @@
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027--Systems-Engineer-Intern---Colorado-Springs-CO_R10249777",
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Systems-Engineering-Intern---Colorado-Springs-CO_R10256088",
+      "workday:ngc:/job/United-States-Florida-Cape-Canaveral/XMLNAME-2027-Systems-Engineer-Intern---Cape-Canaveral-FL_R10251849",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Engineering---Nuclear-Survivability-Ionizing-Radiation_R10251198",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Engineering_R10247434",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Engineering_R10254930",
@@ -1748,9 +1752,10 @@
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Systems-Engineering-Intern--Roy-UT_R10248475",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Systems-Security-Engineering-Intern---Roy-UT_R10249815",
-      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Engineer-Intern---Chantilly-VA_R10255633"
+      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Engineer-Intern---Chantilly-VA_R10255633",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423"
      ],
-     "count": 30
+     "count": 32
     },
     "Fall 2026": {
      "first_posted": "2026-08-31",
@@ -2077,15 +2082,17 @@
      "role_ids": [
       "workday:snc:/job/Dayton-OH/Systems-Engineer-Intern--Summer-2027-_R0030749",
       "workday:snc:/job/Hagerstown-MD/Systems-Engineering-Intern--Summer-2027-_R0030753",
+      "workday:snc:/job/Hagerstown-MD/Systems-Security-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0030540",
       "workday:snc:/job/Hagerstown-MD/Systems-Security-Engineering-Intern--Summer-2027-_R0030783",
       "workday:snc:/job/Lone-Tree-CO/IT-Support-Technician-Intern--Summer-2027-_R0030762",
+      "workday:snc:/job/Lone-Tree-CO/Systems-Engineer-Intern--Summer-2027-_R0031176",
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031097",
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0030750",
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0031166-1",
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0031180",
       "workday:snc:/job/Plano-TX/Systems-Engineering-Intern--Summer-2027-_R0030752"
      ],
-     "count": 9
+     "count": 11
     },
     "Fall 2026": {
      "first_posted": "2026-09-23",
@@ -2506,5 +2513,5 @@
    }
   }
  },
- "updated_at": "2026-10-22T17:18:08Z"
+ "updated_at": "2026-10-22T21:41:59Z"
 }
