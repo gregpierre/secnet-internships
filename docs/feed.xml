@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-23T11:41:20Z</updated>
+  <updated>2026-10-23T17:05:31Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:olsson:5462183008</id>
+    <title>Olsson: Student Internship - Network and Server Infrastructure</title>
+    <link href="https://job-boards.greenhouse.io/olsson/jobs/5462183008"/>
+    <updated>2026-10-23T17:05:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Network / Telecom · Lincoln, NE</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10585774</id>
     <title>Amazon: Associate Delivery Consultant Intern, AWS Professional Services</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-09T18:38:39Z</updated>
     <category term="Not stated"/>
     <summary>2 openings · Not stated · Security (general) · Farmington Hills, MI, United States · LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Corporate-Security-Intern---Summer-2027---Franklin--TN_R00214220</id>
-    <title>Nissan: Corporate Security Intern - Summer 2027 - Franklin, TN 🛂</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Corporate-Security-Intern---Summer-2027---Franklin--TN_R00214220"/>
-    <updated>2026-10-09T18:38:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Franklin, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>

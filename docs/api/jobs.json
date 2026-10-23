@@ -1,11 +1,32 @@
 {
- "generated_at": "2026-10-23T11:41:20Z",
- "data_as_of": "2026-10-23T11:41:20Z",
- "rendered_at": "2026-10-23T11:41:20Z",
+ "generated_at": "2026-10-23T17:05:31Z",
+ "data_as_of": "2026-10-23T17:05:31Z",
+ "rendered_at": "2026-10-23T17:05:31Z",
  "source": "https://github.com/gregpierre/secnet-internships",
  "h1b_window": "FY2022–2023",
- "count": 611,
+ "count": 613,
  "jobs": [
+  {
+   "id": "greenhouse:olsson:5462183008",
+   "company": "Olsson",
+   "title": "Student Internship - Network and Server Infrastructure",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Network / Telecom",
+   "location": "Lincoln, NE",
+   "url": "https://job-boards.greenhouse.io/olsson/jobs/5462183008",
+   "posted_at": "2026-10-23T10:31:56-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-10-23T17:05:31Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "greenhouse",
+   "h1b_approvals": 2,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "smartrecruiters:LLNL:3743990016356816",
    "company": "Lawrence Livermore National Laboratory (LLNL)",
@@ -3542,6 +3563,29 @@
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:ejia.fa.us6.oraclecloud.com:107322",
+   "company": "S&C Electric Company",
+   "title": "Jr Systems Administrator Co-Op",
+   "season": "Fall 2026",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Systems & Cloud Infra",
+   "location": "Chicago, IL, United States",
+   "url": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107322",
+   "posted_at": "2026-10-02",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-10-02T18:08:07Z",
+   "sponsorship": "unknown",
+   "salary": "$22–$30/hr",
+   "skills": [
+    "Azure"
+   ],
+   "source": "oracle",
+   "h1b_approvals": 10,
+   "program": "Co-op",
    "remote": false
   },
   {
