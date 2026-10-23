@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T17:05:31Z",
- "data_as_of": "2026-10-23T17:05:31Z",
- "rendered_at": "2026-10-23T17:05:31Z",
+ "generated_at": "2026-10-23T21:31:43Z",
+ "data_as_of": "2026-10-23T21:31:43Z",
+ "rendered_at": "2026-10-23T21:31:44Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -2239,7 +2239,7 @@
    "expected": "2026-10-02",
    "days_until": -21,
    "status": "open",
-   "url": "https://jobs.lever.co/ispace-inc/558fdfe2-4083-42ea-8eeb-0551c80cbc8a",
+   "url": "https://jobs.lever.co/ispace-inc/82a22878-8955-4626-a778-5c246faae222",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2761,6 +2761,25 @@
    }
   },
   {
+   "company": "American Family Insurance Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-23",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-23"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -3197,5 +3216,5 @@
    }
   }
  ],
- "count": 168
+ "count": 169
 }

@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-23T17:05:31Z</updated>
+  <updated>2026-10-23T21:31:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462</id>
+    <title>American Family Insurance Group: AI Platform Engineering Intern (Hybrid)</title>
+    <link href="https://amfam.wd1.myworkdayjobs.com/Careers/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462"/>
+    <updated>2026-10-23T21:31:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · WI Madison</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:centene:/job/Remote-NC/Network-Operations-Process-Improvement-Undergraduate-Summer-Intern_1667787</id>
+    <title>Centene: Network Operations Process Improvement Undergraduate Summer Intern</title>
+    <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-NC/Network-Operations-Process-Improvement-Undergraduate-Summer-Intern_1667787"/>
+    <updated>2026-10-23T21:31:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Network / Telecom · Remote-NC · $18–$26/hr · SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/Cybersecurity-Engineering-Intern_1216080</id>
+    <title>Hewlett Packard Enterprise: Cybersecurity Engineering Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/Cybersecurity-Engineering-Intern_1216080"/>
+    <updated>2026-10-23T21:31:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Spring, Texas, United States of America · Python, Bash, HTML/CSS, AWS, GCP · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011</id>
+    <title>The Aerospace Corporation: 2027 Defensive Cyber Operations Undergrad Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"/>
+    <updated>2026-10-23T21:31:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · El Segundo, CA · Python, Rust, Kubernetes, Docker · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:olsson:5462183008</id>
     <title>Olsson: Student Internship - Network and Server Infrastructure</title>
@@ -747,9 +779,9 @@
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1</id>
     <title>Cmu: AI Security Software Engineer Intern – Summer 2027 🛂</title>
     <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1"/>
-    <updated>2026-10-11T19:49:58Z</updated>
+    <updated>2026-10-23T21:31:43Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Pittsburgh, PA · Python, PyTorch, TensorFlow, Computer Vision · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Security (general) · Pittsburgh, PA · Python, PyTorch, TensorFlow, Computer Vision · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/Malware-Analysis-Intern---Summer-2027_2025185-1</id>
@@ -774,37 +806,5 @@
     <updated>2026-10-09T23:11:25Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Other · San Francisco, California, United States · Python, Java, C++, JavaScript, React · H-1B track record: ~158 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:memx:5449276008</id>
-    <title>MEMX: Data Center Operations Intern, Summer 2027 (Hybrid, NYC)</title>
-    <link href="https://job-boards.greenhouse.io/memx/jobs/5449276008"/>
-    <updated>2026-10-09T23:11:25Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States · Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:eightsleep:0ae8cdbe-8100-4f59-b702-16d836ab5550</id>
-    <title>Eight Sleep: Security &amp; IT Intern 🛂</title>
-    <link href="https://jobs.ashbyhq.com/eightsleep/0ae8cdbe-8100-4f59-b702-16d836ab5550"/>
-    <updated>2026-10-09T18:38:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Remote - US · Python, Git · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:arcesiumllc:5257199007</id>
-    <title>Arcesium: Infrastructure Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007"/>
-    <updated>2026-10-09T18:38:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · New York · Python, Java, LLMs, AWS, Kubernetes · H-1B track record: ~11 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000154757409</id>
-    <title>Bosch: Information Security and Privacy Intern</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000154757409"/>
-    <updated>2026-10-09T18:38:39Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Security (general) · Farmington Hills, MI, United States · LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
