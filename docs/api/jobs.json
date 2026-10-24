@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-24T04:24:02Z",
- "data_as_of": "2026-10-24T04:24:02Z",
- "rendered_at": "2026-10-24T04:24:02Z",
+ "generated_at": "2026-10-24T11:00:08Z",
+ "data_as_of": "2026-10-24T11:00:08Z",
+ "rendered_at": "2026-10-24T11:00:08Z",
  "source": "https://github.com/gregpierre/secnet-internships",
  "h1b_window": "FY2022–2023",
- "count": 613,
+ "count": 612,
  "jobs": [
   {
    "id": "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
@@ -7966,30 +7966,6 @@
     "Azure"
    ],
    "source": "smartrecruiters",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
-   "company": "AllianceBernstein",
-   "title": "Infrastructure Engineering Summer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Systems & Cloud Infra",
-   "location": "Nashville, Tennessee",
-   "url": "https://abglobal.wd1.myworkdayjobs.com/abcampuscareers/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
-   "posted_at": "2026-09-10T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-11T16:40:09Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "skills": [
-    "SQL",
-    "Linux"
-   ],
-   "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
