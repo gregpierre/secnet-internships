@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-25T04:27:20Z",
- "data_as_of": "2026-10-25T04:27:20Z",
- "rendered_at": "2026-10-25T04:27:20Z",
+ "generated_at": "2026-10-25T11:21:45Z",
+ "data_as_of": "2026-10-25T11:21:45Z",
+ "rendered_at": "2026-10-25T11:21:45Z",
  "source": "https://github.com/gregpierre/secnet-internships",
  "h1b_window": "FY2022–2023",
- "count": 612,
+ "count": 611,
  "jobs": [
   {
    "id": "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
@@ -5275,27 +5275,6 @@
    ],
    "source": "workday",
    "h1b_approvals": 489,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:tencent:/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186",
-   "company": "Tencent",
-   "title": "Cloud Media Services Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Cloud Platform",
-   "location": "US-California-Palo Alto",
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186",
-   "posted_at": "2026-09-25T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-25T21:52:16Z",
-   "sponsorship": "unknown",
-   "salary": "$27.12–$51.93/hr",
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
