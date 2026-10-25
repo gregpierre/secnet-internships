@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-25T16:11:31Z",
- "data_as_of": "2026-10-25T16:11:31Z",
- "rendered_at": "2026-10-25T16:11:31Z",
+ "generated_at": "2026-10-25T20:58:43Z",
+ "data_as_of": "2026-10-25T20:58:43Z",
+ "rendered_at": "2026-10-25T20:58:43Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -244,7 +244,7 @@
    "expected": "2026-08-17",
    "days_until": -69,
    "status": "open",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011878",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011893",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2628,6 +2628,25 @@
    }
   },
   {
+   "company": "Arch Capital Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-19",
+   "days_until": -6,
+   "status": "open",
+   "url": "https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-19"
+   }
+  },
+  {
    "company": "Generac",
    "last_cycle_posted": "",
    "posted_on": "2026-10-19",
@@ -3216,5 +3235,5 @@
    }
   }
  ],
- "count": 169
+ "count": 170
 }

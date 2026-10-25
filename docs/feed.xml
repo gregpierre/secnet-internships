@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-25T16:11:31Z</updated>
+  <updated>2026-10-25T20:58:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:archgroup:/job/Greensboro-NC-United-States-of-America/Loss-Management-IT-Intern_R26_1138</id>
+    <title>Arch Capital Group: Loss Management IT Intern</title>
+    <link href="https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Loss-Management-IT-Intern_R26_1138"/>
+    <updated>2026-10-25T20:58:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · Greensboro, NC United States of America · $26–$28/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:archgroup:/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016</id>
+    <title>Arch Capital Group: Security Operations Intern</title>
+    <link href="https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016"/>
+    <updated>2026-10-25T20:58:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · SOC / Detection · Greensboro, NC United States of America · $26/hr</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011</id>
     <title>The Aerospace Corporation: 2027 Defensive Cyber Operations Undergrad Intern 🇺🇸</title>
@@ -776,14 +792,6 @@
     <summary>Summer 2027 · Security (general) · Pittsburgh, PA · Python, PyTorch, TensorFlow, LLMs · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1</id>
-    <title>Cmu: AI Security Software Engineer Intern – Summer 2027 🛂</title>
-    <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1"/>
-    <updated>2026-10-23T21:31:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Pittsburgh, PA · Python, PyTorch, TensorFlow, Computer Vision · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/Malware-Analysis-Intern---Summer-2027_2025185-1</id>
     <title>Cmu: Malware Analysis Intern - Summer 2027 🛂</title>
     <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/Malware-Analysis-Intern---Summer-2027_2025185-1"/>
@@ -798,13 +806,5 @@
     <updated>2026-10-10T17:43:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · USA, CA, Pleasanton · Python, Java, TypeScript, JavaScript, AWS · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:affirm:8011375003</id>
-    <title>Affirm: IT Engineer Intern (Early Careers Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/affirm/jobs/8011375003"/>
-    <updated>2026-10-09T23:11:25Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Other · San Francisco, California, United States · Python, Java, C++, JavaScript, React · H-1B track record: ~158 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
