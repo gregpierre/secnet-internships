@@ -5,15 +5,39 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-27T00:36:46Z</updated>
+  <updated>2026-10-27T05:48:48Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022588</id>
-    <title>ADT: Cybersecurity &amp; Risk Intern 🛂</title>
-    <link href="https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022588"/>
-    <updated>2026-10-27T00:36:46Z</updated>
+    <id>urn:intern-engine:workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841</id>
+    <title>Highmark Health: Summer 2027 Cyber Risk Management Analyst Undergraduate Intern 🛂</title>
+    <link href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841"/>
+    <updated>2026-10-27T05:48:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Boca Raton, FL, United States · sponsorship: no-sponsorship · H-1B track record: ~39 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Security (general) · Camp Hill PA, 17011, Center Street Building 1B · sponsorship: no-sponsorship · H-1B track record: ~92 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:hpiq:6114741004</id>
+    <title>HP IQ: Engineering Intern, Wireless Automation and Test (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/hpiq/jobs/6114741004"/>
+    <updated>2026-10-27T05:48:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Network / Telecom · San Francisco, CA · Python, Bash</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-112--400-Collins-Rd-NE--BLDG-112/XMLNAME-2027-Summer-Intern--Systems-Engineering---Onsite_01881739</id>
+    <title>RTX: 2027 Summer Intern: Systems Engineering - Onsite 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-112--400-Collins-Rd-NE--BLDG-112/XMLNAME-2027-Summer-Intern--Systems-Engineering---Onsite_01881739"/>
+    <updated>2026-10-27T05:48:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · US-IA-CEDAR RAPIDS-112 ~ 400 Collins Rd NE ~ BLDG 112 · Python, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/Mechanical-Engineer-Intern---Summer-2027_R0031084</id>
+    <title>Sierra Nevada Corporation: Systems Engineer Intern - Summer 2027 (For SNC Summer 2026 Interns Only)</title>
+    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Mechanical-Engineer-Intern---Summer-2027_R0031084"/>
+    <updated>2026-10-27T05:48:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Lone Tree, CO · MATLAB</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aurora-operations-inc:058e3b3a-dd13-4736-84a8-b19d5de2c9f5</id>
@@ -32,20 +56,28 @@
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $52/hr · Python, Go, AWS, GCP · H-1B track record: ~163 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342</id>
-    <title>Booz Allen: University - 2027 Summer Games, Systems Engineer Intern - Dayton, OH 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342"/>
-    <updated>2026-10-27T00:36:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Dayton, OH · $108k/yr · Python, Java, C++, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:lilasciences:4462594009</id>
     <title>Lila Sciences: Co-Op, Automated Systems Engineer</title>
     <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4462594009"/>
     <updated>2026-10-27T00:36:46Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Cambridge, MA USA · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022588</id>
+    <title>ADT: Cybersecurity &amp; Risk Intern 🛂</title>
+    <link href="https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022588"/>
+    <updated>2026-10-27T00:36:46Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Boca Raton, FL, United States · sponsorship: no-sponsorship · H-1B track record: ~39 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342</id>
+    <title>Booz Allen: University - 2027 Summer Games, Systems Engineer Intern - Dayton, OH 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342"/>
+    <updated>2026-10-27T00:36:46Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Dayton, OH · $108k/yr · Python, Java, C++, JavaScript · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb</id>
@@ -774,37 +806,5 @@
     <updated>2026-10-16T11:24:47Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Security (general) · Office - USA - CA - Headquarters · Python, PyTorch, TensorFlow, scikit-learn, LLMs · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:qtsdatacenters:/job/US-GA-Atlanta-Suwanee-1-DC1/Summer-2027-Internship--Information-Security-Operations-Analyst_R2026-2273</id>
-    <title>QTS: Summer 2027 Internship: Information Security Operations Analyst 🇺🇸</title>
-    <link href="https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/US-GA-Atlanta-Suwanee-1-DC1/Summer-2027-Internship--Information-Security-Operations-Analyst_R2026-2273"/>
-    <updated>2026-10-14T17:21:18Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · SOC / Detection · US GA Atlanta Suwanee 1 DC1 · Python, Java, Tableau · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tranetechnologies:/job/La-Crosse-Wisconsin/Business-Systems-Analyst-Internship_JR-13688</id>
-    <title>Tranetechnologies: Business Systems Analyst Internship</title>
-    <link href="https://tranetechnologies.wd12.myworkdayjobs.com/trane_technologies_careers/job/La-Crosse-Wisconsin/Business-Systems-Analyst-Internship_JR-13688"/>
-    <updated>2026-10-14T17:21:18Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · La Crosse, Wisconsin</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tranetechnologies:/job/St-Paul-Minnesota/Systems-Engineer-Intern_JR-16745</id>
-    <title>Tranetechnologies: Systems Engineer Intern</title>
-    <link href="https://tranetechnologies.wd12.myworkdayjobs.com/trane_technologies_careers/job/St-Paul-Minnesota/Systems-Engineer-Intern_JR-16745"/>
-    <updated>2026-10-14T17:21:18Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · St Paul, Minnesota</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:inversionspace:4743497005</id>
-    <title>Inversion Space: RF Engineer - Summer Internship 2027 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/inversionspace/jobs/4743497005"/>
-    <updated>2026-10-14T05:05:08Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Network / Telecom · Playa Vista, California, United States · Python, MATLAB · sponsorship: citizens-only</summary>
   </entry>
 </feed>
