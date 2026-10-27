@@ -8,7 +8,7 @@
 
 ### 628 open roles (492 listed below) · 61 new this week
 
-4,770 employers tracked · data as of Oct 27, 2026 at 05:48 UTC
+4,770 employers tracked · data as of Oct 27, 2026 at 12:13 UTC
 
 _475 have a cycle the employer stated · 153 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -622,7 +622,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _172 companies on the [full radar](https://gregpierre.github.io/secnet-internships/#radar). **172** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong>: 26 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong>: 25 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters. That's our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
@@ -653,7 +653,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | HMH | IT Intern | Summer 2027 | 2026-10-14 | gone from feed |
 | Robinhood | Security Risk Management Intern (Summer 2027) | Summer 2027 | 2026-10-14 | gone from feed |
 | Upbound Group | Cybersecurity Intern | Summer 2027 | 2026-10-13 | gone from feed |
-| Mastercard | Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US | Summer 2027 | 2026-10-13 | gone from feed |
 
 </details>
 
@@ -672,7 +671,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,624 of 5,055 registered boards returned successfully across 12 ATS platforms (94% of boards attempted, 91% of the full registry) · completed in 1271.6s · 626 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,591 of 5,055 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 90% of the full registry) · completed in 1115.5s · 610 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
