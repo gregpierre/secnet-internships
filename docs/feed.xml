@@ -5,8 +5,72 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-27T12:13:12Z</updated>
+  <updated>2026-10-27T18:06:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:edxn.fa.us2.oraclecloud.com:26173</id>
+    <title>Boston Properties: Cyber Security Co-Op</title>
+    <link href="https://edxn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_5001/job/26173"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Boston, MA, United States · $23–$26/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1008446</id>
+    <title>Stantec: Civil Engineering Intern - Infrastructure (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008446"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Fort Myers, FL, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406</id>
+    <title>Booz Allen: Systems Administrator - Summer Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Annapolis Junction, MD · $108k/yr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Nuclear-Surety-Systems-Engineering-Intern--Roy-UT_R10257831</id>
+    <title>Northrop Grumman: 2027 Nuclear Surety Systems Engineering Intern- Roy UT 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Nuclear-Surety-Systems-Engineering-Intern--Roy-UT_R10257831"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269</id>
+    <title>Sierra Nevada Corporation: Cybersecurity Analyst Intern 🇺🇸</title>
+    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Sparks, NV · MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:visa:/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1</id>
+    <title>Visa: Network and Security Engineering Intern - 2027, Highlands Ranch, CO 🛂</title>
+    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · US - Denver, CO · Python, LLMs, Linux, Git · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2</id>
+    <title>Visa: Network and Security Engineering Intern - 2027, Ashburn, VA 🛂</title>
+    <link href="https://visa.wd5.myworkdayjobs.com/visa_early_careers/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2"/>
+    <updated>2026-10-27T18:06:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · US - Ashburn, VA · Python, LLMs, Linux, Git · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:RRDonnelley:744000158084729</id>
+    <title>RR Donnelley: IT Support Engineer Intern</title>
+    <link href="https://jobs.smartrecruiters.com/RRDonnelley/744000158084729"/>
+    <updated>2026-10-27T18:06:42Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · IT Support / Ops · Warrenville, IL, United States · $24/hr · status: closed</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:hpiq:6114741004</id>
     <title>HP IQ: Engineering Intern, Wireless Automation and Test (Summer 2027)</title>
@@ -605,7 +669,7 @@
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Systems-Engineering-Intern---Colorado-Springs-CO_R10256088"/>
     <updated>2026-10-16T21:06:33Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Colorado-Colorado Springs · $24.25–$30.5/hr · sponsorship: citizens-only</summary>
+    <summary>2 openings · Summer 2027 · Systems &amp; Cloud Infra · United States-Colorado-Colorado Springs · $24.25–$30.5/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031097</id>
@@ -742,69 +806,5 @@
     <updated>2026-10-14T21:52:41Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · San Diego, California</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410</id>
-    <title>General Motors: 2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410"/>
-    <updated>2026-10-14T21:52:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Sunnyvale, California, United States of America · Python, Java, C++, Kubernetes, Hadoop · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hyperiongrp:/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1</id>
-    <title>Howden: Underwriting Intern, Cyber</title>
-    <link href="https://hyperiongrp.wd3.myworkdayjobs.com/Hyperion_External/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1"/>
-    <updated>2026-10-14T21:52:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · New York – 1350 Avenue Of The Americas · $22/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:philips:/job/San-Diego-California-United-States/Intern---Systems-Engineering--Sustaining---Design-Controls----San-Diego--CA---Summer-2027_593052</id>
-    <title>Philips: Intern – Systems Engineering (Sustaining &amp; Design Controls) - San Diego, CA - Summer 2027</title>
-    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/San-Diego-California-United-States/Intern---Systems-Engineering--Sustaining---Design-Controls----San-Diego--CA---Summer-2027_593052"/>
-    <updated>2026-10-14T21:52:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · San Diego, California, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:centene:/job/Remote-MO/Cloud-Security-Incident-Response-Analyst-Intern--Undergraduate---Summer-2027-_1667738-1</id>
-    <title>Centene: Cloud Security Incident Response Analyst Intern (Undergraduate - Summer 2027)</title>
-    <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Cloud-Security-Incident-Response-Analyst-Intern--Undergraduate---Summer-2027-_1667738-1"/>
-    <updated>2026-10-14T17:21:18Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · SOC / Detection · Remote-MO · $18–$26/hr · AWS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/DevOps-Engineer-Intern_JR111751</id>
-    <title>Copart: DevOps Engineer Intern</title>
-    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/DevOps-Engineer-Intern_JR111751"/>
-    <updated>2026-10-14T17:21:18Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Dallas, TX - Headquarters · Python, Java, Bash, PyTorch, TensorFlow · H-1B track record: ~83 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037</id>
-    <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - San Antonio TX 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037"/>
-    <updated>2026-10-14T17:21:18Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Security (general) · United States-Texas-San Antonio · $17.5–$31.5/hr · Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Security-Researcher--PhD-_JR-022416</id>
-    <title>Paloaltonetworks: Intern - Security Researcher (PhD)</title>
-    <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Security-Researcher--PhD-_JR-022416"/>
-    <updated>2026-10-15T11:39:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Office - USA - CA - Headquarters · Python, PyTorch, TensorFlow, scikit-learn, LLMs · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Security-Researcher--Returning-_JR-022677</id>
-    <title>Paloaltonetworks: Intern - Security Researcher (Returning)</title>
-    <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Security-Researcher--Returning-_JR-022677"/>
-    <updated>2026-10-16T11:24:47Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Office - USA - CA - Headquarters · Python, PyTorch, TensorFlow, scikit-learn, LLMs · status: closed</summary>
   </entry>
 </feed>
