@@ -110,7 +110,15 @@
       "workday:snc:/job/Lone-Tree-CO/IT-Service-Desk-Intern--Summer-2027-_R0031251",
       "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
       "workday:visa:/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1",
-      "workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2"
+      "workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2",
+      "amazon:amazon:10590368",
+      "lever:filevine:47d66dab-ae72-4256-90d3-8d9e82904370",
+      "lever:protective:0e76f3a3-6d77-4bca-88d8-f37092a94dc1",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "workday:gaig:/job/Cincinnati-OH-USA/Cloud-Data-Platform-Intern---Summer-2027_R9795",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "workday:leidos:/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00195538",
+      "workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Systems-Engineering-Intern---Aurora-CO_R10257892"
     ],
     "telegram": [
       "workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590",
@@ -222,7 +230,15 @@
       "workday:snc:/job/Lone-Tree-CO/IT-Service-Desk-Intern--Summer-2027-_R0031251",
       "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
       "workday:visa:/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1",
-      "workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2"
+      "workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2",
+      "amazon:amazon:10590368",
+      "lever:filevine:47d66dab-ae72-4256-90d3-8d9e82904370",
+      "lever:protective:0e76f3a3-6d77-4bca-88d8-f37092a94dc1",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "workday:gaig:/job/Cincinnati-OH-USA/Cloud-Data-Platform-Intern---Summer-2027_R9795",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "workday:leidos:/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00195538",
+      "workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Systems-Engineering-Intern---Aurora-CO_R10257892"
     ],
     "sms": [
       "workday:brookfield:/job/Chicago-Illinois/IT-Intern--Summer-Internship-6-7-2027---8-13-2027-_R2052380-1",
@@ -331,7 +347,15 @@
       "workday:snc:/job/Lone-Tree-CO/IT-Service-Desk-Intern--Summer-2027-_R0031251",
       "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
       "workday:visa:/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1",
-      "workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2"
+      "workday:visa:/job/US---Ashburn-VA/Network-and-Security-Engineering-Intern---2027--Ashburn--VA_REF089778W-2",
+      "amazon:amazon:10590368",
+      "lever:filevine:47d66dab-ae72-4256-90d3-8d9e82904370",
+      "lever:protective:0e76f3a3-6d77-4bca-88d8-f37092a94dc1",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "workday:gaig:/job/Cincinnati-OH-USA/Cloud-Data-Platform-Intern---Summer-2027_R9795",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "workday:leidos:/job/6314-RemoteTeleworker-US/SharePoint---Systems-Engineering-Intern_R-00195538",
+      "workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Systems-Engineering-Intern---Aurora-CO_R10257892"
     ]
   }
 }
