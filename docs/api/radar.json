@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T05:21:44Z",
- "data_as_of": "2026-10-28T05:21:44Z",
- "rendered_at": "2026-10-28T05:21:44Z",
+ "generated_at": "2026-10-28T12:50:13Z",
+ "data_as_of": "2026-10-28T12:50:13Z",
+ "rendered_at": "2026-10-28T12:50:13Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -253,25 +253,6 @@
    }
   },
   {
-   "company": "Conagra Brands",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-17",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-17",
-   "days_until": -72,
-   "status": "open",
-   "url": "https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-17"
-   }
-  },
-  {
    "company": "HD Supply",
    "last_cycle_posted": "",
    "posted_on": "2026-08-17",
@@ -358,7 +339,7 @@
    "expected": "2026-08-19",
    "days_until": -70,
    "status": "open",
-   "url": "https://armaninollp.wd1.myworkdayjobs.com/Armanino/job/Austin-Texas/Summer-2027---IT-Audit-Intern--Austin-_JR104221",
+   "url": "https://armaninollp.wd1.myworkdayjobs.com/Armanino/job/Denver-Colorado/Summer-2027-IT-Audit-Intern_JR104282",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2852,6 +2833,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-03"
+   }
+  },
+  {
+   "company": "Conagra Brands",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-17",
+   "days_until": -72,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-17"
    }
   },
   {
