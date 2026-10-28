@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-28T12:50:13Z</updated>
+  <updated>2026-10-28T18:43:41Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:bcbsri:/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477</id>
+    <title>Blue Cross and Blue Shield of Rhode Island: Intern - Business Systems Analyst</title>
+    <link href="https://bcbsri.wd1.myworkdayjobs.com/BCBSRICareers/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477"/>
+    <updated>2026-10-28T18:43:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Providence, RI · SQL, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Intuitive:744000158334809</id>
+    <title>Intuitive Surgical: System Engineer Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Intuitive/744000158334809"/>
+    <updated>2026-10-28T18:43:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Blacksburg, VA, United States · MATLAB · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1</id>
+    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1"/>
+    <updated>2026-10-28T18:43:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Denver, CO · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678</id>
+    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678"/>
+    <updated>2026-10-28T18:43:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Framingham, MA · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:snc:/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232</id>
+    <title>Sierra Nevada Corporation: Network Engineer Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232"/>
+    <updated>2026-10-28T18:43:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Network / Telecom · Hagerstown, MD · MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1</id>
     <title>Allegion: Summer Intern - Software Systems Engineering</title>
@@ -657,7 +697,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:emit.fa.ca3.oraclecloud.com:97816</id>
-    <title>WSP: Electrical Engineering Intern (Mission Critical/Data Center) - Fall 2026 - Spring 2027</title>
+    <title>WSP: Data Center Electrical Engineering Intern - Fall 2026 - Spring 2027</title>
     <link href="https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/97816"/>
     <updated>2026-10-19T20:52:13Z</updated>
     <category term="Fall 2026"/>
@@ -713,7 +753,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:emit.fa.ca3.oraclecloud.com:97070</id>
-    <title>WSP: Mechanical Engineering Intern (Mission Critical/Data Center) - Summer 2027</title>
+    <title>WSP: Data Center Mechanical Engineering Intern - Summer 2027</title>
     <link href="https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/97070"/>
     <updated>2026-10-16T21:06:33Z</updated>
     <category term="Summer 2027"/>
@@ -766,45 +806,5 @@
     <updated>2026-10-16T16:44:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · O'Fallon, Missouri · $25–$30/hr · Java, AWS, GCP, Azure, Kubernetes</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164416</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164416"/>
-    <updated>2026-10-16T00:04:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165496</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165496"/>
-    <updated>2026-10-16T00:04:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165506</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165506"/>
-    <updated>2026-10-16T00:04:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165586</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165586"/>
-    <updated>2026-10-16T00:04:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165636</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165636"/>
-    <updated>2026-10-16T00:04:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
   </entry>
 </feed>
