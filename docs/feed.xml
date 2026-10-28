@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-27T22:16:56Z</updated>
+  <updated>2026-10-28T05:21:44Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1</id>
-    <title>Hewlett Packard (HP): Cloud Engineering Intern - HP IQ</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1"/>
-    <updated>2026-10-27T22:16:56Z</updated>
-    <category term="Fall 2027"/>
-    <summary>Fall 2027 · Cloud Platform · San Francisco, California, United States of America · $45–$51/hr · Spring · status: closed</summary>
+    <id>urn:intern-engine:workday:avav:/job/Albuquerque-NM/Systems-Engineering-Intern---Space-Technologies_9250</id>
+    <title>Avav: Systems Engineering Intern - Space Technologies 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/Systems-Engineering-Intern---Space-Technologies_9250"/>
+    <updated>2026-10-28T05:21:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Albuquerque, NM · Python · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10590368</id>
@@ -54,6 +54,14 @@
     <updated>2026-10-27T22:16:56Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Cloud Platform · Cincinnati, OH (USA) · Python, SQL, Git, Snowflake · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1</id>
+    <title>Hewlett Packard (HP): Cloud Engineering Intern - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1"/>
+    <updated>2026-10-27T22:16:56Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Cloud Platform · San Francisco, California, United States of America · $45–$51/hr · Spring · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:edxn.fa.us2.oraclecloud.com:26173</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-15T21:29:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · Los Angeles, CA · $32–$46/hr · Python, C++, Rust, TypeScript, AWS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164196</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164196"/>
-    <updated>2026-10-16T04:19:17Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only · status: closed</summary>
   </entry>
 </feed>
