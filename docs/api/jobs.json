@@ -1,11 +1,34 @@
 {
- "generated_at": "2026-10-28T18:43:41Z",
- "data_as_of": "2026-10-28T18:43:41Z",
- "rendered_at": "2026-10-28T18:43:41Z",
+ "generated_at": "2026-10-28T23:07:01Z",
+ "data_as_of": "2026-10-28T23:07:01Z",
+ "rendered_at": "2026-10-28T23:07:01Z",
  "source": "https://github.com/gregpierre/secnet-internships",
  "h1b_window": "FY2022–2023",
- "count": 643,
+ "count": 642,
  "jobs": [
+  {
+   "id": "smartrecruiters:Intuitive:744000158334809",
+   "company": "Intuitive Surgical",
+   "title": "System Engineer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Systems & Cloud Infra",
+   "location": "Blacksburg, VA, United States",
+   "url": "https://jobs.smartrecruiters.com/Intuitive/744000158334809",
+   "posted_at": "2026-10-28T15:47:39.208Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-10-28T18:43:41Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "MATLAB"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": 14,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:bcbsri:/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477",
    "company": "Blue Cross and Blue Shield of Rhode Island",
@@ -27,29 +50,6 @@
    ],
    "source": "workday",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "smartrecruiters:Intuitive:744000158334809",
-   "company": "Intuitive Surgical",
-   "title": "System Engineer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Systems & Cloud Infra",
-   "location": "Blacksburg, VA, United States",
-   "url": "https://jobs.smartrecruiters.com/Intuitive/744000158334809",
-   "posted_at": "2026-10-28T15:47:39.208Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-10-28T18:43:41Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "MATLAB"
-   ],
-   "source": "smartrecruiters",
-   "h1b_approvals": 14,
    "program": "Internship",
    "remote": false
   },
@@ -96,7 +96,7 @@
    "remote": false
   },
   {
-   "id": "workday:moog:/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20920",
+   "id": "workday:moog:/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20918",
    "company": "Moog",
    "title": "Intern, Systems Engineering",
    "season": "Summer 2027",
@@ -104,7 +104,7 @@
    "season_inferred": false,
    "category": "Systems & Cloud Infra",
    "location": "Buffalo, NY",
-   "url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20920",
+   "url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20918",
    "posted_at": "2026-10-28T00:00:00Z",
    "posted_at_source": "date_only",
    "first_seen_at": "2026-10-28T18:43:41Z",
@@ -117,7 +117,7 @@
    "remote": false
   },
   {
-   "id": "workday:moog:/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20918",
+   "id": "workday:moog:/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20920",
    "company": "Moog",
    "title": "Intern, Systems Engineering",
    "season": "Summer 2027",
@@ -125,7 +125,7 @@
    "season_inferred": false,
    "category": "Systems & Cloud Infra",
    "location": "Buffalo, NY",
-   "url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20918",
+   "url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Systems-Engineering_R-26-20920",
    "posted_at": "2026-10-28T00:00:00Z",
    "posted_at_source": "date_only",
    "first_seen_at": "2026-10-28T18:43:41Z",
@@ -1456,30 +1456,6 @@
    ],
    "source": "amazon",
    "h1b_approvals": 23139,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:dtna:/job/Portland-OR-US/BEV-Systems-Engineering-Intern---Energy--Thermal---Analytics-Intern_DT-20328",
-   "company": "Daimler Truck",
-   "title": "BEV Systems Engineering Intern — Energy, Thermal & Analytics Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Systems & Cloud Infra",
-   "location": "Portland, OR US",
-   "url": "https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Portland-OR-US/BEV-Systems-Engineering-Intern---Energy--Thermal---Analytics-Intern_DT-20328",
-   "posted_at": "2026-10-21T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-10-22T00:29:26Z",
-   "sponsorship": "unknown",
-   "salary": "$21–$29/hr",
-   "skills": [
-    "Python",
-    "MATLAB"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },

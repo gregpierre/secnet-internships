@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-28T18:43:41Z</updated>
+  <updated>2026-10-28T23:07:01Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workday:bcbsri:/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477</id>
-    <title>Blue Cross and Blue Shield of Rhode Island: Intern - Business Systems Analyst</title>
-    <link href="https://bcbsri.wd1.myworkdayjobs.com/BCBSRICareers/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477"/>
-    <updated>2026-10-28T18:43:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Providence, RI · SQL, Azure</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Intuitive:744000158334809</id>
     <title>Intuitive Surgical: System Engineer Intern</title>
@@ -22,6 +14,14 @@
     <updated>2026-10-28T18:43:41Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Blacksburg, VA, United States · MATLAB · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bcbsri:/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477</id>
+    <title>Blue Cross and Blue Shield of Rhode Island: Intern - Business Systems Analyst</title>
+    <link href="https://bcbsri.wd1.myworkdayjobs.com/BCBSRICareers/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477"/>
+    <updated>2026-10-28T18:43:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Providence, RI · SQL, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1</id>
@@ -491,9 +491,9 @@
     <id>urn:intern-engine:workday:dtna:/job/Portland-OR-US/BEV-Systems-Engineering-Intern---Energy--Thermal---Analytics-Intern_DT-20328</id>
     <title>Daimler Truck: BEV Systems Engineering Intern — Energy, Thermal &amp; Analytics Intern</title>
     <link href="https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Portland-OR-US/BEV-Systems-Engineering-Intern---Energy--Thermal---Analytics-Intern_DT-20328"/>
-    <updated>2026-10-22T00:29:26Z</updated>
+    <updated>2026-10-28T23:07:01Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Portland, OR US · $21–$29/hr · Python, MATLAB</summary>
+    <summary>Not stated · Systems &amp; Cloud Infra · Portland, OR US · $21–$29/hr · Python, MATLAB · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:intel:/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588</id>
