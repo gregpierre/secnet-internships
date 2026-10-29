@@ -130,7 +130,12 @@
       "workday:snc:/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232",
       "ashby:allen-control-systems:9945f76d-6d03-45f0-b431-fc69d31f5476",
       "greenhouse:figma:6238015004",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Space-Communications-and-Network-Systems-Undergrad-Intern_R017064"
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Space-Communications-and-Network-Systems-Undergrad-Intern_R017064",
+      "ashby:base-power:8397f115-7806-4911-a12b-6231852c3443",
+      "workday:boseallaboutme:/job/US-MI---Bloomfield-Hills/Acoustic-Systems-Engineering-Co-op_R29347",
+      "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918",
+      "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
+      "greenhouse:stratolaunch:5466978008"
     ],
     "telegram": [
       "workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590",
@@ -262,7 +267,12 @@
       "workday:snc:/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232",
       "ashby:allen-control-systems:9945f76d-6d03-45f0-b431-fc69d31f5476",
       "greenhouse:figma:6238015004",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Space-Communications-and-Network-Systems-Undergrad-Intern_R017064"
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Space-Communications-and-Network-Systems-Undergrad-Intern_R017064",
+      "ashby:base-power:8397f115-7806-4911-a12b-6231852c3443",
+      "workday:boseallaboutme:/job/US-MI---Bloomfield-Hills/Acoustic-Systems-Engineering-Co-op_R29347",
+      "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918",
+      "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
+      "greenhouse:stratolaunch:5466978008"
     ],
     "sms": [
       "workday:brookfield:/job/Chicago-Illinois/IT-Intern--Summer-Internship-6-7-2027---8-13-2027-_R2052380-1",
@@ -391,7 +401,12 @@
       "workday:snc:/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232",
       "ashby:allen-control-systems:9945f76d-6d03-45f0-b431-fc69d31f5476",
       "greenhouse:figma:6238015004",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Space-Communications-and-Network-Systems-Undergrad-Intern_R017064"
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Space-Communications-and-Network-Systems-Undergrad-Intern_R017064",
+      "ashby:base-power:8397f115-7806-4911-a12b-6231852c3443",
+      "workday:boseallaboutme:/job/US-MI---Bloomfield-Hills/Acoustic-Systems-Engineering-Co-op_R29347",
+      "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918",
+      "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
+      "greenhouse:stratolaunch:5466978008"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T13:01:33Z",
- "data_as_of": "2026-10-29T13:01:33Z",
- "rendered_at": "2026-10-29T13:01:34Z",
+ "generated_at": "2026-10-29T20:26:16Z",
+ "data_as_of": "2026-10-29T20:26:16Z",
+ "rendered_at": "2026-10-29T20:26:16Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -2837,6 +2837,25 @@
    }
   },
   {
+   "company": "Stratolaunch",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-29",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/stratolaunch/jobs/5466978008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-29"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -3330,5 +3349,5 @@
    }
   }
  ],
- "count": 175
+ "count": 176
 }
