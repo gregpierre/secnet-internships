@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-29T05:34:01Z</updated>
+  <updated>2026-10-29T13:01:33Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Product-Security-Intern---HP-IQ_UNI4810-2</id>
-    <title>Hewlett Packard (HP): Software Product Security Intern - HP IQ</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Product-Security-Intern---HP-IQ_UNI4810-2"/>
-    <updated>2026-10-29T05:34:01Z</updated>
-    <category term="Fall 2027"/>
-    <summary>Fall 2027 · AppSec / Product Sec · San Francisco, California, United States of America · $40–$50/hr · Python, Java, C++ · status: closed</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:figma:6238015004</id>
     <title>Figma: PhD Intern, Security Engineer (2027)</title>
@@ -30,6 +22,14 @@
     <updated>2026-10-29T05:34:01Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Network / Telecom · El Segundo, CA · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Product-Security-Intern---HP-IQ_UNI4810-2</id>
+    <title>Hewlett Packard (HP): Software Product Security Intern - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Product-Security-Intern---HP-IQ_UNI4810-2"/>
+    <updated>2026-10-29T05:34:01Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · AppSec / Product Sec · San Francisco, California, United States of America · $40–$50/hr · Python, Java, C++ · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Intuitive:744000158334809</id>
@@ -243,9 +243,9 @@
     <id>urn:intern-engine:ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0</id>
     <title>Aurora Innovation: Data &amp; ML Platform Engineering Intern</title>
     <link href="https://jobs.ashbyhq.com/aurora-operations-inc/da4c8e2e-0571-4503-94d9-234da86f83b0"/>
-    <updated>2026-10-27T00:36:46Z</updated>
+    <updated>2026-10-29T13:01:33Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $52/hr · Python, Go, AWS, GCP · H-1B track record: ~163 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $52/hr · Python, Go, AWS, GCP · status: closed · H-1B track record: ~163 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:lilasciences:4462594009</id>
