@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T18:12:32Z",
- "data_as_of": "2026-10-30T18:12:32Z",
- "rendered_at": "2026-10-30T18:12:33Z",
+ "generated_at": "2026-10-30T22:26:59Z",
+ "data_as_of": "2026-10-30T22:26:59Z",
+ "rendered_at": "2026-10-30T22:26:59Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -706,25 +706,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-28"
-   }
-  },
-  {
-   "company": "Equifax",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-30",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-30",
-   "days_until": -61,
-   "status": "open",
-   "url": "https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-30"
    }
   },
   {
@@ -2837,6 +2818,25 @@
    }
   },
   {
+   "company": "Garda Capital Partners",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-30",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/6239821004",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-30"
+   }
+  },
+  {
    "company": "GCM Grosvenor",
    "last_cycle_posted": "",
    "posted_on": "2026-10-30",
@@ -2848,6 +2848,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8035929003",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-30"
+   }
+  },
+  {
+   "company": "Molina Healthcare",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-30",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040172",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2989,6 +3008,25 @@
   },
   {
    "company": "Brookfield Properties",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-30",
+   "days_until": -61,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-30"
+   }
+  },
+  {
+   "company": "Equifax",
    "last_cycle_posted": "",
    "posted_on": "2026-08-30",
    "precision": "day",
@@ -3368,5 +3406,5 @@
    }
   }
  ],
- "count": 177
+ "count": 179
 }
