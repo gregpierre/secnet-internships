@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-10-29T20:26:16Z</updated>
+  <updated>2026-10-30T01:00:45Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:internrecruiting:8310712</id>
+    <title>Internrecruiting: Cloud Engineer Co-op</title>
+    <link href="https://job-boards.greenhouse.io/internrecruiting/jobs/8310712"/>
+    <updated>2026-10-30T01:00:45Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Cloud Platform · Wakefield, MA (Hybrid) · SQL, AWS, Azure, Terraform · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10593054</id>
+    <title>Amazon: Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast</title>
+    <link href="https://www.amazon.jobs/en/jobs/10593054/data-center-infrastructure-engineer-intern-summer-2027-midwest-southeast"/>
+    <updated>2026-10-30T01:00:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Austin, Texas, USA · AWS · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000158620079</id>
+    <title>Bosch: IT Systems Engineering Intern (19 hours per week)</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000158620079"/>
+    <updated>2026-10-30T01:00:45Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Roseville, CA, United States · $24–$27/hr · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hcsc:/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508</id>
+    <title>HCSC: Early Careers - Cybersecurity Operations Intern 🛂</title>
+    <link href="https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508"/>
+    <updated>2026-10-30T01:00:45Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · IL - Chicago · Python, Linux · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Systems-Engineering-Intern---Boulder-CO_R10258456-1</id>
+    <title>Northrop Grumman: 2027 Systems Engineering Intern - Boulder CO 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Systems-Engineering-Intern---Boulder-CO_R10258456-1"/>
+    <updated>2026-10-30T01:00:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Colorado-Boulder · $21.5–$39/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/Program-Finance-Systems-Analyst-Intern--Summer-2027-_R0031193</id>
+    <title>Sierra Nevada Corporation: Program Finance Systems Analyst Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Program-Finance-Systems-Analyst-Intern--Summer-2027-_R0031193"/>
+    <updated>2026-10-30T01:00:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Lone Tree, CO · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:base-power:8397f115-7806-4911-a12b-6231852c3443</id>
     <title>Base Power: Power Systems Engineering Intern</title>
@@ -14,6 +62,14 @@
     <updated>2026-10-29T20:26:15Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Austin, TX · Python, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:stratolaunch:5466978008</id>
+    <title>Stratolaunch: Security Intern- Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/stratolaunch/jobs/5466978008"/>
+    <updated>2026-10-29T20:26:15Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Mojave, California, United States · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:boseallaboutme:/job/US-MI---Bloomfield-Hills/Acoustic-Systems-Engineering-Co-op_R29347</id>
@@ -24,14 +80,6 @@
     <summary>Not stated · Systems &amp; Cloud Infra · US, MI - Bloomfield Hills · $29–$37.25/hr · MATLAB · H-1B track record: ~61 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918</id>
-    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 Summer Enterprise IT Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918"/>
-    <updated>2026-10-29T20:26:15Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Other · USA LA Bossier City · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826</id>
     <title>Great American Insurance Company: DevOps Developer Intern - Summer 2027</title>
     <link href="https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826"/>
@@ -40,12 +88,12 @@
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Cincinnati, OH (USA) · Python, Java, Kotlin · H-1B track record: ~35 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:stratolaunch:5466978008</id>
-    <title>Stratolaunch: Security Intern- Summer 2027 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/stratolaunch/jobs/5466978008"/>
+    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918</id>
+    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 Summer Enterprise IT Internship 🇺🇸</title>
+    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Summer-Enterprise-IT-Internship_RQ230918"/>
     <updated>2026-10-29T20:26:15Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Mojave, California, United States · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Other · USA LA Bossier City · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:figma:6238015004</id>
@@ -758,53 +806,5 @@
     <updated>2026-10-19T20:52:13Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · IT Support / Ops · Wakefield, MA · SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:emit.fa.ca3.oraclecloud.com:97816</id>
-    <title>WSP: Data Center Electrical Engineering Intern - Fall 2026 - Spring 2027</title>
-    <link href="https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/97816"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Systems &amp; Cloud Infra · New York, NY, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000156323136</id>
-    <title>Bosch: AI Research Intern: Wireless Foundation Models</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000156323136"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Network / Telecom · Pittsburgh, PA, United States · Python, PyTorch · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generac:/job/USA---CO-Fort-Collins/Micro-Grid-Systems-Engineering-Summer-Intern_JR17432</id>
-    <title>Generac: Micro-Grid Systems Engineering Summer Intern</title>
-    <link href="https://generac.wd5.myworkdayjobs.com/external/job/USA---CO-Fort-Collins/Micro-Grid-Systems-Engineering-Summer-Intern_JR17432"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · USA - CO Fort Collins</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gfs:/job/Wyoming-Michigan/Store-Administrative-Support-Internship_R-57416</id>
-    <title>Gordon Food Service: Retail IT Support Internship</title>
-    <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Store-Administrative-Support-Internship_R-57416"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Wyoming, Michigan · Linux · H-1B track record: ~21 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051</id>
-    <title>GlobalFoundries: AI/ML Systems Engineering Intern (Summer 2027)</title>
-    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · USA - Texas - Richardson · Python, PyTorch, TensorFlow, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/RF-Engineer-Intern_R0031110</id>
-    <title>Sierra Nevada Corporation: RF Engineer Intern 🇺🇸</title>
-    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/RF-Engineer-Intern_R0031110"/>
-    <updated>2026-10-19T20:52:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Network / Telecom · Lone Tree, CO · MATLAB · sponsorship: citizens-only</summary>
   </entry>
 </feed>
