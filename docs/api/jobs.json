@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-31T12:20:10Z",
- "data_as_of": "2026-10-31T12:20:10Z",
- "rendered_at": "2026-10-31T12:20:10Z",
+ "generated_at": "2026-10-31T17:19:57Z",
+ "data_as_of": "2026-10-31T17:19:57Z",
+ "rendered_at": "2026-10-31T17:19:57Z",
  "source": "https://github.com/gregpierre/secnet-internships",
  "h1b_window": "FY2022–2023",
- "count": 660,
+ "count": 658,
  "jobs": [
   {
    "id": "lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d",
@@ -2267,27 +2267,6 @@
    "remote": false
   },
   {
-   "id": "workday:dukeenergy:/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-   "company": "Duke Energy",
-   "title": "Nuclear Cybersecurity 2027 Summer Internship",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Security (general)",
-   "location": "Hartsville, SC",
-   "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-   "posted_at": "2026-10-21T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-10-21T17:17:34Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "workday:leidos:/job/6314-RemoteTeleworker-US/Network-Site-Design-Intern_R-00195057",
    "company": "Leidos",
    "title": "Network Site Design Intern",
@@ -2650,27 +2629,6 @@
    "skills": [
     "LLMs"
    ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:archgroup:/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016",
-   "company": "Arch Capital Group",
-   "title": "Security Operations Intern",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "SOC / Detection",
-   "location": "Greensboro, NC United States of America",
-   "url": "https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016",
-   "posted_at": "2026-10-19T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-10-25T20:58:43Z",
-   "sponsorship": "unknown",
-   "salary": "$26/hr",
-   "skills": [],
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
