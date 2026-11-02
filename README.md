@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/gregpierre/secnet-internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/gregpierre/secnet-internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fgregpierre.github.io%2Fsecnet-internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://gregpierre.github.io/secnet-internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%203%20hours-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://gregpierre.github.io/secnet-internships/feed.xml)
 
-### 650 open roles (498 listed below) · 78 new this week
+### 653 open roles (498 listed below) · 81 new this week
 
-4,770 employers tracked · data as of Nov 02, 2026 at 05:43 UTC
+4,770 employers tracked · data as of Nov 02, 2026 at 15:41 UTC
 
-_489 have a cycle the employer stated · 161 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_492 have a cycle the employer stated · 161 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://gregpierre.github.io/secnet-internships/)** · **[📡 RSS](https://gregpierre.github.io/secnet-internships/feed.xml)** · **[⚙️ JSON API](https://gregpierre.github.io/secnet-internships/api/jobs.json)**
 
@@ -69,10 +69,12 @@ This tracks security and networking internships specifically, because the major 
 
 ## 🔐 Security
 
-### Summer 2027  (98 employer-stated)
+### Summer 2027  (97 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Great American Insurance Company ✓ | Risk and Compliance Intern - Summer 2027 🆕 | GRC / Risk | Cincinnati, OH (USA) | Tableau | Nov 02, 2026 | [Apply](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Risk-and-Compliance-Intern---Summer-2027_R9830) |
+| The Federal Reserve System | 2027 Summer Internship Program - Supervision & Regulation (Cybersecurity) 🇺🇸 🆕 | Security (general) | Atlanta, GA | No skills listed | Nov 02, 2026 | [Apply](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Cybersecurity-_R-0000033866) |
 | Tevora | Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC) | SOC / Detection | Irvine, CA | No skills listed | Oct 31, 2026 | [Apply](https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c) |
 | Tevora | Cybersecurity Internship Summer 2027 - Threat | SOC / Detection | Irvine, CA | No skills listed | Oct 31, 2026 | [Apply](https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758) |
 | Tevora | Cybersecurity Internship Summer 2027 - International Organization for Standardization (ISO) | Security (general) | Irvine, CA | No skills listed | Oct 31, 2026 | [Apply](https://jobs.lever.co/tevora/648630ae-0dce-4b80-af2b-911c2c8f159c) |
@@ -168,9 +170,6 @@ This tracks security and networking internships specifically, because the major 
 | AbbVie ✓ | 2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate) _(3 openings)_ | Security (general) | North Chicago +2 more | Python, Java, C#, JavaScript | Aug 27, 2026 | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014896329) [#2](https://jobs.smartrecruiters.com/AbbVie/3743990015679246) [#3](https://jobs.smartrecruiters.com/AbbVie/3743990016414086) |
 | AbbVie ✓ | 2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate) | Security (general) | Irvine, CA, United States (Hybrid) | Python, Java, C#, JavaScript | Aug 27, 2026 | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014900496) |
 | AbbVie ✓ | 2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate) | Security (general) | South San Francisco +2 more | Python, Java, C#, JavaScript | Aug 27, 2026 | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014900536) |
-| Air Products | Summer Intern- IT & Cyber Audit (2027) | Security (general) | Allentown, Pennsylvania | No skills listed | Aug 27, 2026 | [Apply](https://airproducts.wd5.myworkdayjobs.com/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954) |
-| Leidos ✓ | Cybersecurity Analyst Intern 🇺🇸 | Security (general) | Alexandria, VA | No skills listed | Aug 26, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671) |
-| Leidos ✓ | Cybersecurity Analyst Intern 🇺🇸 | Security (general) | Odenton, MD | Python, Bash, Linux | Aug 26, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663) |
 
 ### Fall 2026  (6 employer-stated)
 
@@ -239,10 +238,11 @@ These postings never name a cycle, not in the title and not in the posting text,
 
 ## 🌐 Network & Infrastructure
 
-### Summer 2027  (205 employer-stated)
+### Summer 2027  (206 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| TIAA | 2027 Intern, Energy Infrastructure Credit 🆕 | Systems & Cloud Infra | New York, NY - 730 Third Avenue | No skills listed | Nov 02, 2026 | [Apply](https://tiaa.wd1.myworkdayjobs.com/Search/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1) |
 | Philips | Intern - Systems Engineer – New Kensington, PA – Summer 2027 | Systems & Cloud Infra | New Kensington +2 more | No skills listed | Oct 30, 2026 | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/New-Kensington-Pennsylvania-United-States/Intern---Systems-Engineer---New-Kensington--PA---Summer-2027_592850) |
 | Garda Capital Partners | Infrastructure Engineer Intern | Systems & Cloud Infra | Wayzata, Minnesota, United States | Python, AWS, Azure, Terraform | Oct 30, 2026 | [Apply](https://job-boards.greenhouse.io/gardacp/jobs/6239821004) |
 | RTX | Systems Engineer Intern (Summer 2027)  - Tac Comm - Onsite 🇺🇸 | Systems & Cloud Infra | US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE… | Python, MATLAB | Oct 30, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineer-Intern--Summer-2027-----Tac-Comm---Onsite_01886283) |
@@ -628,7 +628,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | 🎯 Conagra Brands | Aug 17 | dropped Aug 17 · closed | 🗓️ dropped |
 | 🎯 Continental Resources | Aug 18 | dropped Aug 18 · closed | 🗓️ dropped |
 
-_181 companies on the [full radar](https://gregpierre.github.io/secnet-internships/#radar). **181** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_182 companies on the [full radar](https://gregpierre.github.io/secnet-internships/#radar). **182** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong>: 40 roles that left the list in the last 14 days</summary>
@@ -695,7 +695,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,675 of 5,055 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 92% of the full registry) · completed in 951.6s · 652 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,636 of 5,055 registered boards returned successfully across 12 ATS platforms (94% of boards attempted, 91% of the full registry) · completed in 1231.9s · 659 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
