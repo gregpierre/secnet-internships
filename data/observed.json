@@ -1339,6 +1339,18 @@
     }
    }
   },
+  "id me": {
+   "name": "ID.me",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "greenhouse:idmeuniversityrecruiting:8076649003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "illumio": {
    "name": "Illumio",
    "cycles": {
@@ -1423,6 +1435,18 @@
       "workday:jabil:/job/St-PetersburgTampa-FL/IT-Audit-Intern_J2468699"
      ],
      "count": 2
+    }
+   }
+  },
+  "jm family": {
+   "name": "JM Family",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164"
+     ],
+     "count": 1
     }
    }
   },
@@ -1793,9 +1817,10 @@
       "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R68801",
       "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R69140",
       "workday:motorolasolutions:/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640",
+      "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779"
      ],
-     "count": 11
+     "count": 12
     }
    }
   },
@@ -2239,9 +2264,10 @@
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0030750",
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0031166-1",
       "workday:snc:/job/Lone-Tree-CO/Systems-Engineering-Intern--Summer-2027-_R0031180",
-      "workday:snc:/job/Plano-TX/Systems-Engineering-Intern--Summer-2027-_R0030752"
+      "workday:snc:/job/Plano-TX/Systems-Engineering-Intern--Summer-2027-_R0030752",
+      "workday:snc:/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1"
      ],
-     "count": 15
+     "count": 16
     },
     "Fall 2026": {
      "first_posted": "2026-09-23",
@@ -2721,5 +2747,5 @@
    }
   }
  },
- "updated_at": "2026-11-02T15:41:37Z"
+ "updated_at": "2026-11-02T23:26:54Z"
 }

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-02T15:41:37Z",
- "data_as_of": "2026-11-02T15:41:37Z",
- "rendered_at": "2026-11-02T15:41:37Z",
+ "generated_at": "2026-11-02T23:26:54Z",
+ "data_as_of": "2026-11-02T23:26:54Z",
+ "rendered_at": "2026-11-02T23:26:54Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -2068,7 +2068,7 @@
    "expected": "2026-10-01",
    "days_until": -32,
    "status": "open",
-   "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614",
+   "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Cybersecurity-_R-0000033866",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2818,6 +2818,44 @@
    }
   },
   {
+   "company": "ID.me",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/8076649003",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
+   }
+  },
+  {
+   "company": "JM Family",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
+   }
+  },
+  {
    "company": "TIAA",
    "last_cycle_posted": "",
    "posted_on": "2026-11-02",
@@ -3462,5 +3500,5 @@
    }
   }
  ],
- "count": 182
+ "count": 184
 }
