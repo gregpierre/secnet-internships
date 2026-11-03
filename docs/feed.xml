@@ -5,15 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-02T23:26:54Z</updated>
+  <updated>2026-11-03T06:24:17Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:bannerhealth:/job/Remote-Arizona/IT-Intern_R4449625</id>
-    <title>Banner Health: IT Intern</title>
-    <link href="https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Remote-Arizona/IT-Intern_R4449625"/>
-    <updated>2026-11-02T23:26:54Z</updated>
+    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469</id>
+    <title>Micron Technology: Intern - System Engineer, HBM</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469"/>
+    <updated>2026-11-03T06:24:17Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Remote Arizona · $17.5/hr · H-1B track record: ~20 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Systems &amp; Cloud Infra · Boise, ID - Main Site · Python, C++, LLMs, Linux, Verilog · H-1B track record: ~489 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rocketlab:8042092003</id>
+    <title>Rocket Lab: Ground Systems Engineering Intern Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/rocketlab/jobs/8042092003"/>
+    <updated>2026-11-03T06:24:17Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Middle River, MD · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:8076649003</id>
@@ -24,12 +32,20 @@
     <summary>Summer 2027 · AppSec / Product Sec · Mountain View, CA · Linux, Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:jmfamily:/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164</id>
-    <title>JM Family: Offensive Security Intern</title>
-    <link href="https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164"/>
+    <id>urn:intern-engine:greenhouse:systemstechnologyresearch:4726405006</id>
+    <title>STR: 5G SA O-RAN Test Bed Co-Op (Engineering Co-Op) 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4726405006"/>
     <updated>2026-11-02T23:26:54Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · AppSec / Product Sec · Florida - Deerfield Beach</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Network / Telecom · Woburn, MA · $25.2–$54/hr · Python, Bash, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bannerhealth:/job/Remote-Arizona/IT-Intern_R4449625</id>
+    <title>Banner Health: IT Intern</title>
+    <link href="https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Remote-Arizona/IT-Intern_R4449625"/>
+    <updated>2026-11-02T23:26:54Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · Remote Arizona · $17.5/hr · H-1B track record: ~20 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jci:/job/Glendale-Wisconsin-United-States-of-America/HVAC-Control-Systems-Engineering-Intern_WD30282523</id>
@@ -38,6 +54,14 @@
     <updated>2026-11-02T23:26:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Glendale-Wisconsin-United States of America · $22–$25.5/hr · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jmfamily:/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164</id>
+    <title>JM Family: Offensive Security Intern</title>
+    <link href="https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164"/>
+    <updated>2026-11-02T23:26:54Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · AppSec / Product Sec · Florida - Deerfield Beach</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:massgeneralbrigham:/job/Boston-MA/Co-op-Security_RQ4085104</id>
@@ -62,14 +86,6 @@
     <updated>2026-11-02T23:26:54Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Southern Pines, NC · Python, Java, C++, C#, Azure · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:systemstechnologyresearch:4726405006</id>
-    <title>STR: 5G SA O-RAN Test Bed Co-Op (Engineering Co-Op) 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4726405006"/>
-    <updated>2026-11-02T23:26:54Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Network / Telecom · Woburn, MA · $25.2–$54/hr · Python, Bash, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:valmont:/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223</id>
@@ -587,9 +603,9 @@
     <id>urn:intern-engine:ashby:aurora-operations-inc:058e3b3a-dd13-4736-84a8-b19d5de2c9f5</id>
     <title>Aurora Innovation: Safety &amp; Systems Engineering Intern</title>
     <link href="https://jobs.ashbyhq.com/aurora-operations-inc/058e3b3a-dd13-4736-84a8-b19d5de2c9f5"/>
-    <updated>2026-10-31T12:20:10Z</updated>
+    <updated>2026-10-27T00:36:46Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $58/hr · Python, C++ · status: closed · H-1B track record: ~163 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $58/hr · Python, C++ · H-1B track record: ~163 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-22T21:41:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · Arlington, Virginia, USA · AWS, Python, Java, C++, Go · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016356816</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Business Systems Analyst Undergraduate Intern - 2027</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016356816"/>
-    <updated>2026-10-22T21:41:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Livermore, CA, United States (Hybrid)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Huntsville-AL/Missile-Systems-Engineer-Intern_R-00195265</id>
-    <title>Leidos: Missile Systems Engineer Intern 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Missile-Systems-Engineer-Intern_R-00195265"/>
-    <updated>2026-10-22T21:41:59Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Systems &amp; Cloud Infra · Huntsville, AL · sponsorship: citizens-only · status: closed · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
