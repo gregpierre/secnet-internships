@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-03T06:24:17Z</updated>
+  <updated>2026-11-03T14:18:10Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469</id>
-    <title>Micron Technology: Intern - System Engineer, HBM</title>
-    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469"/>
-    <updated>2026-11-03T06:24:17Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Boise, ID - Main Site · Python, C++, LLMs, Linux, Verilog · H-1B track record: ~489 approvals (FY2022–2023)</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:rocketlab:8042092003</id>
     <title>Rocket Lab: Ground Systems Engineering Intern Summer 2027 🇺🇸</title>
@@ -22,6 +14,14 @@
     <updated>2026-11-03T06:24:17Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Middle River, MD · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469</id>
+    <title>Micron Technology: Intern - System Engineer, HBM</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469"/>
+    <updated>2026-11-03T06:24:17Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Boise, ID - Main Site · Python, C++, LLMs, Linux, Verilog · H-1B track record: ~489 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:8076649003</id>
