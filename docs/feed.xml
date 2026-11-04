@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-04T01:27:55Z</updated>
+  <updated>2026-11-04T10:58:05Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:archgroup:/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135</id>
+    <title>Arch Capital Group: Originations Portal IT Intern</title>
+    <link href="https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · IT Support / Ops · Greensboro, NC United States of America · Java, JavaScript, SQL, Angular, HTML/CSS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:stratolaunch:5471933008</id>
+    <title>Stratolaunch: IT Intern- Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/stratolaunch/jobs/5471933008"/>
+    <updated>2026-11-04T01:27:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · IT Support / Ops · Mojave, California, United States · Python · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:daikinapplied:/job/Plymouth-MN-55441/Systems-Engineering-and-Modular-Architecture-Intern_R004495</id>
     <title>Daikin Applied: Systems Engineering and Modular Architecture Intern</title>
@@ -30,14 +46,6 @@
     <updated>2026-11-04T01:27:55Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Systems &amp; Cloud Infra · United States-Arizona-Chandler · $17.75–$32.75/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:stratolaunch:5471933008</id>
-    <title>Stratolaunch: IT Intern- Summer 2027 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/stratolaunch/jobs/5471933008"/>
-    <updated>2026-11-04T01:27:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · IT Support / Ops · Mojave, California, United States · Python · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:knowbe4:8928056002</id>
@@ -67,9 +75,9 @@
     <id>urn:intern-engine:workday:cnoinc:/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419</id>
     <title>CNO Financial Group: Cyber Security IT Intern - REMOTE</title>
     <link href="https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419"/>
-    <updated>2026-11-03T21:11:52Z</updated>
+    <updated>2026-11-04T10:58:05Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Carmel, IN · Python</summary>
+    <summary>Summer 2027 · Security (general) · Carmel, IN · Python · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:snc:/job/Vandalia-OH/IT-Support-Technician-Intern_R0031330</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-26T20:42:40Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Brentwood, TN, More... · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:motorolasolutions:/job/Chicago-IL/COEE-Presales-System-Engineer--2027-Internship-_R68359</id>
-    <title>Motorola: COEE Presales System Engineer (2027 Internship)</title>
-    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/COEE-Presales-System-Engineer--2027-Internship-_R68359"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Chicago, IL</summary>
   </entry>
 </feed>

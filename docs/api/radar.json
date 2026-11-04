@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-04T01:27:55Z",
- "data_as_of": "2026-11-04T01:27:55Z",
- "rendered_at": "2026-11-04T01:27:55Z",
+ "generated_at": "2026-11-04T10:58:05Z",
+ "data_as_of": "2026-11-04T10:58:05Z",
+ "rendered_at": "2026-11-04T10:58:05Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -79,25 +79,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-27"
-   }
-  },
-  {
-   "company": "CNO Financial Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-03",
-   "days_until": -93,
-   "status": "open",
-   "url": "https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-03"
    }
   },
   {
@@ -2514,6 +2495,25 @@
    }
   },
   {
+   "company": "Arch Capital Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-19",
+   "days_until": -16,
+   "status": "open",
+   "url": "https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-19"
+   }
+  },
+  {
    "company": "Generac",
    "last_cycle_posted": "",
    "posted_on": "2026-10-19",
@@ -2984,6 +2984,25 @@
    "provenance": {
     "type": "live-role",
     "url": "https://ats.rippling.com/omnis-corporation/jobs/c534b2ba-a409-4c26-bb92-704e48fccb63"
+   }
+  },
+  {
+   "company": "CNO Financial Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": -93,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-03"
    }
   },
   {
@@ -3535,25 +3554,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-02"
-   }
-  },
-  {
-   "company": "Arch Capital Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-19",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-19",
-   "days_until": -16,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-19"
    }
   }
  ],
