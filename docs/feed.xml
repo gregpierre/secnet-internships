@@ -5,8 +5,96 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-04T10:58:05Z</updated>
+  <updated>2026-11-04T19:54:12Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178</id>
+    <title>Northrop Grumman: 2027 DevOps Software Engineering Intern - Roy UT 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178"/>
+    <updated>2026-11-04T19:54:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177</id>
+    <title>Northrop Grumman: 2027 Cybersecurity Software Engineering Intern - Roy UT 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177"/>
+    <updated>2026-11-04T19:54:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · United States-Utah-Clearfield · $23–$29/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ryder:/job/USA---Coral-Gables-FL-HQ/IT-Internship---Summer-2027_R188357</id>
+    <title>Ryder System: IT Internship - Summer 2027</title>
+    <link href="https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Coral-Gables-FL-HQ/IT-Internship---Summer-2027_R188357"/>
+    <updated>2026-11-04T19:54:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Other · USA - Coral Gables FL HQ · $25/hr · H-1B track record: ~58 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1</id>
+    <title>Saab: Co-Op, Information Security (Spring - Summer 2027) 🇺🇸</title>
+    <link href="https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1"/>
+    <updated>2026-11-04T19:54:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · East Syracuse, NY (Collamer) · $18.24–$20.27/hr · Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:zebra:/job/Germantown-Maryland/XMLNAME-2027-Summer-Internship--US----Systems-Engineer_JR103659</id>
+    <title>Zebra Technologies: 2027 Summer Internship (US) - Systems Engineer 🛂</title>
+    <link href="https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Germantown-Maryland/XMLNAME-2027-Summer-Internship--US----Systems-Engineer_JR103659"/>
+    <updated>2026-11-04T19:54:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Germantown, Maryland · $33–$40.5/hr · Python, C++, SQL, LLMs, GCP · sponsorship: no-sponsorship · H-1B track record: ~126 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610101</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016610101"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610186</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016610186"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610216</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016610216"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610426</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016610426"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610436</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016610436"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610446</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016610446"/>
+    <updated>2026-11-04T10:58:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:archgroup:/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135</id>
     <title>Arch Capital Group: Originations Portal IT Intern</title>
@@ -323,9 +411,9 @@
     <id>urn:intern-engine:greenhouse:ensco:5467125008</id>
     <title>ENSCO: Information Security Intern 🇺🇸</title>
     <link href="https://job-boards.greenhouse.io/ensco/jobs/5467125008"/>
-    <updated>2026-11-04T01:27:55Z</updated>
+    <updated>2026-10-30T18:12:32Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Melbourne, Florida, United States · Python · sponsorship: citizens-only · status: closed</summary>
+    <summary>Not stated · Security (general) · Melbourne, Florida, United States · Python · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gcmgrosvenor:8035929003</id>
@@ -718,93 +806,5 @@
     <updated>2026-10-27T00:36:46Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · Boca Raton, FL, United States · sponsorship: no-sponsorship · H-1B track record: ~39 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342</id>
-    <title>Booz Allen: University - 2027 Summer Games, Systems Engineer Intern - Dayton, OH 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342"/>
-    <updated>2026-10-27T00:36:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Dayton, OH · $108k/yr · Python, Java, C++, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb</id>
-    <title>Skydio: Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ)</title>
-    <link href="https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · San Mateo, California, United States · $47/hr · Python, C++, TypeScript, Computer Vision, React · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:analogdevices:/job/US-MA-Boston/DevOps-Co-Op_R267690</id>
-    <title>Analog Devices: DevOps Co-Op</title>
-    <link href="https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/DevOps-Co-Op_R267690"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · US, MA, Boston · Python, C++, Rust, TypeScript, JavaScript · H-1B track record: ~181 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Albuquerque-NM/University---2027-Summer-Games--Systems-Engineer-Intern---Albuquerque--NM_R0252337</id>
-    <title>Booz Allen: University - 2027 Summer Games, Systems Engineer Intern - Albuquerque, NM 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Albuquerque-NM/University---2027-Summer-Games--Systems-Engineer-Intern---Albuquerque--NM_R0252337"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Albuquerque, NM · $108k/yr · Python, Java, C++, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Detroit-MI/University---2027-Summer-Games--Systems-Engineer-Intern---Royal-Oaks--MI_R0252341</id>
-    <title>Booz Allen: University - 2027 Summer Games, Systems Engineer Intern - Royal Oaks, MI 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games--Systems-Engineer-Intern---Royal-Oaks--MI_R0252341"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Detroit, MI · $108k/yr · Python, Java, C++, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278</id>
-    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Lexington, MA 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Lexington, MA · $108k/yr · Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Systems-Engineer-Intern---Lexington--MA_R0252273</id>
-    <title>Booz Allen: University - 2027 Summer Games Systems Engineer Intern - Lexington, MA 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Systems-Engineer-Intern---Lexington--MA_R0252273"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Lexington, MA · $108k/yr · Python, Java, C++, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801</id>
-    <title>Highmark Health: Summer 2027 Epic Systems Analyst / Epic AI enGen Undergraduate Internship 🛂</title>
-    <link href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Pittsburgh PA, 15222, PAP, Penn Avenue Place · sponsorship: no-sponsorship · H-1B track record: ~92 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:manh:/job/Atlanta-GA/Cloud-Intern_16992</id>
-    <title>Manhattan Associates: Cloud Intern</title>
-    <link href="https://manh.wd5.myworkdayjobs.com/campus/job/Atlanta-GA/Cloud-Intern_16992"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Cloud Platform · Atlanta, GA · SQL, AWS, GCP, Azure · status: closed · H-1B track record: ~153 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:motorolasolutions:/job/Allen-TX-TX139/Presales-Systems-Engineer---Summer-2027-Internship_R69875</id>
-    <title>Motorola: Presales Systems Engineer - Summer 2027 Internship 🛂</title>
-    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Systems-Engineer---Summer-2027-Internship_R69875"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Allen, TX (TX139), More... · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:motorolasolutions:/job/Brentwood-TN/Presales-Systems-Engineer---Summer-2027_R70006</id>
-    <title>Motorola: Presales Systems Engineer - Summer 2027 Internship 🛂</title>
-    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Brentwood-TN/Presales-Systems-Engineer---Summer-2027_R70006"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Brentwood, TN, More... · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
