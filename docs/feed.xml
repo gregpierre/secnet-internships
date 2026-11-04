@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-03T21:11:52Z</updated>
+  <updated>2026-11-04T01:27:55Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:daikinapplied:/job/Plymouth-MN-55441/Systems-Engineering-and-Modular-Architecture-Intern_R004495</id>
+    <title>Daikin Applied: Systems Engineering and Modular Architecture Intern</title>
+    <link href="https://daikinapplied.wd1.myworkdayjobs.com/Pre-Selected_Candidate_Site/job/Plymouth-MN-55441/Systems-Engineering-and-Modular-Architecture-Intern_R004495"/>
+    <updated>2026-11-04T01:27:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Plymouth, MN 55441 · Python, Java, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:eversource:/job/Manchester-NH/XMLNAME-2027-Telecommunications-Engineering-Intern_R-031906</id>
+    <title>Eversource Energy: 2027 Telecommunications Engineering Intern 🛂</title>
+    <link href="https://eversource.wd1.myworkdayjobs.com/ExternalSite/job/Manchester-NH/XMLNAME-2027-Telecommunications-Engineering-Intern_R-031906"/>
+    <updated>2026-11-04T01:27:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Network / Telecom · Manchester, NH · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Arizona-Chandler/XMLNAME-2026-Part-Time-Systems-Engineering-Intern---Chandler-AZ_R10259106</id>
+    <title>Northrop Grumman: 2026 Part-Time Systems Engineering Intern - Chandler AZ 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Chandler/XMLNAME-2026-Part-Time-Systems-Engineering-Intern---Chandler-AZ_R10259106"/>
+    <updated>2026-11-04T01:27:55Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Systems &amp; Cloud Infra · United States-Arizona-Chandler · $17.75–$32.75/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:stratolaunch:5471933008</id>
+    <title>Stratolaunch: IT Intern- Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/stratolaunch/jobs/5471933008"/>
+    <updated>2026-11-04T01:27:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · IT Support / Ops · Mojave, California, United States · Python · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:knowbe4:8928056002</id>
+    <title>KnowBe4: Security Awareness Content Specialist Summer Internship (Hybrid)</title>
+    <link href="https://job-boards.greenhouse.io/knowbe4/jobs/8928056002"/>
+    <updated>2026-11-03T21:11:52Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Clearwater, Florida</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:twosixtechnologies:6142957004</id>
+    <title>Two Six Technologies: Security Operations Intern</title>
+    <link href="https://job-boards.greenhouse.io/twosixtechnologies/jobs/6142957004"/>
+    <updated>2026-11-03T21:11:52Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · SOC / Detection · Arlington, Virginia</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26016065</id>
     <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Cybersecurity AI Engineer, Enterprise Technology Services- Phoenix, AZ</title>
@@ -24,14 +72,6 @@
     <summary>Summer 2027 · Security (general) · Carmel, IN · Python</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:knowbe4:8928056002</id>
-    <title>KnowBe4: Security Awareness Content Specialist Summer Internship (Hybrid)</title>
-    <link href="https://job-boards.greenhouse.io/knowbe4/jobs/8928056002"/>
-    <updated>2026-11-03T21:11:52Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Clearwater, Florida</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:snc:/job/Vandalia-OH/IT-Support-Technician-Intern_R0031330</id>
     <title>Sierra Nevada Corporation: IT Support Technician Intern 🇺🇸</title>
     <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Vandalia-OH/IT-Support-Technician-Intern_R0031330"/>
@@ -46,14 +86,6 @@
     <updated>2026-11-03T21:11:52Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Network / Telecom · US - CO, Westminster · JavaScript, LLMs · H-1B track record: ~72 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:twosixtechnologies:6142957004</id>
-    <title>Two Six Technologies: Security Operations Intern</title>
-    <link href="https://job-boards.greenhouse.io/twosixtechnologies/jobs/6142957004"/>
-    <updated>2026-11-03T21:11:52Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · SOC / Detection · Arlington, Virginia</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:rocketlab:8042092003</id>
@@ -283,9 +315,9 @@
     <id>urn:intern-engine:greenhouse:ensco:5467125008</id>
     <title>ENSCO: Information Security Intern 🇺🇸</title>
     <link href="https://job-boards.greenhouse.io/ensco/jobs/5467125008"/>
-    <updated>2026-10-30T18:12:32Z</updated>
+    <updated>2026-11-04T01:27:55Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Melbourne, Florida, United States · Python · sponsorship: citizens-only</summary>
+    <summary>Not stated · Security (general) · Melbourne, Florida, United States · Python · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gcmgrosvenor:8035929003</id>
@@ -774,37 +806,5 @@
     <updated>2026-10-26T20:42:40Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Chicago, IL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:motorolasolutions:/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779</id>
-    <title>Motorola: Presales Systems Engineering - Summer 2027 Internship 🛂</title>
-    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779"/>
-    <updated>2026-10-26T20:42:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Waltham, MA, More... · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:archgroup:/job/Greensboro-NC-United-States-of-America/Loss-Management-IT-Intern_R26_1138</id>
-    <title>Arch Capital Group: Loss Management IT Intern</title>
-    <link href="https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Loss-Management-IT-Intern_R26_1138"/>
-    <updated>2026-10-25T20:58:43Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Greensboro, NC United States of America · $26–$28/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:archgroup:/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016</id>
-    <title>Arch Capital Group: Security Operations Intern</title>
-    <link href="https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Security-Operations-Intern_R26_1016"/>
-    <updated>2026-10-31T17:19:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · SOC / Detection · Greensboro, NC United States of America · $26/hr · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011</id>
-    <title>The Aerospace Corporation: 2027 Defensive Cyber Operations Undergrad Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"/>
-    <updated>2026-10-23T21:31:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · El Segundo, CA · Python, Rust, Kubernetes, Docker · sponsorship: citizens-only</summary>
   </entry>
 </feed>
