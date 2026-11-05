@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-04T19:54:12Z</updated>
+  <updated>2026-11-05T01:40:44Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178</id>
-    <title>Northrop Grumman: 2027 DevOps Software Engineering Intern - Roy UT 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178"/>
-    <updated>2026-11-04T19:54:12Z</updated>
+    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261245</id>
+    <title>GM financial: Intern - Cloud Engineer</title>
+    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261245"/>
+    <updated>2026-11-05T01:40:44Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Cloud Platform · Irving, TX, United States · LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024</id>
+    <title>Booz Allen: University, AI RAN Telecommunications Engineer Intern</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024"/>
+    <updated>2026-11-05T01:40:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Network / Telecom · McLean, VA · $108k/yr · Python, C++, MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Rochester-NY-US/Systems-Engineering-Co-op-Intern---Spring-2027_334157</id>
+    <title>CACI: Systems Engineering Co-op/Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Rochester-NY-US/Systems-Engineering-Co-op-Intern---Spring-2027_334157"/>
+    <updated>2026-11-05T01:40:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Rochester, NY, US · Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177</id>
@@ -22,6 +38,14 @@
     <updated>2026-11-04T19:54:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security (general) · United States-Utah-Clearfield · $23–$29/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178</id>
+    <title>Northrop Grumman: 2027 DevOps Software Engineering Intern - Roy UT 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178"/>
+    <updated>2026-11-04T19:54:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ryder:/job/USA---Coral-Gables-FL-HQ/IT-Internship---Summer-2027_R188357</id>
@@ -579,9 +603,9 @@
     <id>urn:intern-engine:smartrecruiters:Intuitive:744000158334809</id>
     <title>Intuitive Surgical: System Engineer Intern</title>
     <link href="https://jobs.smartrecruiters.com/Intuitive/744000158334809"/>
-    <updated>2026-10-28T18:43:41Z</updated>
+    <updated>2026-11-05T01:40:44Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Blacksburg, VA, United States · MATLAB · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Systems &amp; Cloud Infra · Blacksburg, VA, United States · MATLAB · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bcbsri:/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477</id>
@@ -782,29 +806,5 @@
     <updated>2026-10-27T00:36:46Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $58/hr · Python, C++ · H-1B track record: ~163 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0</id>
-    <title>Aurora Innovation: Data &amp; ML Platform Engineering Intern</title>
-    <link href="https://jobs.ashbyhq.com/aurora-operations-inc/da4c8e2e-0571-4503-94d9-234da86f83b0"/>
-    <updated>2026-10-29T13:01:33Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Mountain View, CA · $52/hr · Python, Go, AWS, GCP · status: closed · H-1B track record: ~163 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:lilasciences:4462594009</id>
-    <title>Lila Sciences: Co-Op, Automated Systems Engineer</title>
-    <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4462594009"/>
-    <updated>2026-10-27T00:36:46Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Cambridge, MA USA · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022588</id>
-    <title>ADT: Cybersecurity &amp; Risk Intern 🛂</title>
-    <link href="https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022588"/>
-    <updated>2026-10-27T00:36:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Boca Raton, FL, United States · sponsorship: no-sponsorship · H-1B track record: ~39 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
