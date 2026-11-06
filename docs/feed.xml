@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-06T10:54:05Z</updated>
+  <updated>2026-11-06T19:28:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:draper:/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129</id>
+    <title>Draper: GNC Systems Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129"/>
+    <updated>2026-11-06T19:28:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Cambridge, MA · Python, Java, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:galaxydigitalservices:6250002004</id>
+    <title>Galaxy: 2027 Digital Infrastructure Intern - NYC</title>
+    <link href="https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6250002004"/>
+    <updated>2026-11-06T19:28:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · New York · $55/hr · Python, Rust, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:trimble:/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179</id>
+    <title>Trimble: IS Help Desk Intern</title>
+    <link href="https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179"/>
+    <updated>2026-11-06T19:28:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · US - CO, Westminster · Python, Bash, Linux · H-1B track record: ~72 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:godirect:/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386</id>
+    <title>Voya Financial: Summer Intern – Renewable Energy Infrastructure Debt</title>
+    <link href="https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386"/>
+    <updated>2026-11-06T19:28:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · New York, NY · $23/hr</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:associatedbank:/job/US-WI-Remote/XMLNAME-2027-Corporate-Intern---IT-Audit---Year-Round-_JR106776-1</id>
     <title>Associated Bank: 2027 Corporate Intern - IT Audit  (Year-Round)</title>
@@ -16,20 +48,20 @@
     <summary>Summer 2027 · GRC / Risk · US WI Remote · $17–$26.71/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:westernalliancebank:/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019</id>
-    <title>Western Alliance: Summer 2027 Internship - Dallas, TX - Platform Engineering</title>
-    <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019"/>
-    <updated>2026-11-06T10:54:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>4 openings · Summer 2027 · Systems &amp; Cloud Infra · Dallas, TX</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:westernalliancebank:/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024</id>
     <title>Western Alliance: Summer 2027 Internship - Columbus, OH - Platform Engineering</title>
     <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024"/>
     <updated>2026-11-06T10:54:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Columbus, OH</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:westernalliancebank:/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019</id>
+    <title>Western Alliance: Summer 2027 Internship - Dallas, TX - Platform Engineering</title>
+    <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019"/>
+    <updated>2026-11-06T10:54:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>4 openings · Summer 2027 · Systems &amp; Cloud Infra · Dallas, TX</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:RRDonnelley:744000159878934</id>
@@ -774,37 +806,5 @@
     <updated>2026-10-27T22:16:56Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Cloud Platform · Cincinnati, OH (USA) · Python, SQL, Git, Snowflake · H-1B track record: ~35 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1</id>
-    <title>Hewlett Packard (HP): Cloud Engineering Intern - HP IQ</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1"/>
-    <updated>2026-10-27T22:16:56Z</updated>
-    <category term="Fall 2027"/>
-    <summary>Fall 2027 · Cloud Platform · San Francisco, California, United States of America · $45–$51/hr · Spring · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:edxn.fa.us2.oraclecloud.com:26173</id>
-    <title>Boston Properties: Cyber Security Co-Op</title>
-    <link href="https://edxn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_5001/job/26173"/>
-    <updated>2026-10-27T18:06:43Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Boston, MA, United States · $23–$26/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1008446</id>
-    <title>Stantec: Civil Engineering Intern - Infrastructure (Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008446"/>
-    <updated>2026-10-27T18:06:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Fort Myers, FL, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406</id>
-    <title>Booz Allen: Systems Administrator - Summer Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406"/>
-    <updated>2026-10-27T18:06:43Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Annapolis Junction, MD · $108k/yr · sponsorship: citizens-only</summary>
   </entry>
 </feed>
