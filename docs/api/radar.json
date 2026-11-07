@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-07T10:07:27Z",
- "data_as_of": "2026-11-07T10:07:27Z",
- "rendered_at": "2026-11-07T10:07:27Z",
+ "generated_at": "2026-11-07T17:54:21Z",
+ "data_as_of": "2026-11-07T17:54:21Z",
+ "rendered_at": "2026-11-07T17:54:21Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -1868,25 +1868,6 @@
    }
   },
   {
-   "company": "Aurora Innovation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -44,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/058e3b3a-dd13-4736-84a8-b19d5de2c9f5",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
-   }
-  },
-  {
    "company": "Cerity Partners",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -2031,25 +2012,6 @@
    "days_until": -37,
    "status": "open",
    "url": "https://atcllc.wd5.myworkdayjobs.com/atcllc/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-01"
-   }
-  },
-  {
-   "company": "MEMX",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-01",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-01",
-   "days_until": -37,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/memx/jobs/5446002008",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3576,6 +3538,25 @@
    }
   },
   {
+   "company": "Aurora Innovation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -44,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
+   }
+  },
+  {
    "company": "Upbound Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-28",
@@ -3592,6 +3573,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-28"
+   }
+  },
+  {
+   "company": "MEMX",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": -37,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
    }
   },
   {
