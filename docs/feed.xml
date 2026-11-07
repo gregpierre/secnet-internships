@@ -5,15 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-06T19:28:22Z</updated>
+  <updated>2026-11-07T01:04:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:draper:/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129</id>
-    <title>Draper: GNC Systems Engineering Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129"/>
-    <updated>2026-11-06T19:28:22Z</updated>
+    <id>urn:intern-engine:workday:crowdstrike:/job/USA---Arlington-VA/Professional-Services-Pathfinder-Intern---Red-Team---Summer-2027_R30780</id>
+    <title>Crowdstrike: Professional Services Pathfinder Intern - Red Team - Summer 2027</title>
+    <link href="https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Arlington-VA/Professional-Services-Pathfinder-Intern---Red-Team---Summer-2027_R30780"/>
+    <updated>2026-11-07T01:04:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Cambridge, MA · Python, Java, C++, MATLAB · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · AppSec / Product Sec · USA - Arlington, VA · H-1B track record: ~99 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:vardaspace:8198267003</id>
+    <title>Varda Space: Site Reliability Internship - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/vardaspace/jobs/8198267003"/>
+    <updated>2026-11-07T01:04:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · El Segundo, California, United States · Python, AWS, GCP, Azure, Kubernetes · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:galaxydigitalservices:6250002004</id>
@@ -24,12 +32,12 @@
     <summary>Summer 2027 · Systems &amp; Cloud Infra · New York · $55/hr · Python, Rust, SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:trimble:/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179</id>
-    <title>Trimble: IS Help Desk Intern</title>
-    <link href="https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179"/>
+    <id>urn:intern-engine:workday:draper:/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129</id>
+    <title>Draper: GNC Systems Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129"/>
     <updated>2026-11-06T19:28:22Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · US - CO, Westminster · Python, Bash, Linux · H-1B track record: ~72 approvals (FY2022–2023)</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Cambridge, MA · Python, Java, C++, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:godirect:/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386</id>
@@ -38,6 +46,14 @@
     <updated>2026-11-06T19:28:22Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · New York, NY · $23/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:trimble:/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179</id>
+    <title>Trimble: IS Help Desk Intern</title>
+    <link href="https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/IS-Help-Desk-Intern_R58179"/>
+    <updated>2026-11-06T19:28:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · US - CO, Westminster · Python, Bash, Linux · H-1B track record: ~72 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:associatedbank:/job/US-WI-Remote/XMLNAME-2027-Corporate-Intern---IT-Audit---Year-Round-_JR106776-1</id>
@@ -787,24 +803,8 @@
     <id>urn:intern-engine:lever:protective:0e76f3a3-6d77-4bca-88d8-f37092a94dc1</id>
     <title>Protective Life: 2027 Internal IT Audit Summer Internship Program</title>
     <link href="https://jobs.lever.co/protective/0e76f3a3-6d77-4bca-88d8-f37092a94dc1"/>
-    <updated>2026-10-27T22:16:56Z</updated>
+    <updated>2026-11-07T01:04:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · GRC / Risk · Birmingham, AL · 21 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1008448</id>
-    <title>Stantec: Civil Engineering Intern - Infrastructure (Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008448"/>
-    <updated>2026-10-27T22:16:56Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Naples, FL, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gaig:/job/Cincinnati-OH-USA/Cloud-Data-Platform-Intern---Summer-2027_R9795</id>
-    <title>Great American Insurance Company: Cloud Data Platform Intern - Summer 2027</title>
-    <link href="https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Cloud-Data-Platform-Intern---Summer-2027_R9795"/>
-    <updated>2026-10-27T22:16:56Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Cloud Platform · Cincinnati, OH (USA) · Python, SQL, Git, Snowflake · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · GRC / Risk · Birmingham, AL · 21 USD/hr · status: closed</summary>
   </entry>
 </feed>
