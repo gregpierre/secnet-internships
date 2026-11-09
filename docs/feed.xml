@@ -5,8 +5,88 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-09T11:30:55Z</updated>
+  <updated>2026-11-09T22:29:49Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260787</id>
+    <title>GM financial: Intern - IT Audit 🛂</title>
+    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260787"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · GRC / Risk · Arlington, TX, United States · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:skydio:33f1f123-8cec-4e6a-b125-e8831603a62a</id>
+    <title>Skydio: Systems Engineering Intern - Summer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · San Mateo, California, United States · $47/hr · Python, C++, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1008822</id>
+    <title>Stantec: Structural Engineering Intern - Infrastructure (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008822"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · Lexington, KY, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:assurant:/job/Georgia-Virtual/IT-Intern_R-116011</id>
+    <title>Assurant: IT Intern</title>
+    <link href="https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Georgia-Virtual/IT-Intern_R-116011"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · IT Support / Ops · Georgia Virtual · Java, C#, JavaScript, HTML/CSS, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:astrazeneca:/job/US--Tarzana--CA/Network-Planning---Data-Analytics-Intern_R-263845</id>
+    <title>AstraZeneca: Network Planning &amp; Data Analytics Intern</title>
+    <link href="https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US--Tarzana--CA/Network-Planning---Data-Analytics-Intern_R-263845"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Network / Telecom · US – Tarzana – CA · $41.5–$50/hr · Python, LLMs, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812</id>
+    <title>CACI: Cyber Security Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · Sterling, VA, US</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:freseniusmedicalcare:/job/Lawrence-MA-USA/V-V-Systems-Engineer-Co-op_R0277323</id>
+    <title>Fresenius Medical Care: V&amp;V Systems Engineer Co-op</title>
+    <link href="https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/V-V-Systems-Engineer-Co-op_R0277323"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Lawrence, MA, USA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hypertherm:/job/Kent-WA/Graduate-Intern---Software-Security_R4136</id>
+    <title>Hypertherm: Graduate Intern - Software Security</title>
+    <link href="https://hypertherm.wd503.myworkdayjobs.com/hypertherm-careers/job/Kent-WA/Graduate-Intern---Software-Security_R4136"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Kent, WA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:lilasciences:4477308009</id>
+    <title>Lila Sciences: Co-Op, IT/OT Security Analyst</title>
+    <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4477308009"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Cambridge, MA USA · Python, AWS, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:lilasciences:4472540009</id>
+    <title>Lila Sciences: Co-op, Software, Applied AI Platform Engineer</title>
+    <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4472540009"/>
+    <updated>2026-11-09T22:29:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · San Francisco, CA USA · Python, TypeScript, SQL, LLMs, Next.js</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:vardaspace:8198267003</id>
     <title>Varda Space: Site Reliability Internship - Summer 2027 🇺🇸</title>
@@ -726,85 +806,5 @@
     <updated>2026-10-29T05:34:01Z</updated>
     <category term="Fall 2027"/>
     <summary>Fall 2027 · AppSec / Product Sec · San Francisco, California, United States of America · $40–$50/hr · Python, Java, C++ · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Intuitive:744000158334809</id>
-    <title>Intuitive Surgical: System Engineer Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Intuitive/744000158334809"/>
-    <updated>2026-11-05T01:40:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Blacksburg, VA, United States · MATLAB · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bcbsri:/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477</id>
-    <title>Blue Cross and Blue Shield of Rhode Island: Intern - Business Systems Analyst</title>
-    <link href="https://bcbsri.wd1.myworkdayjobs.com/BCBSRICareers/job/Providence-RI/Intern---Business-Systems-Analyst_JR100477"/>
-    <updated>2026-10-28T18:43:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Providence, RI · SQL, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1</id>
-    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1"/>
-    <updated>2026-10-28T18:43:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Denver, CO · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678</id>
-    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678"/>
-    <updated>2026-10-28T18:43:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Framingham, MA · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:snc:/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232</id>
-    <title>Sierra Nevada Corporation: Network Engineer Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Hagerstown-MD/Network-Engineer-Intern--Summer-2027-_R0031232"/>
-    <updated>2026-10-28T18:43:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Network / Telecom · Hagerstown, MD · MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1</id>
-    <title>Allegion: Summer Intern - Software Systems Engineering</title>
-    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1"/>
-    <updated>2026-10-28T12:50:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Golden, CO · $25–$26/hr · AWS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Albuquerque-NM/Systems-Engineering-Intern---Space-Technologies_9250</id>
-    <title>Avav: Systems Engineering Intern - Space Technologies 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/Systems-Engineering-Intern---Space-Technologies_9250"/>
-    <updated>2026-10-28T05:21:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Albuquerque, NM · Python · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10590368</id>
-    <title>Amazon: Network Development Engineer Intern, 2027 Summer</title>
-    <link href="https://www.amazon.jobs/en/jobs/10590368/network-development-engineer-intern-2027-summer"/>
-    <updated>2026-10-27T22:16:56Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Network / Telecom · Seattle, Washington, USA · Python, JavaScript, AWS, Linux · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:filevine:47d66dab-ae72-4256-90d3-8d9e82904370</id>
-    <title>Filevine: Security Specialist, Intern</title>
-    <link href="https://jobs.lever.co/filevine/47d66dab-ae72-4256-90d3-8d9e82904370"/>
-    <updated>2026-10-27T22:16:56Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Salt Lake City, Utah · AWS, GCP, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:protective:0e76f3a3-6d77-4bca-88d8-f37092a94dc1</id>
-    <title>Protective Life: 2027 Internal IT Audit Summer Internship Program</title>
-    <link href="https://jobs.lever.co/protective/0e76f3a3-6d77-4bca-88d8-f37092a94dc1"/>
-    <updated>2026-11-07T01:04:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · GRC / Risk · Birmingham, AL · 21 USD/hr · status: closed</summary>
   </entry>
 </feed>
