@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-10T17:13:05Z</updated>
+  <updated>2026-11-10T23:21:07Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:tsys:/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068</id>
+    <title>Global Payments: CyberSecurity Intern 🛂</title>
+    <link href="https://tsys.wd1.myworkdayjobs.com/TSYS/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068"/>
+    <updated>2026-11-10T23:21:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · COLUMBUS, GEORGIA · AWS, GCP · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Vermont---Essex-Junction/Fab-Systems-Setup---Routing-Intern--Summer-2027-_JR-2604640</id>
+    <title>GlobalFoundries: Fab Systems Setup &amp; Routing Intern (Summer 2027)</title>
+    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Vermont---Essex-Junction/Fab-Systems-Setup---Routing-Intern--Summer-2027-_JR-2604640"/>
+    <updated>2026-11-10T23:21:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Network / Telecom · USA - Vermont - Essex Junction</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:minitab:8200356003</id>
+    <title>Minitab: Cybersecurity Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/minitab/jobs/8200356003"/>
+    <updated>2026-11-10T23:21:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security (general) · State College, Pennsylvania, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sec:/job/6555-Excellence-Way-Plano-TX-USA/XMLNAME-5G-Network-Intelligence-and-Automation-Intern_R121959</id>
+    <title>Samsung: 5G Network Intelligence and Automation Intern 🛂</title>
+    <link href="https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6555-Excellence-Way-Plano-TX-USA/XMLNAME-5G-Network-Intelligence-and-Automation-Intern_R121959"/>
+    <updated>2026-11-10T23:21:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Network / Telecom · 6555 Excellence Way, Plano, TX, USA · Python, SQL, LLMs, Linux, Git · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Security_JR103608</id>
     <title>Zebra Technologies: 2027 Summer Internship (US) - Security 🛂</title>
@@ -774,37 +806,5 @@
     <updated>2026-10-30T01:00:45Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Systems &amp; Cloud Infra · Roseville, CA, United States · $24–$27/hr · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hcsc:/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508</id>
-    <title>HCSC: Early Careers - Cybersecurity Operations Intern 🛂</title>
-    <link href="https://hcsc.wd1.myworkdayjobs.com/HCSC_External/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508"/>
-    <updated>2026-10-30T01:00:45Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · IL - Chicago · Python, Linux · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Systems-Engineering-Intern---Boulder-CO_R10258456-1</id>
-    <title>Northrop Grumman: 2027 Systems Engineering Intern - Boulder CO 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Systems-Engineering-Intern---Boulder-CO_R10258456-1"/>
-    <updated>2026-10-30T01:00:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · United States-Colorado-Boulder · $21.5–$39/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/Program-Finance-Systems-Analyst-Intern--Summer-2027-_R0031193</id>
-    <title>Sierra Nevada Corporation: Program Finance Systems Analyst Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Program-Finance-Systems-Analyst-Intern--Summer-2027-_R0031193"/>
-    <updated>2026-10-30T01:00:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · Lone Tree, CO · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:base-power:8397f115-7806-4911-a12b-6231852c3443</id>
-    <title>Base Power: Power Systems Engineering Intern</title>
-    <link href="https://jobs.ashbyhq.com/base-power/8397f115-7806-4911-a12b-6231852c3443"/>
-    <updated>2026-10-29T20:26:15Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Austin, TX · Python, Pandas</summary>
   </entry>
 </feed>
