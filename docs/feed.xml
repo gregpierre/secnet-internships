@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-11T14:12:29Z</updated>
+  <updated>2026-11-11T22:06:07Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:arcesiumllc:5257251007</id>
+    <title>Arcesium: Technology Operations Intern</title>
+    <link href="https://job-boards.greenhouse.io/arcesiumllc/jobs/5257251007"/>
+    <updated>2026-11-11T22:06:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Other · New York · Java, TypeScript, SQL, Kotlin, LLMs · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221</id>
+    <title>Austal USA: Cybersecurity Intern</title>
+    <link href="https://austalusa.wd1.myworkdayjobs.com/austal/job/Mobile-AL/Cybersecurity-Intern_R0012221"/>
+    <updated>2026-11-11T22:06:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Mobile, AL · Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169</id>
+    <title>Dow Chemical Company: Local College Co-op: Infrastructure Mapping &amp; Data Quality (Michigan Operations) 🛂</title>
+    <link href="https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169"/>
+    <updated>2026-11-11T22:06:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · Midland (MI, USA) · sponsorship: no-sponsorship · H-1B track record: ~61 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:regent:dfdbb28f-f289-45b9-a2e5-158d81b93524</id>
     <title>REGENT: Cybersecurity &amp; IT Operations Intern (Summer)</title>
@@ -163,9 +187,9 @@
     <id>urn:intern-engine:workday:assurant:/job/Georgia-Virtual/IT-Intern_R-116011</id>
     <title>Assurant: IT Intern</title>
     <link href="https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Georgia-Virtual/IT-Intern_R-116011"/>
-    <updated>2026-11-09T22:29:49Z</updated>
+    <updated>2026-11-11T22:06:07Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Georgia Virtual · Java, C#, JavaScript, HTML/CSS, Linux</summary>
+    <summary>Not stated · IT Support / Ops · Georgia Virtual · Java, C#, JavaScript, HTML/CSS, Linux · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:astrazeneca:/job/US--Tarzana--CA/Network-Planning---Data-Analytics-Intern_R-263845</id>
@@ -782,29 +806,5 @@
     <updated>2026-10-30T18:12:32Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Security (general) · Pittsburgh, PA · Python, Bash, Terraform, Linux · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990</id>
-    <title>Ferrovial: Webber - Field Engineer Intern II - Infrastructure Management</title>
-    <link href="https://ferrovial.wd3.myworkdayjobs.com/ferrovial_career_site/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Murfreesboro, TN</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gaig:/job/Cincinnati-OH-USA/IT-Intern---Summer-2027_R9816-1</id>
-    <title>Great American Insurance Company: IT Intern - Summer 2027</title>
-    <link href="https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/IT-Intern---Summer-2027_R9816-1"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · IT Support / Ops · Cincinnati, OH (USA) · SQL, Snowflake · H-1B track record: ~35 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ttc:/job/Bloomington-MN/Information-Technology-Unified-Communications-Intern---The-Toro-Company_JR17713</id>
-    <title>The Toro Company: Information Technology Unified Communications Intern - The Toro Company 🛂</title>
-    <link href="https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Information-Technology-Unified-Communications-Intern---The-Toro-Company_JR17713"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Other · Bloomington, MN · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
