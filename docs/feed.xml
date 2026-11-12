@@ -5,8 +5,64 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://gregpierre.github.io/secnet-internships/feed.xml" rel="self"/>
   <link href="https://github.com/gregpierre/secnet-internships"/>
-  <updated>2026-11-11T22:06:07Z</updated>
+  <updated>2026-11-12T07:08:19Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/gregpierre/secnet-internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:bloomenergy:/job/San-Jose-California/RMCC-Systems-Engineering-Intern_JR-25363</id>
+    <title>Bloom Energy: RMCC Systems Engineering Intern 🛂</title>
+    <link href="https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/RMCC-Systems-Engineering-Intern_JR-25363"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Systems &amp; Cloud Infra · San Jose, California · $36–$50/hr · Python, SQL, Git · sponsorship: no-sponsorship · H-1B track record: ~49 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hubinternational:/job/Chicago-IL/Security-Architect-Intern_R0039475</id>
+    <title>HUB International: Security Architect Intern</title>
+    <link href="https://hubinternational.wd1.myworkdayjobs.com/hubinternational/job/Chicago-IL/Security-Architect-Intern_R0039475"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Chicago, IL · AWS, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineering-Intern--2027---Tac-Comm--Onsite-_01888309</id>
+    <title>RTX: Systems Engineering Intern (2027)- Tac Comm (Onsite) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineering-Intern--2027---Tac-Comm--Onsite-_01888309"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Systems &amp; Cloud Infra · US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137 · Python, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161210069</id>
+    <title>ServiceNow: Assoc Detection Engineering Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161210069"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · SOC / Detection · Kirkland, Washington, United States · $50.12/hr · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161209810</id>
+    <title>ServiceNow: Assoc Security Engineering &amp; Automation Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161209810"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · Santa Clara, CALIFORNIA, United States · $50.12/hr · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161209600</id>
+    <title>ServiceNow: Assoc AI Engineering (Cloud Security Automation) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161209600"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Cloud &amp; Infra Sec · Santa Clara, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161204235</id>
+    <title>ServiceNow: Assoc Information Security Engineer Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161204235"/>
+    <updated>2026-11-12T07:08:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security (general) · San Diego, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:arcesiumllc:5257251007</id>
     <title>Arcesium: Technology Operations Intern</title>
@@ -51,9 +107,9 @@
     <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---TX/Intern---Systems-Engineer_JR-024642</id>
     <title>Paloaltonetworks: Intern - Systems Engineer 🛂</title>
     <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---TX/Intern---Systems-Engineer_JR-024642"/>
-    <updated>2026-11-11T05:58:27Z</updated>
+    <updated>2026-11-12T07:08:19Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Systems &amp; Cloud Infra · Office - USA - TX · sponsorship: no-sponsorship</summary>
+    <summary>Not stated · Systems &amp; Cloud Infra · Office - USA - TX · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:minitab:8200356003</id>
@@ -750,61 +806,5 @@
     <updated>2026-10-30T22:26:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Systems &amp; Cloud Infra · Wayzata, Minnesota, United States · Python, AWS, Azure, Terraform</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hckd.fa.us2.oraclecloud.com:2040172</id>
-    <title>Molina Healthcare: Cybersecurity Internship (Remote) – Summer 2027 (Undergraduate)</title>
-    <link href="https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040172"/>
-    <updated>2026-10-30T22:26:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · United States · Azure · H-1B track record: ~49 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineer-Intern--Summer-2027-----Tac-Comm---Onsite_01886283</id>
-    <title>RTX: Systems Engineer Intern (Summer 2027)  - Tac Comm - Onsite 🇺🇸</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineer-Intern--Summer-2027-----Tac-Comm---Onsite_01886283"/>
-    <updated>2026-10-30T22:26:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Systems &amp; Cloud Infra · US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137 · Python, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:lifefitness:/job/Rosemont-IL/IT-Intern_JR-025323</id>
-    <title>Life Fitness: IT Intern</title>
-    <link href="https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Rosemont-IL/IT-Intern_JR-025323"/>
-    <updated>2026-10-30T22:26:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · IT Support / Ops · Rosemont, IL · $19–$23/hr · Python, LLMs · H-1B track record: ~12 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:ensco:5467125008</id>
-    <title>ENSCO: Information Security Intern 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/ensco/jobs/5467125008"/>
-    <updated>2026-11-10T07:09:22Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security (general) · Melbourne, Florida, United States · Python · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:gcmgrosvenor:8035929003</id>
-    <title>GCM Grosvenor: 2027 Cybersecurity Summer Intern</title>
-    <link href="https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8035929003"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security (general) · Chicago, Illinois, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:gcmgrosvenor:8035967003</id>
-    <title>GCM Grosvenor: 2027 IT Operations Summer Intern</title>
-    <link href="https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8035967003"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Other · Chicago, Illinois, United States · Python, C#, JavaScript, LLMs, AWS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1</id>
-    <title>Cmu: Cyber Range Development Intern 🛂</title>
-    <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1"/>
-    <updated>2026-10-30T18:12:32Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Security (general) · Pittsburgh, PA · Python, Bash, Terraform, Linux · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
