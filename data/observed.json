@@ -1118,9 +1118,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-06",
      "role_ids": [
-      "greenhouse:galaxydigitalservices:6250002004"
+      "greenhouse:galaxydigitalservices:6250002004",
+      "greenhouse:galaxydigitalservices:6256234004"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1940,6 +1941,7 @@
       "workday:motorolasolutions:/job/Chicago-IL/Business-Systems-Analyst-Internship-Summer-2027_R68572",
       "workday:motorolasolutions:/job/Chicago-IL/COEE-Presales-System-Engineer--2027-Internship-_R68359",
       "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
+      "workday:motorolasolutions:/job/Chicago-IL/North-America--NA--Systems-Engineering-Operations-Internship----2027_R70657",
       "workday:motorolasolutions:/job/Georgia-US-Offsite/Presales-Systems-Engineer---2027-Internship_R69503",
       "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R68801",
       "workday:motorolasolutions:/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R69140",
@@ -1947,7 +1949,7 @@
       "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -2179,6 +2181,18 @@
       "lever:protective:32a8a257-c5d4-4b77-bf0b-d08dbb93b752"
      ],
      "count": 2
+    }
+   }
+  },
+  "ptc": {
+   "name": "PTC",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-12",
+     "role_ids": [
+      "workday:ptc:/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926"
+     ],
+     "count": 1
     }
    }
   },
@@ -2915,5 +2929,5 @@
    }
   }
  },
- "updated_at": "2026-11-12T07:08:19Z"
+ "updated_at": "2026-11-12T17:47:11Z"
 }

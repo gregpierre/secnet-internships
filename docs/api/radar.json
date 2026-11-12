@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T07:08:19Z",
- "data_as_of": "2026-11-12T07:08:19Z",
- "rendered_at": "2026-11-12T07:08:20Z",
+ "generated_at": "2026-11-12T17:47:11Z",
+ "data_as_of": "2026-11-12T17:47:11Z",
+ "rendered_at": "2026-11-12T17:47:11Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -2742,25 +2742,6 @@
    }
   },
   {
-   "company": "JM Family",
-   "last_cycle_posted": "",
-   "posted_on": "2026-11-02",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-11-02",
-   "days_until": -10,
-   "status": "open",
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Offensive-Security-Intern_JR105164",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-11-02"
-   }
-  },
-  {
    "company": "Daikin Applied",
    "last_cycle_posted": "",
    "posted_on": "2026-11-03",
@@ -2948,6 +2929,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-10"
+   }
+  },
+  {
+   "company": "PTC",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-12",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-12"
    }
   },
   {
@@ -3671,6 +3671,25 @@
    }
   },
   {
+   "company": "JM Family",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": -10,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
+   }
+  },
+  {
    "company": "TIAA",
    "last_cycle_posted": "",
    "posted_on": "2026-11-02",
@@ -3709,5 +3728,5 @@
    }
   }
  ],
- "count": 195
+ "count": 196
 }
