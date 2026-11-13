@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T14:37:20Z",
- "data_as_of": "2026-11-13T14:37:20Z",
- "rendered_at": "2026-11-13T14:37:20Z",
+ "generated_at": "2026-11-13T21:40:35Z",
+ "data_as_of": "2026-11-13T21:40:35Z",
+ "rendered_at": "2026-11-13T21:40:35Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/gregpierre/secnet-internships",
  "companies": [
@@ -2419,25 +2419,6 @@
    }
   },
   {
-   "company": "Arch Capital Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-19",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-19",
-   "days_until": -25,
-   "status": "open",
-   "url": "https://archgroup.wd1.myworkdayjobs.com/careers/job/Greensboro-NC-United-States-of-America/Originations-Portal-IT-Intern_R26_1135",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-19"
-   }
-  },
-  {
    "company": "Generac",
    "last_cycle_posted": "",
    "posted_on": "2026-10-19",
@@ -3668,6 +3649,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "Arch Capital Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-19",
+   "days_until": -25,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-19"
    }
   },
   {

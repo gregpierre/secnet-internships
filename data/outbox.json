@@ -269,7 +269,12 @@
       "workday:ngc:/job/United-States-Minnesota-Plymouth/XMLNAME-2027-Systems-Engineering-Intern---Graduate-Level---Plymouth-MN_R10260431",
       "smartrecruiters:ServiceNow:744000161385779",
       "greenhouse:stratolaunch:5480612008",
-      "amazon:amazon:10557133"
+      "amazon:amazon:10557133",
+      "smartrecruiters:ServiceNow:744000161550869",
+      "smartrecruiters:ServiceNow:744000161548528",
+      "smartrecruiters:ServiceNow:744000161548289",
+      "workday:snc:/job/Southern-Pines-NC/Systems-Engineer-Intern_R0031224-1",
+      "greenhouse:trace3:8274792"
     ],
     "telegram": [
       "workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590",
@@ -540,7 +545,12 @@
       "workday:ngc:/job/United-States-Minnesota-Plymouth/XMLNAME-2027-Systems-Engineering-Intern---Graduate-Level---Plymouth-MN_R10260431",
       "smartrecruiters:ServiceNow:744000161385779",
       "greenhouse:stratolaunch:5480612008",
-      "amazon:amazon:10557133"
+      "amazon:amazon:10557133",
+      "smartrecruiters:ServiceNow:744000161550869",
+      "smartrecruiters:ServiceNow:744000161548528",
+      "smartrecruiters:ServiceNow:744000161548289",
+      "workday:snc:/job/Southern-Pines-NC/Systems-Engineer-Intern_R0031224-1",
+      "greenhouse:trace3:8274792"
     ],
     "sms": [
       "workday:brookfield:/job/Chicago-Illinois/IT-Intern--Summer-Internship-6-7-2027---8-13-2027-_R2052380-1",
@@ -808,7 +818,12 @@
       "workday:ngc:/job/United-States-Minnesota-Plymouth/XMLNAME-2027-Systems-Engineering-Intern---Graduate-Level---Plymouth-MN_R10260431",
       "smartrecruiters:ServiceNow:744000161385779",
       "greenhouse:stratolaunch:5480612008",
-      "amazon:amazon:10557133"
+      "amazon:amazon:10557133",
+      "smartrecruiters:ServiceNow:744000161550869",
+      "smartrecruiters:ServiceNow:744000161548528",
+      "smartrecruiters:ServiceNow:744000161548289",
+      "workday:snc:/job/Southern-Pines-NC/Systems-Engineer-Intern_R0031224-1",
+      "greenhouse:trace3:8274792"
     ]
   }
 }
