@@ -8,7 +8,7 @@
 
 ### 697 open roles (511 listed below) · 53 new this week
 
-4,770 employers tracked · data as of Nov 15, 2026 at 20:31 UTC
+4,770 employers tracked · data as of Nov 16, 2026 at 01:07 UTC
 
 _520 have a cycle the employer stated · 177 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -185,10 +185,10 @@ These postings never name a cycle, not in the title and not in the posting text,
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
 | ServiceNow ✓ | Security Engineer Intern 🆕 | Security (general) | Kirkland, Washington, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161592679) |
-| Trace3 | Security Intern 🆕 | Security (general) | Irvine, CA, United States | Python, LLMs, AWS, GCP | Nov 13, 2026 | [Apply](https://job-boards.greenhouse.io/trace3/jobs/8274792) |
-| ServiceNow ✓ | AI Security Engineer Intern 🆕 | Security (general) | San Diego, California, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161548289) |
-| ServiceNow ✓ | Security Engineering & Automation Intern 🆕 | Security (general) | Kirkland, Washington, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161548528) |
-| ServiceNow ✓ | Information Security Analyst Intern 🆕 | Security (general) | San Diego, CALIFORNIA, United States | Python, Bash, Linux | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161550869) |
+| Trace3 | Security Intern | Security (general) | Irvine, CA, United States | Python, LLMs, AWS, GCP | Nov 13, 2026 | [Apply](https://job-boards.greenhouse.io/trace3/jobs/8274792) |
+| ServiceNow ✓ | AI Security Engineer Intern | Security (general) | San Diego, California, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161548289) |
+| ServiceNow ✓ | Security Engineering & Automation Intern | Security (general) | Kirkland, Washington, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161548528) |
+| ServiceNow ✓ | Information Security Analyst Intern | Security (general) | San Diego, CALIFORNIA, United States | Python, Bash, Linux | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161550869) |
 | ServiceNow ✓ | Product Security Intern | AppSec / Product Sec | San Diego, CALIFORNIA, United States | Java, JavaScript | Nov 12, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161385779) |
 | Mass General Brigham ✓ | Security Co-op | Security (general) | Boston-MA | No skills listed | Nov 12, 2026 | [Apply](https://massgeneralbrigham.wd1.myworkdayjobs.com/mgbexternal/job/Boston-MA/Security-Co-op_RQ4086284) |
 | ServiceNow ✓ | Assoc Information Security Engineer Intern | Security (general) | San Diego, CALIFORNIA, United States | No skills listed | Nov 12, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161204235) |
@@ -483,7 +483,7 @@ These postings never name a cycle, not in the title and not in the posting text,
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Sierra Nevada Corporation | Systems Engineer Intern 🇺🇸 🆕 | Systems & Cloud Infra | Southern Pines, NC | MATLAB | Nov 13, 2026 | [Apply](https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Southern-Pines-NC/Systems-Engineer-Intern_R0031224-1) |
+| Sierra Nevada Corporation | Systems Engineer Intern 🇺🇸 | Systems & Cloud Infra | Southern Pines, NC | MATLAB | Nov 13, 2026 | [Apply](https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Southern-Pines-NC/Systems-Engineer-Intern_R0031224-1) |
 | Northrop Grumman | SkillBridge Internship Program is seeking our exceptional enlisted-military talent to join us as a Systems Engineer - 2 🇺🇸 | Systems & Cloud Infra | United States-Alabama-Huntsville | No skills listed | Nov 12, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/SkillBridge-Internship-Program-is-seeking-our-exceptional-enlisted-military-talent-to-join-us-as-a-Systems-Engineer---2_R10260427) |
 | ServiceNow ✓ | Assoc AI Engineering (Cloud Security Automation) Intern | Cloud & Infra Sec | Santa Clara, CALIFORNIA, United States | No skills listed | Nov 12, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161209600) |
 | Bloom Energy ✓ | RMCC Systems Engineering Intern 🛂 | Systems & Cloud Infra | San Jose, California | Python, SQL, Git | Nov 11, 2026 | [Apply](https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/RMCC-Systems-Engineering-Intern_JR-25363) |
@@ -710,7 +710,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,567 of 5,055 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 90% of the full registry) · completed in 969.1s · 595 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,347 of 5,055 registered boards returned successfully across 12 ATS platforms (93% of boards attempted, 86% of the full registry) · completed in 855.3s · 556 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
